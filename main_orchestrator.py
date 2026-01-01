@@ -98,7 +98,7 @@ def run_step(script_rel_path, args, description, step_num, total_steps):
         # We allow custom codes 10 and 20 as "Soft Success"
         # 0 = Standard Success
         # 10 = New Data
-        # 20 = No Data
+        # 20 = No Data / Processed Already
         # Anything else (e.g. 1) is Error
         
         is_success = result.returncode in [0, 10, 20]
@@ -115,6 +115,55 @@ def run_step(script_rel_path, args, description, step_num, total_steps):
     except Exception as e:
         logger.log(f"\n[CRITICAL] Unexpected error: {e}")
         return False, -1
+
+def run_git_commit(step_name):
+    """
+    Executes a git add, commit, and push.
+    Ensures secrets are not tracked.
+    """
+    logger.log("=" * 40)
+    logger.log(f"GIT SYNC: {step_name}")
+    logger.log("=" * 40)
+
+    try:
+        # 1. Remove Secrets (Just in case)
+        secrets = [
+            "Script RSI Calculation/service_account.json",
+            "Telegram Integration/telegram_credentials.json",
+            "service_account.json",
+            "telegram_credentials.json"
+        ]
+        for secret in secrets:
+            subprocess.run(["git", "rm", "--cached", secret], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+        # 2. Add all files
+        subprocess.run(["git", "add", "."], check=True)
+
+        # 3. Commit
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        commit_msg = f"Auto-Commit: After {step_name} - {timestamp}"
+        result = subprocess.run(["git", "commit", "-m", commit_msg], capture_output=True, text=True)
+        
+        if result.returncode == 0:
+            logger.log(f"[GIT] Committed: {commit_msg}")
+        else:
+            if "nothing to commit" in result.stdout:
+                 logger.log("[GIT] Nothing to commit.")
+            else:
+                 logger.log(f"[GIT] Commit failed: {result.stderr}")
+
+        # 4. Push
+        push_res = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
+        if push_res.returncode == 0:
+            logger.log("[GIT] Pushed to GitHub successfully.")
+        else:
+            logger.log(f"[GIT] Push failed: {push_res.stderr}")
+
+    except Exception as e:
+        logger.log(f"[GIT ERROR] {e}")
+    
+    logger.log("-" * 40 + "\n")
+
 
 def print_summary_log(step_results):
     """Prints a summary of what was updated during the run."""
@@ -171,7 +220,7 @@ def main():
     total_steps = len(SCRIPTS)
     
     # Track state for Logic Flow
-    new_bhavcopy_found = False
+    process_data = False
     new_ca_found = False
     missing_symbols_found = check_for_missing_symbols()
     
@@ -196,20 +245,26 @@ def main():
         sys.exit(1)
     
     if ret == 10:
-        new_bhavcopy_found = True
+        process_data = True
         update_res(step_idx, "SUCCESS", "New Data Downloaded")
         logger.log(">>> RESULT: New Data Downloaded.")
     elif ret == 20: 
-        update_res(step_idx, "DONE", "No New Data (Checked)")
-        logger.log(">>> RESULT: No New Data. subsequent price updates will be skipped.")
+        # MODIFIED: Even if data exists (20), we allow processing to continue 
+        # in case previous run failed mid-way.
+        process_data = True 
+        update_res(step_idx, "DONE", "File Already Exists")
+        logger.log(">>> RESULT: File already exists. Continuing to ensure consistency.")
     else:
         update_res(step_idx, "SUCCESS", f"Code {ret}")
     
+    # GIT COMMIT 1
+    run_git_commit("Step 1: Downloader")
+
     # ---------------------------------------------------------
     # STEP 2: UPDATER
     # ---------------------------------------------------------
     step_idx = 1
-    if new_bhavcopy_found or missing_symbols_found:
+    if process_data or missing_symbols_found:
         success, ret = run_step(*SCRIPTS[step_idx], step_idx + 1, total_steps)
         if not success: 
             update_res(step_idx, "FAILED")
@@ -217,14 +272,15 @@ def main():
             sys.exit(1)
         update_res(step_idx, "SUCCESS", "Updated stocks")
         
-        # If we updated due to missing symbols, we should also trigger RSI calculation
-        # even if no new bhavcopy was found today (to generate the new symbol's signals)
+        # GIT COMMIT 2
+        run_git_commit("Step 2: Script-Wise Updater")
+
         if missing_symbols_found:
-            new_bhavcopy_found = True 
+            process_data = True 
     else:
         logger.log("=" * 60)
         logger.log(f"STEP {step_idx+1}/{total_steps}: Updating Script-wise Data")
-        logger.log(">>> SKIPPING: No new Bhavcopy data to process and no new symbols found.")
+        logger.log(">>> SKIPPING: No new Bhavcopy data to process.")
         logger.log("=" * 60 + "\n")
         update_res(step_idx, "SKIPPED", "No new Bhavcopy")
 
@@ -277,6 +333,10 @@ def main():
             print_summary_log(step_results)
             sys.exit(1)
         update_res(step_idx, "SUCCESS")
+        
+        # GIT COMMIT 3 (After CA steps)
+        run_git_commit("Step 3-5: Corporate Actions & Adjustments")
+        
     else:
         logger.log("=" * 60)
         logger.log(f"STEP {step_idx+1}/{total_steps}: Applying Price Adjustments")
@@ -288,7 +348,7 @@ def main():
     # STEP 6: RSI CALCULATION (If any data changed)
     # ---------------------------------------------------------
     step_idx = 5
-    data_changed = new_bhavcopy_found or new_ca_found
+    data_changed = process_data or new_ca_found
     
     if data_changed:
         success, ret = run_step(*SCRIPTS[step_idx], step_idx + 1, total_steps)
@@ -297,6 +357,10 @@ def main():
             print_summary_log(step_results)
             sys.exit(1)
         update_res(step_idx, "SUCCESS")
+        
+        # GIT COMMIT 4
+        run_git_commit("Step 6: RSI Calculation")
+        
     else:
         logger.log("=" * 60)
         logger.log(f"STEP {step_idx+1}/{total_steps}: Calculating RSI")
@@ -315,6 +379,10 @@ def main():
             print_summary_log(step_results)
             sys.exit(1)
         update_res(step_idx, "SUCCESS")
+        
+        # GIT COMMIT 5 (Optional but good for history)
+        run_git_commit("Step 7: Paper Trading Update")
+        
     else:
         logger.log("=" * 60)
         logger.log(f"STEP {step_idx+1}/{total_steps}: Updating Paper Trading Book")
