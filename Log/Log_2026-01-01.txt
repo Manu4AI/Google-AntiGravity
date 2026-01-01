@@ -401,3 +401,34 @@ Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/NSE Bhavcopy/2_S
 ========================================
 GIT SYNC: Step 2: Script-Wise Updater
 ========================================
+[GIT] Committed: Auto-Commit: After Step 2: Script-Wise Updater - 2026-01-01 15:21:09
+[GIT] Pushed to GitHub successfully.
+----------------------------------------
+
+============================================================
+STEP 3/8: Checking Corporate Actions
+Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/NSE Bhavcopy/3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 4.79 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/8: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/8: Applying Price Adjustments
+Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/NSE Bhavcopy/4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 2.70 seconds.
+[RETURN CODE] 0
+
+
+========================================
+GIT SYNC: Step 3-5: Corporate Actions & Adjustments
+========================================
