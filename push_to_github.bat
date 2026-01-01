@@ -1,50 +1,37 @@
 @echo off
 echo ========================================================
-echo   SYNCING TO GITHUB (SMART MODE)
+echo   SYNCING TO GITHUB (SECURE MODE)
 echo ========================================================
 
 :: 0. PRE-FLIGHT CHECK
 if not exist "requirements.txt" (
-    echo [ERROR] requirements.txt is MISSING! git cannot track it.
-    echo Please restore the file and try again.
-    pause
-    exit /b
-)
-if not exist ".github\workflows\daily_rsi_run.yml" (
-    echo [ERROR] Workflow file is MISSING!
+    echo [ERROR] requirements.txt is MISSING!
     pause
     exit /b
 )
 
-:: 1. CHECK GIT
-if not exist ".git" (
-    echo [!] No .git folder found. Initializing...
-    git init
-    git branch -M main
-    git remote add origin https://github.com/Manu4AI/Google-AntiGravity.git
-    git pull origin main --allow-unrelated-histories
-)
+:: 1. PURGE SECRETS (Stop tracking them if they leaked)
+echo [!] Ensuring Secrets are NOT tracked...
+git rm --cached "Script RSI Calculation/service_account.json" >nul 2>&1
+git rm --cached "Telegram Integration/telegram_credentials.json" >nul 2>&1
+git rm --cached "service_account.json" >nul 2>&1
+git rm --cached "telegram_credentials.json" >nul 2>&1
 
-echo.
-echo [1/3] Adding files...
-:: Force add requirements to be safe
-git add requirements.txt
+:: 2. ADD & COMMIT
+echo [1/3] Adding files (ignoring secrets)...
 git add .
 
 echo [2/3] Committing changes...
-set /p commit_msg="Enter commit message (Press Enter for 'Fix'): "
-if "%commit_msg%"=="" set commit_msg=Fix Requirements
-git commit -m "%commit_msg%"
+git commit -m "Security Fix: Removed Leaked Credentials & Added .gitignore"
 
+:: 3. PUSH
 echo [3/3] Pushing to GitHub...
 git push -u origin main
 
 echo.
 echo ========================================================
-if %ERRORLEVEL% EQU 0 (
-    echo   SUCCESS!
-) else (
-    echo   PUSH FAILED.
-)
+echo   SUCCESS! 
+echo   Your sensitive files are now removed from GitHub.
+echo   Please generate a NEW Key one last time.
 echo ========================================================
 pause

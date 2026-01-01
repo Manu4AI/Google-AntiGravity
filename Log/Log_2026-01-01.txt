@@ -261,3 +261,89 @@ WORKFLOW COMPLETED
 8. Telegram Bot           : [SKIPPED] No signals to send
 ==============================
 
+Starting RSI Workflow Orchestrator at 2026-01-01 17:07:42.925605
+Root Directory: F:\Shivendra -PC Sync\Google AntiGravity
+============================================================
+STEP 1/8: Downloading Daily Bhavcopy
+Script: F:\Shivendra -PC Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.68 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Data Downloaded.
+============================================================
+STEP 2/8: Updating Script-wise Data
+Script: F:\Shivendra -PC Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 7.81 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/8: Checking Corporate Actions
+Script: F:\Shivendra -PC Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 27.51 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/8: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/8: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/8: Calculating RSI & Generating Signals
+Script: F:\Shivendra -PC Sync\Google AntiGravity\Script RSI Calculation\5_Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 532.24 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/8: Updating Paper Trading Book
+Script: F:\Shivendra -PC Sync\Google AntiGravity\Paper Trading Simulator\8_Paper_Trading_Manager.py
+============================================================
+
+[SUCCESS] Step 7 completed in 23.09 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 8/8: Sending Telegram Notification
+Script: F:\Shivendra -PC Sync\Google AntiGravity\Telegram Integration\6_Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 8 completed in 5.02 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [SUCCESS] New Data Downloaded
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SUCCESS] 
+7. Paper Trading Manager  : [SUCCESS] 
+8. Telegram Bot           : [SUCCESS] 
+==============================
+

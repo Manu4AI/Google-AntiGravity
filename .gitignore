@@ -1,0 +1,26 @@
+# Credentials & Secrets (NEVER COMMIT THESE)
+Script RSI Calculation/service_account.json
+Telegram Integration/telegram_credentials.json
+service_account.json
+telegram_credentials.json
+*.json
+
+# Logs
+*.log
+Log/
+
+# Internal/Temp
+__pycache__/
+.pytest_cache/
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+
+# Ignore Config CSVs if they contain keys (Optional)
+# keeping CSVs for now as they seem to be data/output
+
+# Allow specific useful JSONs if needed (but block creds)
+!Paper Trading Simulator/paper_trade_book.json
