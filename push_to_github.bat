@@ -24,9 +24,9 @@ git add .
 echo [2/3] Committing changes...
 git commit -m "Security Fix: Removed Leaked Credentials & Added .gitignore"
 
-:: 3. PUSH
-echo [3/3] Pushing to GitHub...
-git push -u origin main
+:: 3. PUSH (Forcefully sync security changes)
+echo [3/3] Pushing to GitHub (Force Update)...
+git push -u origin main --force
 
 echo.
 echo ========================================================
