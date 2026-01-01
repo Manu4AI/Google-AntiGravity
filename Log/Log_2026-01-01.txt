@@ -369,3 +369,19 @@ STEP 2/8: Updating Script-wise Data
 STEP 3/8: Checking Corporate Actions
 Script: F:\Shivendra -PC Sync\Google AntiGravity Github\NSE Bhavcopy\3.1_NSE_corporate_actions.py
 ============================================================
+Starting RSI Workflow Orchestrator at 2026-01-01 15:21:02.943191
+Root Directory: /home/runner/work/Google-AntiGravity/Google-AntiGravity
+============================================================
+STEP 1/8: Downloading Daily Bhavcopy
+Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/NSE Bhavcopy/1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 2.90 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Data Downloaded.
+========================================
+GIT SYNC: Step 1: Downloader
+========================================
