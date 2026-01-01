@@ -116,10 +116,14 @@ def run_step(script_rel_path, args, description, step_num, total_steps):
         logger.log(f"\n[CRITICAL] Unexpected error: {e}")
         return False, -1
 
-    except Exception as e:
-        logger.log(f"[GIT ERROR] {e}")
-    
-    logger.log("-" * 40 + "\n")
+def run_git_commit(step_name):
+    """
+    Executes a git add, commit, and push.
+    Ensures secrets are not tracked.
+    """
+    logger.log("=" * 40)
+    logger.log(f"GIT SYNC: {step_name}")
+    logger.log("=" * 40)
 
     try:
         # 0. Configure Git Identity (if not set, avoids CI errors)
