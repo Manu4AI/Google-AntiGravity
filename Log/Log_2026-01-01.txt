@@ -385,3 +385,19 @@ Arguments: --mode check_today
 ========================================
 GIT SYNC: Step 1: Downloader
 ========================================
+[GIT] Committed: Auto-Commit: After Step 1: Downloader - 2026-01-01 15:21:06
+[GIT] Pushed to GitHub successfully.
+----------------------------------------
+
+============================================================
+STEP 2/8: Updating Script-wise Data
+Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/NSE Bhavcopy/2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 2.50 seconds.
+[RETURN CODE] 0
+
+
+========================================
+GIT SYNC: Step 2: Script-Wise Updater
+========================================
