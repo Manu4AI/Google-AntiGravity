@@ -11,9 +11,9 @@ git rm --cached "telegram_credentials.json" >nul 2>&1
 git add .
 git commit -m "Manual Update: %DATE% %TIME%"
 
-:: 2. Push to GitHub (Standard push, will fail if remote has new changes)
+:: 2. Push to GitHub (Forcefully overwriting remote to match local)
 echo Pushing...
-git push origin main
+git push -u origin main --force
 
 echo Done.
 pause
