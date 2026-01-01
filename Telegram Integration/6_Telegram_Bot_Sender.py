@@ -7,12 +7,35 @@ from datetime import datetime
 from telegram import Bot
 from telegram.error import TelegramError
 
+# Imports for fetching Sheet URL dynamically
+import gspread
+from google.oauth2.service_account import Credentials
+
 # Set paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CREDENTIALS_FILE = os.path.join(SCRIPT_DIR, "telegram_credentials.json")
+# Service account is in the sibling directory
+SERVICE_ACCOUNT_FILE = os.path.join(SCRIPT_DIR, "..", "Script RSI Calculation", "service_account.json")
 # Report file is now the Signals CSV
 REPORT_FILE = os.path.join(SCRIPT_DIR, "..", "Script RSI Calculation", "Script_RSI_Strategy_Signals.csv")
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1iTBqcMFPvJJIW0_nxErisK7GUbVnhJ23guAsmRiOCcY/edit"
+
+def get_sheet_url():
+    """Authenticates with GSheets and fetches the dynamic URL of 'Script RSI Tracker'."""
+    try:
+        if not os.path.exists(SERVICE_ACCOUNT_FILE):
+            print(f"[WARN] Service account not found at {SERVICE_ACCOUNT_FILE}, cannot fetch Sheet URL.")
+            return "https://docs.google.com/spreadsheets" # Fallback
+
+        scopes = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
+        creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=scopes)
+        client = gspread.authorize(creds)
+        
+        # Open by Name
+        sh = client.open("Script RSI Tracker")
+        return sh.url
+    except Exception as e:
+        print(f"[WARN] Could not fetch Sheet URL: {e}")
+        return "https://docs.google.com/spreadsheets"
 
 def load_credentials():
     """Load bot token and chat ID(s) from JSON file."""
@@ -74,6 +97,10 @@ async def send_report():
     if not os.path.exists(REPORT_FILE):
         print(f"[ERROR] Report file not found at {REPORT_FILE}")
         return False
+        
+    # Fetch Sheet URL Dynamically
+    sheet_url = get_sheet_url()
+    print(f"Using Google Sheet URL: {sheet_url}")
 
     all_sent = True
     try:
@@ -141,7 +168,7 @@ async def send_report():
             signal_date = today_str
 
         table_text = format_table(headers, data_rows)
-        message = f"🚀 *Daily Script RSI Signals*\n📅 Signal Date: {signal_date}\n\n```\n{table_text}\n```\n\n📊 [View Full Sheet & Paper Trade Data]({SHEET_URL})"
+        message = f"🚀 *Daily Script RSI Signals*\n📅 Signal Date: {signal_date}\n\n```\n{table_text}\n```\n\n📊 [View Full Sheet & Paper Trade Data]({sheet_url})"
 
         # Send to all Chat IDs
         for chat_id in chat_ids:
