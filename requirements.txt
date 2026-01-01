@@ -1,3 +1,6 @@
+pandas_market_calendars
+schedule
+scipy
 pandas
 numpy
 yfinance
@@ -10,5 +13,3 @@ requests
 python-telegram-bot
 nselib
 openpyxl
-schedule
-pandas_market_calendars
