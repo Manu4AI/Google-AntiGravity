@@ -330,7 +330,9 @@ def main():
     # STEP 5: APPLY ADJUSTMENTS
     # ---------------------------------------------------------
     step_idx = 4
-    if new_ca_found or missing_symbols_found:
+    # MODIFIED: Must run if new data arrived (to append latest prices/factors) 
+    # OR if new CA found (to recalculate history)
+    if new_ca_found or missing_symbols_found or process_data:
         success, ret = run_step(*SCRIPTS[step_idx], step_idx + 1, total_steps)
         if not success: 
             update_res(step_idx, "FAILED")
@@ -344,9 +346,9 @@ def main():
     else:
         logger.log("=" * 60)
         logger.log(f"STEP {step_idx+1}/{total_steps}: Applying Price Adjustments")
-        logger.log(">>> SKIPPING: No new Corporate Actions to apply.")
+        logger.log(">>> SKIPPING: No new Data or Corporate Actions to apply.")
         logger.log("=" * 60 + "\n")
-        update_res(step_idx, "SKIPPED", "No new CA")
+        update_res(step_idx, "SKIPPED", "No new Data/CA")
 
     # ---------------------------------------------------------
     # STEP 6: RSI CALCULATION (If any data changed)
