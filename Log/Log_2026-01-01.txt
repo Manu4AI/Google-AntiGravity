@@ -432,3 +432,19 @@ Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/NSE Bhavcopy/4_U
 ========================================
 GIT SYNC: Step 3-5: Corporate Actions & Adjustments
 ========================================
+[GIT] Committed: Auto-Commit: After Step 3-5: Corporate Actions & Adjustments - 2026-01-01 15:21:17
+[GIT] Pushed to GitHub successfully.
+----------------------------------------
+
+============================================================
+STEP 6/8: Calculating RSI & Generating Signals
+Script: /home/runner/work/Google-AntiGravity/Google-AntiGravity/Script RSI Calculation/5_Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 20.72 seconds.
+[RETURN CODE] 0
+
+
+========================================
+GIT SYNC: Step 6: RSI Calculation
+========================================
