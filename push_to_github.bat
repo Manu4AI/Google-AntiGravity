@@ -1,43 +1,50 @@
 @echo off
 echo ========================================================
-echo   FRESH UPLOAD TO GITHUB
-echo ========================================================
-echo   This will re-initialize the repository and push ALL files.
-echo   Target: https://github.com/Manu4AI/Google-AntiGravity.git
+echo   SYNCING TO GITHUB (SMART MODE)
 echo ========================================================
 
-:: 1. Clear old git history if exists (Clean Slate)
-if exist ".git" (
-    echo [!] Removing old .git folder for fresh start...
-    rmdir /s /q .git
+:: 0. PRE-FLIGHT CHECK
+if not exist "requirements.txt" (
+    echo [ERROR] requirements.txt is MISSING! git cannot track it.
+    echo Please restore the file and try again.
+    pause
+    exit /b
+)
+if not exist ".github\workflows\daily_rsi_run.yml" (
+    echo [ERROR] Workflow file is MISSING!
+    pause
+    exit /b
 )
 
-:: 2. Initialize
-echo [1/4] Initializing new Repository...
-git init
-git branch -M main
+:: 1. CHECK GIT
+if not exist ".git" (
+    echo [!] No .git folder found. Initializing...
+    git init
+    git branch -M main
+    git remote add origin https://github.com/Manu4AI/Google-AntiGravity.git
+    git pull origin main --allow-unrelated-histories
+)
 
-:: 3. Add Remote
-echo [2/4] Connecting to GitHub...
-git remote add origin https://github.com/Manu4AI/Google-AntiGravity.git
-
-:: 4. Add & Commit
-echo [3/4] Adding all files...
+echo.
+echo [1/3] Adding files...
+:: Force add requirements to be safe
+git add requirements.txt
 git add .
-git commit -m "Initial Commit: Complete Project Code"
 
-:: 5. Push (Force)
-echo [4/4] Pushing to GitHub...
-git push -u origin main --force
+echo [2/3] Committing changes...
+set /p commit_msg="Enter commit message (Press Enter for 'Fix'): "
+if "%commit_msg%"=="" set commit_msg=Fix Requirements
+git commit -m "%commit_msg%"
+
+echo [3/3] Pushing to GitHub...
+git push -u origin main
 
 echo.
 echo ========================================================
 if %ERRORLEVEL% EQU 0 (
-    echo   SUCCESS! The repository has been re-uploaded.
+    echo   SUCCESS!
 ) else (
-    echo   FAILED. Please check:
-    echo   1. Did you create the Empty Repo on GitHub?
-    echo   2. Are your permissions correct?
+    echo   PUSH FAILED.
 )
 echo ========================================================
 pause
