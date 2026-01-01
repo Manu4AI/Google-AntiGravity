@@ -1,0 +1,50 @@
+﻿python : INFO:root:Loaded 224 trading holidays.
+At line:1 char:1
++ python main_orchestrator.py --dry-run 2>&1 | Tee-Object -FilePath 'Lo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:root:Loaded 224 trading holidays.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+INFO:root:--> Mode: Catch-Up / Check Today (For Task Scheduler)
+INFO:root:--- Running Daily Job for 2025-12-29 ---
+INFO:root:Last downloaded data found for: 2025-12-29
+INFO:root:Data is already up to date.
+[EXIT] No new files downloaded.
+Traceback (most recent call last):
+  File "G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py", 
+line 142, in <module>
+    main()
+  File "G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py", 
+line 59, in main
+    print(f"\U0001f4ca Symbols to download CA for: {len(TARGET_SYMBOLS)} (NIFTY 50 + NEXT 50)")
+  File "C:\Users\Shivendra\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 0: character maps to <undefined>
+!!! DRY RUN MODE ACTIVE: Telegram notifications will be skipped !!!
+Starting RSI Workflow Orchestrator at 2025-12-29 18:34:56.058996
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 23.57 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[FAILED] Step 3 failed with error code 1.
+
+

@@ -1,0 +1,452 @@
+Starting Daily RSI Workflow...
+
+Starting RSI Workflow Orchestrator at 2025-12-24 15:40:34.754743
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+INFO:root:Loaded 224 trading holidays.
+INFO:root:--> Mode: Catch-Up / Check Today (For Task Scheduler)
+INFO:root:--- Running Daily Job for 2025-12-24 ---
+INFO:root:Last downloaded data found for: 2025-12-23
+INFO:root:Catching up from 2025-12-24 to 2025-12-24...
+INFO:root:Attempting download for 24-12-2025...
+ERROR:root:Error downloading 24-12-2025:  Data not found, change the trade_date...
+[EXIT] No new files downloaded.
+
+[SUCCESS] Step 1 completed in 67.38 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+📊 Symbols to download CA for: 104 (NIFTY 50 + NEXT 50)
+USING NSELIB Version: 1.9
+✔ [1] ABB CA Updated
+✔ [2] ADANIENSOL CA Updated
+✔ [3] ADANIENT CA Updated
+✔ [4] ADANIGREEN CA Updated
+✔ [5] ADANIPORTS CA Updated
+✔ [6] ADANIPOWER CA Updated
+✔ [7] AMBUJACEM CA Updated
+✔ [8] APOLLOHOSP CA Updated
+✔ [9] ASIANPAINT CA Updated
+✔ [10] ATGL CA Updated
+✔ [11] AUBANK CA Updated
+✔ [12] AXISBANK CA Updated
+✔ [13] BAJAJ-AUTO CA Updated
+✔ [14] BAJAJFINSV CA Updated
+✔ [15] BAJFINANCE CA Updated
+✔ [16] BANKBARODA CA Updated
+✔ [17] BEL CA Updated
+✔ [18] BERGEPAINT CA Updated
+✔ [19] BHARTIARTL CA Updated
+✔ [20] BHEL CA Updated
+✔ [21] BOSCHLTD CA Updated
+✔ [22] BPCL CA Updated
+✔ [23] BRITANNIA CA Updated
+✔ [24] CANBK CA Updated
+✔ [25] CHOLAFIN CA Updated
+✔ [26] CIPLA CA Updated
+✔ [27] COALINDIA CA Updated
+✔ [28] COLPAL CA Updated
+✔ [29] DABUR CA Updated
+✔ [30] DIVISLAB CA Updated
+✔ [31] DLF CA Updated
+✔ [32] DMART CA Updated
+✔ [33] DRREDDY CA Updated
+✔ [34] EICHERMOT CA Updated
+✔ [36] GAIL CA Updated
+✔ [37] GODREJCP CA Updated
+✔ [38] GRASIM CA Updated
+✔ [39] HAL CA Updated
+✔ [40] HAVELLS CA Updated
+✔ [41] HCLTECH CA Updated
+✔ [42] HDFCBANK CA Updated
+✔ [43] HDFCLIFE CA Updated
+✔ [44] HEROMOTOCO CA Updated
+✔ [45] HINDALCO CA Updated
+✔ [46] HINDUNILVR CA Updated
+✔ [47] HINDZINC CA Updated
+✔ [48] ICICIBANK CA Updated
+✔ [49] ICICIGI CA Updated
+✔ [50] ICICIPRULI CA Updated
+✔ [51] INDHOTEL CA Updated
+✔ [52] INDUSINDBK CA Updated
+✔ [53] INFY CA Updated
+✔ [54] IOC CA Updated
+✔ [55] IRCTC CA Updated
+✔ [56] IRFC CA Updated
+✔ [57] ITC CA Updated
+✔ [58] JINDALSTEL CA Updated
+✔ [59] JSWENERGY CA Updated
+✔ [60] JSWSTEEL CA Updated
+✔ [61] KOTAKBANK CA Updated
+✔ [62] LICI CA Updated
+✔ [63] LODHA CA Updated
+✔ [64] LT CA Updated
+✔ [65] LTIM CA Updated
+✔ [67] MARICO CA Updated
+✔ [68] MARUTI CA Updated
+✔ [69] MOTHERSON CA Updated
+✔ [70] NAUKRI CA Updated
+✔ [71] NESTLEIND CA Updated
+✔ [72] NTPC CA Updated
+✔ [73] ONGC CA Updated
+✔ [74] PFC CA Updated
+✔ [75] PGHH CA Updated
+✔ [76] PIDILITIND CA Updated
+✔ [77] PIIND CA Updated
+✔ [78] PNB CA Updated
+✔ [79] POWERGRID CA Updated
+✔ [80] RECLTD CA Updated
+✔ [81] RELIANCE CA Updated
+✔ [82] RVNL CA Updated
+✔ [83] SBICARD CA Updated
+✔ [84] SBILIFE CA Updated
+✔ [85] SBIN CA Updated
+✔ [86] SHREECEM CA Updated
+✔ [87] SIEMENS CA Updated
+✔ [88] SRF CA Updated
+✔ [89] SUNPHARMA CA Updated
+✔ [90] TATACONSUM CA Updated
+✔ [92] TATASTEEL CA Updated
+✔ [93] TCS CA Updated
+✔ [94] TECHM CA Updated
+✔ [95] TITAN CA Updated
+✔ [96] TORNTPHARM CA Updated
+✔ [97] TRENT CA Updated
+✔ [98] TVSMOTOR CA Updated
+✔ [99] ULTRACEMCO CA Updated
+✔ [100] UPL CA Updated
+✔ [101] VBL CA Updated
+✔ [102] VEDL CA Updated
+✔ [103] WIPRO CA Updated
+
+✅ Step-3 completed
+✔ Updated Files: 100
+✖ Failed: 0
+⚠ Skipped (No Change): 4
+[EXIT] Corporate Actions Updated.
+
+[SUCCESS] Step 3 completed in 316.45 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+Parsing Corporate Action Files...
+Parsed 94 events into Corporate_Actions_Master.csv
+Running Calculation Engine...
+Error fetching price for ADANIENT: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for BAJAJFINSV: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for BAJFINANCE: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for BHARTIARTL: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for BHARTIARTL: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for GRASIM: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for INDHOTEL: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for INDHOTEL: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for RELIANCE: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for TATACONSUM: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for TATASTEEL: '<' not supported between instances of 'str' and 'Timestamp'
+Error fetching price for UPL: '<' not supported between instances of 'str' and 'Timestamp'
+Generated 82 adjustments in Calculated_Adjustments.csv
+
+[SUCCESS] Step 4 completed in 3.94 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+==================================================
+STARTING PRICE ADJUSTMENT PROCESS
+==================================================
+Found adjustments for 55 symbols.
+Found 105 raw data files.
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+Error processing LICI: time data "01-Jun-2022" doesn't match format "%d-%B-%Y", at position 11. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py:70: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+
+==================================================
+COMPLETED
+Total Files Processed: 104
+Files Modified with Adjustments: 55
+Adjusted data saved to: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\NSE_Bhavcopy_Adjusted_Data
+==================================================
+
+[SUCCESS] Step 5 completed in 35.35 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+============================================================
+RSI Calculator (Adjusted Data Source)
+Data Source: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\NSE_Bhavcopy_Adjusted_Data
+============================================================
+Loaded 104 symbols from master list.
+Filtered to 103 files (from 104) based on Master List.
+Processing 103 files...
+[2/103] ADANIENT        MATCH: ['Value Buy']
+[8/103] AXISBANK        MATCH: ['GFS']
+[16/103] BHEL            MATCH: ['AGFS']
+[19/103] BRITANNIA       MATCH: ['AGFS']
+[24/103] COLPAL          MATCH: ['Value Buy']
+[34/103] HCLTECH         MATCH: ['AGFS']
+[36/103] HEROMOTOCO      MATCH: ['GFS']
+[49/103] KOTAKBANK       MATCH: ['AGFS']
+[55/103] NESTLEIND       MATCH: ['AGFS']
+[75/103] TITAN           MATCH: ['AGFS']
+[93/103] TATACONSUM      MATCH: ['AGFS']
+Processed 100...
+Processing complete.
+[SUCCESS] Report saved: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Report_Adjusted.csv (103 rows)
+
+Connecting to Google Sheets...
+Opened spreadsheet: Script RSI Tracker
+[SUCCESS] Updated sheet: RSI Data
+[SUCCESS] Updated sheet: 2025-12-24
+[SUCCESS] Signals saved: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Strategy_Signals.csv (11 signals)
+
+[SUCCESS] Step 6 completed in 55.71 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+Sending signal report to Chat ID: -1003657892672...
+[SUCCESS] Signals sent to -1003657892672!
+Sending signal report to Chat ID: -1003669358538...
+[SUCCESS] Signals sent to -1003669358538!
+
+[SUCCESS] Step 7 completed in 3.74 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY
+==============================
+[-] New Bhavcopy Downloaded: NO (Might be a holiday or already exists)
+[+] Stocks Updated: 0 / 105
+==============================
+
+
+========================================
+SUCCESS: Workflow Completed Successfully.
+========================================

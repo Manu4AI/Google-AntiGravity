@@ -1,0 +1,57 @@
+2025-12-27 11:24:38,011 - INFO -  Paper Trading Simulator (Capital Based: 10k/Trade)
+2025-12-27 11:24:38,015 - INFO -  [Init] Attempting Auto-Login...
+2025-12-27 11:24:41,234 - DEBUG - <Response [200]>
+2025-12-27 11:24:41,242 - DEBUG - Get Quotes response : {'Success': [{'exchange_code': 'NSE', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 26042.3, 'ltt': '26-Dec-2025 16:00:00', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 26121.25, 'high': 26144.2, 'low': 26008.6, 'previous_close': 26142.1, 'ltp_percent_change': 0.381759690307971, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}, {'exchange_code': 'NA', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 0.0, 'ltt': 'NA', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 0.0, 'high': 0.0, 'low': 0.0, 'previous_close': 0.0, 'ltp_percent_change': 0.0, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}], 'Status': 200, 'Error': None}
+2025-12-27 11:24:43,838 - INFO -  [Init] Breeze Session Connected Successfully!
+2025-12-27 11:24:43,838 - INFO -  [Main] Startup... Monitoring Signals & Trades.
+2025-12-27 11:24:43,838 - INFO - 
+--- 11:24:43 ---
+2025-12-27 11:24:43,838 - INFO -  [Signals] Checking for new signals...
+2025-12-27 11:24:43,911 - INFO -  [Signals] No new unique signals.
+2025-12-27 11:24:43,911 - INFO -  [Monitor] Checking Open Positions...
+2025-12-27 11:24:44,664 - DEBUG - <Response [401]>
+2025-12-27 11:24:44,667 - DEBUG - Get Quotes response : {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:44,668 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:45,627 - DEBUG - <Response [503]>
+2025-12-27 11:24:45,628 - ERROR - Exception in get_quotes : Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:45,629 - ERROR -    [Price] Fetch failed for AXISBANK: Error in get_quotes(): Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:46,535 - DEBUG - <Response [401]>
+2025-12-27 11:24:46,538 - DEBUG - Get Quotes response : {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:46,540 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:47,315 - DEBUG - <Response [401]>
+2025-12-27 11:24:47,319 - DEBUG - Get Quotes response : {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:47,320 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:48,136 - DEBUG - <Response [200]>
+2025-12-27 11:24:48,139 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:48,140 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:48,946 - DEBUG - <Response [401]>
+2025-12-27 11:24:48,950 - DEBUG - Get Quotes response : {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:48,952 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:49,721 - DEBUG - <Response [503]>
+2025-12-27 11:24:49,724 - ERROR - Exception in get_quotes : Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:49,725 - ERROR -    [Price] Fetch failed for IOC: Error in get_quotes(): Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:50,496 - DEBUG - <Response [200]>
+2025-12-27 11:24:50,500 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:50,502 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:51,293 - DEBUG - <Response [401]>
+2025-12-27 11:24:51,298 - DEBUG - Get Quotes response : {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:51,299 - WARNING -    [Price] No valid data for MARICO. Response: {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:52,063 - DEBUG - <Response [200]>
+2025-12-27 11:24:52,067 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:52,069 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:52,772 - DEBUG - <Response [503]>
+2025-12-27 11:24:52,773 - ERROR - Exception in get_quotes : Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:52,774 - ERROR -    [Price] Fetch failed for RELIANCE: Error in get_quotes(): Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:53,521 - DEBUG - <Response [200]>
+2025-12-27 11:24:53,524 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:53,527 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:54,336 - DEBUG - <Response [200]>
+2025-12-27 11:24:54,340 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:54,342 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-27 11:24:55,086 - DEBUG - <Response [401]>
+2025-12-27 11:24:55,088 - DEBUG - Get Quotes response : {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:55,089 - WARNING -    [Price] No valid data for LTIM. Response: {'Status': 5, 'Error': 'System has encountered an error for connection. Please contact admin (T2:56)'}
+2025-12-27 11:24:55,813 - DEBUG - <Response [503]>
+2025-12-27 11:24:55,815 - ERROR - Exception in get_quotes : Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:55,816 - ERROR -    [Price] Fetch failed for ADANIENSOL: Error in get_quotes(): Expecting value: line 1 column 1 (char 0)
+2025-12-27 11:24:55,818 - INFO -  [Sleep] Waiting 60 seconds...

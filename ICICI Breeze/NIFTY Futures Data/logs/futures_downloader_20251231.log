@@ -1,0 +1,30 @@
+2025-12-31 21:58:33,861 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-31 21:58:33,902 - DEBUG - Starting new HTTPS connection (1): api.icicidirect.com:443
+2025-12-31 21:58:35,009 - DEBUG - https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 578
+2025-12-31 21:58:35,016 - DEBUG - Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+2025-12-31 21:58:35,969 - DEBUG - Starting new HTTPS connection (1): api.icicidirect.com:443
+2025-12-31 21:58:37,263 - DEBUG - https://api.icicidirect.com:443 "GET /breezeapi/api/v1/quotes HTTP/1.1" 200 879
+2025-12-31 21:58:37,266 - DEBUG - <Response [200]>
+2025-12-31 21:58:37,271 - DEBUG - Get Quotes response : {'Success': [{'exchange_code': 'NSE', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 26129.6, 'ltt': '31-Dec-2025 16:00:00', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 25971.05, 'high': 26187.95, 'low': 25969.0, 'previous_close': 25938.85, 'ltp_percent_change': 0.735383411369432, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}, {'exchange_code': 'NA', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 0.0, 'ltt': 'NA', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 0.0, 'high': 0.0, 'low': 0.0, 'previous_close': 0.0, 'ltp_percent_change': 0.0, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}], 'Status': 200, 'Error': None}
+2025-12-31 21:58:37,273 - DEBUG - Starting new HTTPS connection (1): api.icicidirect.com:443
+2025-12-31 21:58:38,598 - DEBUG - https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 578
+2025-12-31 21:58:38,604 - DEBUG - Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+2025-12-31 21:58:39,847 - INFO - Session Generated Successfully.
+2025-12-31 21:58:39,854 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-31 21:58:41,114 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2020-01-01T00%3A00%3A00.000Z&to_date=2020-01-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2020-01-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86948
+2025-12-31 21:58:41,126 - DEBUG - Get Historical data V2 response
+2025-12-31 21:58:41,152 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-31 21:58:42,567 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2020-01-01T00%3A00%3A00.000Z&to_date=2020-01-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2020-02-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 48664
+2025-12-31 21:58:42,576 - DEBUG - Get Historical data V2 response
+2025-12-31 21:58:42,600 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-31 21:58:43,900 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2020-01-01T00%3A00%3A00.000Z&to_date=2020-01-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2020-03-26T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 20904
+2025-12-31 21:58:43,906 - DEBUG - Get Historical data V2 response
+2025-12-31 21:58:43,943 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-31 21:58:45,540 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2020-01-02T00%3A00%3A00.000Z&to_date=2020-01-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2020-01-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 87081
+2025-12-31 21:58:45,547 - DEBUG - Get Historical data V2 response
+2025-12-31 21:58:45,569 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-31 21:58:46,800 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2020-01-02T00%3A00%3A00.000Z&to_date=2020-01-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2020-02-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 68278
+2025-12-31 21:58:46,808 - DEBUG - Get Historical data V2 response
+2025-12-31 21:58:46,831 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-31 21:58:47,987 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2020-01-02T00%3A00%3A00.000Z&to_date=2020-01-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2020-03-26T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 40212
+2025-12-31 21:58:47,991 - DEBUG - Get Historical data V2 response

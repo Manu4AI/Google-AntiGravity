@@ -1,0 +1,13 @@
+2025-12-27 23:55:31,465 - INFO - Script started.
+2025-12-27 23:55:31,474 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-27 23:55:34,414 - WARNING -  [Warning] API Maintenance error ignored. FORCING Session Injection.
+2025-12-27 23:55:34,421 - INFO - Session Generated Successfully.
+2025-12-27 23:55:34,423 - INFO - --- TEST CONNECTION START ---
+2025-12-27 23:55:34,425 - INFO - Test Call Response Type: <class 'NoneType'>
+2025-12-27 23:55:34,427 - ERROR - Test Call FAILED. Response: None
+2025-12-27 23:55:34,428 - INFO - --- TEST CONNECTION END ---
+2025-12-27 23:55:34,461 - INFO - Checking latest file: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-27 23:55:34,573 - INFO - Found existing year-wise data up to 2025-12-26 15:29:00.
+2025-12-27 23:55:34,575 - INFO - Starting download for NIFTY from 2025-12-27 to 2025-12-27
+2025-12-27 23:55:34,576 - INFO -  [Skipped] 2025-12-27 is a Weekend.
+2025-12-27 23:55:34,579 - INFO - Download complete.

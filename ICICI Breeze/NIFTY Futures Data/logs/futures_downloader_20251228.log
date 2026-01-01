@@ -1,0 +1,1034 @@
+2025-12-28 00:06:48,150 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-28 00:06:48,256 - DEBUG - Starting new HTTPS connection (1): api.icicidirect.com:443
+2025-12-28 00:06:50,022 - DEBUG - https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 114
+2025-12-28 00:06:50,031 - DEBUG - Starting new HTTPS connection (1): api.icicidirect.com:443
+2025-12-28 00:06:51,748 - DEBUG - https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 578
+2025-12-28 00:06:51,760 - DEBUG - Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+2025-12-28 00:06:53,242 - DEBUG - https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 4151489
+2025-12-28 00:06:54,161 - INFO - Session Generated Successfully.
+2025-12-28 00:06:54,385 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:06:56,059 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-06T00%3A00%3A00.000Z&to_date=2025-09-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:06:56,080 - DEBUG - Get Historical data V2 response
+2025-12-28 00:06:56,098 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:06:57,564 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-06T00%3A00%3A00.000Z&to_date=2025-09-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:06:57,578 - DEBUG - Get Historical data V2 response
+2025-12-28 00:06:57,605 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:06:59,096 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-06T00%3A00%3A00.000Z&to_date=2025-09-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:06:59,119 - DEBUG - Get Historical data V2 response
+2025-12-28 00:06:59,139 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:00,688 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-07T00%3A00%3A00.000Z&to_date=2025-09-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:00,702 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:00,731 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:02,437 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-07T00%3A00%3A00.000Z&to_date=2025-09-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:02,449 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:02,470 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:03,924 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-07T00%3A00%3A00.000Z&to_date=2025-09-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:03,934 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:03,944 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:05,671 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-08T00%3A00%3A00.000Z&to_date=2025-09-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86407
+2025-12-28 00:07:05,706 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:05,806 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:07,526 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-08T00%3A00%3A00.000Z&to_date=2025-09-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85539
+2025-12-28 00:07:07,600 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:07,631 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:08,978 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-08T00%3A00%3A00.000Z&to_date=2025-09-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85010
+2025-12-28 00:07:08,990 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:09,026 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:10,208 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-09T00%3A00%3A00.000Z&to_date=2025-09-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86341
+2025-12-28 00:07:10,248 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:10,350 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:11,720 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-09T00%3A00%3A00.000Z&to_date=2025-09-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85386
+2025-12-28 00:07:11,781 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:11,874 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:13,323 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-09T00%3A00%3A00.000Z&to_date=2025-09-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84773
+2025-12-28 00:07:13,392 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:13,511 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:14,942 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-10T00%3A00%3A00.000Z&to_date=2025-09-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86442
+2025-12-28 00:07:15,008 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:15,091 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:16,385 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-10T00%3A00%3A00.000Z&to_date=2025-09-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85569
+2025-12-28 00:07:16,467 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:16,537 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:18,188 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-10T00%3A00%3A00.000Z&to_date=2025-09-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84991
+2025-12-28 00:07:18,194 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:18,225 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:19,684 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-11T00%3A00%3A00.000Z&to_date=2025-09-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86316
+2025-12-28 00:07:19,753 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:19,789 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:21,228 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-11T00%3A00%3A00.000Z&to_date=2025-09-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85440
+2025-12-28 00:07:21,274 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:21,328 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:22,693 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-11T00%3A00%3A00.000Z&to_date=2025-09-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84776
+2025-12-28 00:07:22,760 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:22,872 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:24,598 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-12T00%3A00%3A00.000Z&to_date=2025-09-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86369
+2025-12-28 00:07:24,611 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:24,653 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:26,340 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-12T00%3A00%3A00.000Z&to_date=2025-09-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85576
+2025-12-28 00:07:26,371 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:26,469 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:27,864 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-12T00%3A00%3A00.000Z&to_date=2025-09-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84959
+2025-12-28 00:07:27,897 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:28,003 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:29,374 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-13T00%3A00%3A00.000Z&to_date=2025-09-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:29,379 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:29,385 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:31,152 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-13T00%3A00%3A00.000Z&to_date=2025-09-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:31,167 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:31,193 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:32,601 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-13T00%3A00%3A00.000Z&to_date=2025-09-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:32,622 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:32,637 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:34,032 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-14T00%3A00%3A00.000Z&to_date=2025-09-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:34,051 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:34,087 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:35,722 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-14T00%3A00%3A00.000Z&to_date=2025-09-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:35,728 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:35,737 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:37,604 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-14T00%3A00%3A00.000Z&to_date=2025-09-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:07:37,618 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:37,669 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:39,267 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-15T00%3A00%3A00.000Z&to_date=2025-09-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86355
+2025-12-28 00:07:39,279 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:39,310 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:40,867 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-15T00%3A00%3A00.000Z&to_date=2025-09-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85464
+2025-12-28 00:07:40,968 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:41,014 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:42,520 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-15T00%3A00%3A00.000Z&to_date=2025-09-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84777
+2025-12-28 00:07:42,538 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:42,598 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:44,371 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-16T00%3A00%3A00.000Z&to_date=2025-09-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86426
+2025-12-28 00:07:44,439 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:44,473 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:46,617 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-16T00%3A00%3A00.000Z&to_date=2025-09-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85684
+2025-12-28 00:07:46,682 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:46,738 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:48,564 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-16T00%3A00%3A00.000Z&to_date=2025-09-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85033
+2025-12-28 00:07:48,582 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:48,643 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:50,825 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-17T00%3A00%3A00.000Z&to_date=2025-09-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86396
+2025-12-28 00:07:50,924 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:51,108 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:53,024 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-17T00%3A00%3A00.000Z&to_date=2025-09-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85682
+2025-12-28 00:07:53,090 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:53,156 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:54,807 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-17T00%3A00%3A00.000Z&to_date=2025-09-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84942
+2025-12-28 00:07:54,864 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:55,046 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:57,163 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-18T00%3A00%3A00.000Z&to_date=2025-09-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86407
+2025-12-28 00:07:57,179 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:57,215 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:07:59,174 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-18T00%3A00%3A00.000Z&to_date=2025-09-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85724
+2025-12-28 00:07:59,189 - DEBUG - Get Historical data V2 response
+2025-12-28 00:07:59,221 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:01,515 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-18T00%3A00%3A00.000Z&to_date=2025-09-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84995
+2025-12-28 00:08:01,530 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:01,556 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:03,921 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-19T00%3A00%3A00.000Z&to_date=2025-09-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86433
+2025-12-28 00:08:03,933 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:03,969 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:06,639 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-19T00%3A00%3A00.000Z&to_date=2025-09-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85760
+2025-12-28 00:08:06,648 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:06,724 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:08,728 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-19T00%3A00%3A00.000Z&to_date=2025-09-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84955
+2025-12-28 00:08:08,775 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:08,837 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:11,119 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-20T00%3A00%3A00.000Z&to_date=2025-09-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:11,142 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:11,147 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:14,261 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-20T00%3A00%3A00.000Z&to_date=2025-09-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:14,305 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:14,548 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:16,301 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-20T00%3A00%3A00.000Z&to_date=2025-09-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:16,312 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:16,321 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:17,845 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-21T00%3A00%3A00.000Z&to_date=2025-09-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:17,943 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:17,952 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:19,468 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-21T00%3A00%3A00.000Z&to_date=2025-09-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:19,582 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:19,595 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:21,006 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-21T00%3A00%3A00.000Z&to_date=2025-09-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:21,012 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:21,015 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:22,871 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-22T00%3A00%3A00.000Z&to_date=2025-09-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86396
+2025-12-28 00:08:22,891 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:22,929 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:24,852 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-22T00%3A00%3A00.000Z&to_date=2025-09-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85696
+2025-12-28 00:08:24,865 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:24,892 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:29,874 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-22T00%3A00%3A00.000Z&to_date=2025-09-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84981
+2025-12-28 00:08:29,963 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:29,998 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:31,701 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-23T00%3A00%3A00.000Z&to_date=2025-09-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86454
+2025-12-28 00:08:31,824 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:31,894 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:33,558 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-23T00%3A00%3A00.000Z&to_date=2025-09-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 142092
+2025-12-28 00:08:33,689 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:33,774 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:36,282 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-23T00%3A00%3A00.000Z&to_date=2025-09-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 137668
+2025-12-28 00:08:36,386 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:36,585 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:38,541 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-24T00%3A00%3A00.000Z&to_date=2025-09-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86441
+2025-12-28 00:08:38,624 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:38,679 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:41,516 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-24T00%3A00%3A00.000Z&to_date=2025-09-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85911
+2025-12-28 00:08:41,603 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:41,680 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:43,550 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-24T00%3A00%3A00.000Z&to_date=2025-09-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85061
+2025-12-28 00:08:43,693 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:43,747 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:45,701 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-25T00%3A00%3A00.000Z&to_date=2025-09-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86457
+2025-12-28 00:08:45,798 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:45,870 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:47,756 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-25T00%3A00%3A00.000Z&to_date=2025-09-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85986
+2025-12-28 00:08:47,833 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:47,910 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:49,817 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-25T00%3A00%3A00.000Z&to_date=2025-09-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85131
+2025-12-28 00:08:49,887 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:49,989 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:52,563 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-26T00%3A00%3A00.000Z&to_date=2025-09-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86516
+2025-12-28 00:08:52,639 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:52,682 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:54,399 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-26T00%3A00%3A00.000Z&to_date=2025-09-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86113
+2025-12-28 00:08:54,468 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:54,568 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:56,455 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-26T00%3A00%3A00.000Z&to_date=2025-09-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85251
+2025-12-28 00:08:56,529 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:56,646 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:08:58,455 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-27T00%3A00%3A00.000Z&to_date=2025-09-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:08:58,462 - DEBUG - Get Historical data V2 response
+2025-12-28 00:08:58,471 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:00,387 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-27T00%3A00%3A00.000Z&to_date=2025-09-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:00,401 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:00,414 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:03,011 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-27T00%3A00%3A00.000Z&to_date=2025-09-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:03,047 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:03,148 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:05,258 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-28T00%3A00%3A00.000Z&to_date=2025-09-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:05,270 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:05,290 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:07,101 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-28T00%3A00%3A00.000Z&to_date=2025-09-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:07,123 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:07,150 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:08,687 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-28T00%3A00%3A00.000Z&to_date=2025-09-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:08,691 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:08,708 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:10,686 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-29T00%3A00%3A00.000Z&to_date=2025-09-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86179
+2025-12-28 00:09:10,752 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:10,807 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:13,256 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-29T00%3A00%3A00.000Z&to_date=2025-09-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86534
+2025-12-28 00:09:13,309 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:13,345 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:14,944 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-29T00%3A00%3A00.000Z&to_date=2025-09-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85256
+2025-12-28 00:09:15,001 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:15,065 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:17,034 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-30T00%3A00%3A00.000Z&to_date=2025-09-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-09-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86104
+2025-12-28 00:09:17,099 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:17,133 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:18,981 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-30T00%3A00%3A00.000Z&to_date=2025-09-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86528
+2025-12-28 00:09:19,064 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:19,130 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:20,566 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-09-30T00%3A00%3A00.000Z&to_date=2025-09-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85531
+2025-12-28 00:09:20,649 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:20,764 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:22,314 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-01T00%3A00%3A00.000Z&to_date=2025-10-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86485
+2025-12-28 00:09:22,369 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:22,406 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:23,847 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-01T00%3A00%3A00.000Z&to_date=2025-10-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85640
+2025-12-28 00:09:23,924 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:24,041 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:26,332 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-01T00%3A00%3A00.000Z&to_date=2025-10-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:26,432 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:26,638 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:28,018 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-02T00%3A00%3A00.000Z&to_date=2025-10-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:28,023 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:28,029 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:30,246 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-02T00%3A00%3A00.000Z&to_date=2025-10-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:30,299 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:30,852 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:33,621 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-02T00%3A00%3A00.000Z&to_date=2025-10-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:33,690 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:33,758 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:35,543 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-03T00%3A00%3A00.000Z&to_date=2025-10-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86408
+2025-12-28 00:09:35,609 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:35,642 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:38,844 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-03T00%3A00%3A00.000Z&to_date=2025-10-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85495
+2025-12-28 00:09:38,899 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:38,930 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:42,028 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-03T00%3A00%3A00.000Z&to_date=2025-10-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84863
+2025-12-28 00:09:42,089 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:42,184 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:44,637 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-04T00%3A00%3A00.000Z&to_date=2025-10-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:44,642 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:44,653 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:46,904 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-04T00%3A00%3A00.000Z&to_date=2025-10-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:46,912 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:46,922 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:49,750 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-04T00%3A00%3A00.000Z&to_date=2025-10-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:49,766 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:49,838 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:52,979 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-05T00%3A00%3A00.000Z&to_date=2025-10-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:52,984 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:52,995 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:55,501 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-05T00%3A00%3A00.000Z&to_date=2025-10-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:55,507 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:55,513 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:09:58,198 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-05T00%3A00%3A00.000Z&to_date=2025-10-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:09:58,205 - DEBUG - Get Historical data V2 response
+2025-12-28 00:09:58,213 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:00,355 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-06T00%3A00%3A00.000Z&to_date=2025-10-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86468
+2025-12-28 00:10:00,413 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:00,455 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:03,116 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-06T00%3A00%3A00.000Z&to_date=2025-10-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85609
+2025-12-28 00:10:03,183 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:03,228 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:05,063 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-06T00%3A00%3A00.000Z&to_date=2025-10-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84999
+2025-12-28 00:10:05,133 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:05,171 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:07,031 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-07T00%3A00%3A00.000Z&to_date=2025-10-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86448
+2025-12-28 00:10:07,131 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:07,170 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:08,952 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-07T00%3A00%3A00.000Z&to_date=2025-10-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85572
+2025-12-28 00:10:09,029 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:09,090 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:11,000 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-07T00%3A00%3A00.000Z&to_date=2025-10-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84998
+2025-12-28 00:10:11,078 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:11,141 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:12,948 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-08T00%3A00%3A00.000Z&to_date=2025-10-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86476
+2025-12-28 00:10:13,016 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:13,083 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:14,950 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-08T00%3A00%3A00.000Z&to_date=2025-10-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85594
+2025-12-28 00:10:15,058 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:15,143 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:16,741 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-08T00%3A00%3A00.000Z&to_date=2025-10-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84981
+2025-12-28 00:10:16,838 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:17,439 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:18,988 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-09T00%3A00%3A00.000Z&to_date=2025-10-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86455
+2025-12-28 00:10:19,057 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:19,151 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:20,830 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-09T00%3A00%3A00.000Z&to_date=2025-10-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85503
+2025-12-28 00:10:20,908 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:20,961 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:22,438 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-09T00%3A00%3A00.000Z&to_date=2025-10-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84969
+2025-12-28 00:10:22,538 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:22,620 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:24,218 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-10T00%3A00%3A00.000Z&to_date=2025-10-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86429
+2025-12-28 00:10:24,317 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:24,423 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:25,737 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-10T00%3A00%3A00.000Z&to_date=2025-10-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85619
+2025-12-28 00:10:25,807 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:25,929 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:27,298 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-10T00%3A00%3A00.000Z&to_date=2025-10-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85037
+2025-12-28 00:10:27,401 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:27,508 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:29,549 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-11T00%3A00%3A00.000Z&to_date=2025-10-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:10:29,553 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:29,563 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:31,405 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-11T00%3A00%3A00.000Z&to_date=2025-10-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:10:31,413 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:31,428 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:33,162 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-11T00%3A00%3A00.000Z&to_date=2025-10-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:10:33,182 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:33,211 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:34,788 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-12T00%3A00%3A00.000Z&to_date=2025-10-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:10:34,806 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:34,824 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:36,374 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-12T00%3A00%3A00.000Z&to_date=2025-10-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:10:36,406 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:36,450 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:38,032 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-12T00%3A00%3A00.000Z&to_date=2025-10-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:10:38,051 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:38,077 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:39,421 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-13T00%3A00%3A00.000Z&to_date=2025-10-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86444
+2025-12-28 00:10:39,508 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:39,619 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:41,470 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-13T00%3A00%3A00.000Z&to_date=2025-10-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85513
+2025-12-28 00:10:41,526 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:41,557 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:43,047 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-13T00%3A00%3A00.000Z&to_date=2025-10-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84944
+2025-12-28 00:10:43,149 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:43,234 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:45,003 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-14T00%3A00%3A00.000Z&to_date=2025-10-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86542
+2025-12-28 00:10:45,099 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:45,176 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:46,634 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-14T00%3A00%3A00.000Z&to_date=2025-10-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84788
+2025-12-28 00:10:46,698 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:46,752 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:48,482 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-14T00%3A00%3A00.000Z&to_date=2025-10-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 79854
+2025-12-28 00:10:48,548 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:48,642 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:50,223 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-15T00%3A00%3A00.000Z&to_date=2025-10-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86470
+2025-12-28 00:10:50,294 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:50,348 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:52,166 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-15T00%3A00%3A00.000Z&to_date=2025-10-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85773
+2025-12-28 00:10:52,239 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:52,334 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:53,705 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-15T00%3A00%3A00.000Z&to_date=2025-10-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85039
+2025-12-28 00:10:53,772 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:53,879 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:55,545 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-16T00%3A00%3A00.000Z&to_date=2025-10-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86510
+2025-12-28 00:10:55,614 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:55,671 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:57,107 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-16T00%3A00%3A00.000Z&to_date=2025-10-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85801
+2025-12-28 00:10:57,169 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:57,267 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:10:58,671 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-16T00%3A00%3A00.000Z&to_date=2025-10-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85127
+2025-12-28 00:10:58,735 - DEBUG - Get Historical data V2 response
+2025-12-28 00:10:58,857 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:00,360 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-17T00%3A00%3A00.000Z&to_date=2025-10-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86554
+2025-12-28 00:11:00,439 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:00,502 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:02,302 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-17T00%3A00%3A00.000Z&to_date=2025-10-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85848
+2025-12-28 00:11:02,352 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:02,390 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:03,663 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-17T00%3A00%3A00.000Z&to_date=2025-10-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85249
+2025-12-28 00:11:03,714 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:03,748 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:05,578 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-18T00%3A00%3A00.000Z&to_date=2025-10-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:05,584 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:05,603 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:07,421 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-18T00%3A00%3A00.000Z&to_date=2025-10-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:07,429 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:07,435 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:09,099 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-18T00%3A00%3A00.000Z&to_date=2025-10-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:09,104 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:09,113 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:10,634 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-19T00%3A00%3A00.000Z&to_date=2025-10-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:10,641 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:10,647 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:12,281 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-19T00%3A00%3A00.000Z&to_date=2025-10-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:12,293 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:12,301 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:13,903 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-19T00%3A00%3A00.000Z&to_date=2025-10-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:13,908 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:13,917 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:15,642 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-20T00%3A00%3A00.000Z&to_date=2025-10-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86449
+2025-12-28 00:11:15,702 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:15,747 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:17,126 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-20T00%3A00%3A00.000Z&to_date=2025-10-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85836
+2025-12-28 00:11:17,180 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:17,216 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:19,032 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-20T00%3A00%3A00.000Z&to_date=2025-10-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85134
+2025-12-28 00:11:19,099 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:19,212 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:20,400 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-21T00%3A00%3A00.000Z&to_date=2025-10-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 14106
+2025-12-28 00:11:20,444 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:20,888 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:22,373 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-21T00%3A00%3A00.000Z&to_date=2025-10-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 14001
+2025-12-28 00:11:22,426 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:22,615 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:23,791 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-21T00%3A00%3A00.000Z&to_date=2025-10-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 13905
+2025-12-28 00:11:23,909 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:24,350 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:25,544 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-22T00%3A00%3A00.000Z&to_date=2025-10-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:25,563 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:25,591 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:27,133 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-22T00%3A00%3A00.000Z&to_date=2025-10-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:27,141 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:27,163 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:28,449 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-22T00%3A00%3A00.000Z&to_date=2025-10-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:28,458 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:28,472 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:30,059 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-23T00%3A00%3A00.000Z&to_date=2025-10-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86533
+2025-12-28 00:11:30,122 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:30,221 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:31,795 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-23T00%3A00%3A00.000Z&to_date=2025-10-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85992
+2025-12-28 00:11:31,855 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:31,908 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:33,339 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-23T00%3A00%3A00.000Z&to_date=2025-10-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85237
+2025-12-28 00:11:33,421 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:33,531 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:34,883 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-24T00%3A00%3A00.000Z&to_date=2025-10-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86547
+2025-12-28 00:11:34,958 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:35,086 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:36,666 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-24T00%3A00%3A00.000Z&to_date=2025-10-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86033
+2025-12-28 00:11:36,715 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:36,748 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:38,214 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-24T00%3A00%3A00.000Z&to_date=2025-10-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85217
+2025-12-28 00:11:38,280 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:38,395 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:39,779 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-25T00%3A00%3A00.000Z&to_date=2025-10-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:39,790 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:39,813 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:41,276 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-25T00%3A00%3A00.000Z&to_date=2025-10-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:41,282 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:41,293 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:42,789 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-25T00%3A00%3A00.000Z&to_date=2025-10-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:42,806 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:42,833 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:44,199 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-26T00%3A00%3A00.000Z&to_date=2025-10-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:44,208 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:44,215 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:45,504 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-26T00%3A00%3A00.000Z&to_date=2025-10-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:45,513 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:45,537 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:46,919 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-26T00%3A00%3A00.000Z&to_date=2025-10-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:11:46,923 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:46,934 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:48,461 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-27T00%3A00%3A00.000Z&to_date=2025-10-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86619
+2025-12-28 00:11:48,539 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:48,637 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:49,991 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-27T00%3A00%3A00.000Z&to_date=2025-10-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86235
+2025-12-28 00:11:50,041 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:50,102 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:51,685 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-27T00%3A00%3A00.000Z&to_date=2025-10-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85220
+2025-12-28 00:11:51,773 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:51,890 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:53,353 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-28T00%3A00%3A00.000Z&to_date=2025-10-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-10-28T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86189
+2025-12-28 00:11:53,450 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:53,551 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:55,040 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-28T00%3A00%3A00.000Z&to_date=2025-10-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86619
+2025-12-28 00:11:55,124 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:55,183 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:56,630 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-28T00%3A00%3A00.000Z&to_date=2025-10-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85285
+2025-12-28 00:11:56,707 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:56,819 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:11:58,327 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-29T00%3A00%3A00.000Z&to_date=2025-10-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86476
+2025-12-28 00:11:58,408 - DEBUG - Get Historical data V2 response
+2025-12-28 00:11:58,519 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:00,367 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-29T00%3A00%3A00.000Z&to_date=2025-10-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85247
+2025-12-28 00:12:00,431 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:00,464 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:02,007 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-29T00%3A00%3A00.000Z&to_date=2025-10-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:02,011 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:02,033 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:03,642 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-30T00%3A00%3A00.000Z&to_date=2025-10-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86480
+2025-12-28 00:12:03,708 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:03,792 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:05,190 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-30T00%3A00%3A00.000Z&to_date=2025-10-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85304
+2025-12-28 00:12:05,256 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:05,340 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:06,622 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-30T00%3A00%3A00.000Z&to_date=2025-10-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84472
+2025-12-28 00:12:06,693 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:06,841 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:08,174 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-31T00%3A00%3A00.000Z&to_date=2025-10-31T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86494
+2025-12-28 00:12:08,258 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:08,369 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:09,735 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-31T00%3A00%3A00.000Z&to_date=2025-10-31T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85636
+2025-12-28 00:12:09,808 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:09,907 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:11,147 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-10-31T00%3A00%3A00.000Z&to_date=2025-10-31T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84796
+2025-12-28 00:12:11,209 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:11,297 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:12,654 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-01T00%3A00%3A00.000Z&to_date=2025-11-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:12,660 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:12,673 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:14,149 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-01T00%3A00%3A00.000Z&to_date=2025-11-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:14,153 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:14,163 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:15,930 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-01T00%3A00%3A00.000Z&to_date=2025-11-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:15,960 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:15,984 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:17,625 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-02T00%3A00%3A00.000Z&to_date=2025-11-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:17,641 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:17,664 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:19,210 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-02T00%3A00%3A00.000Z&to_date=2025-11-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:19,232 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:19,268 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:20,748 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-02T00%3A00%3A00.000Z&to_date=2025-11-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:20,763 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:20,792 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:22,212 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-03T00%3A00%3A00.000Z&to_date=2025-11-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86442
+2025-12-28 00:12:22,285 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:22,392 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:23,771 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-03T00%3A00%3A00.000Z&to_date=2025-11-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85472
+2025-12-28 00:12:23,861 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:23,952 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:25,205 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-03T00%3A00%3A00.000Z&to_date=2025-11-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84787
+2025-12-28 00:12:25,277 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:25,396 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:27,104 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-04T00%3A00%3A00.000Z&to_date=2025-11-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86468
+2025-12-28 00:12:27,180 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:27,282 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:28,831 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-04T00%3A00%3A00.000Z&to_date=2025-11-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85617
+2025-12-28 00:12:28,930 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:29,098 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:30,352 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-04T00%3A00%3A00.000Z&to_date=2025-11-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84920
+2025-12-28 00:12:30,429 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:30,637 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:31,848 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-05T00%3A00%3A00.000Z&to_date=2025-11-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:32,012 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:32,229 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:33,505 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-05T00%3A00%3A00.000Z&to_date=2025-11-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:33,598 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:33,654 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:35,076 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-05T00%3A00%3A00.000Z&to_date=2025-11-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:35,264 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:35,296 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:36,501 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-06T00%3A00%3A00.000Z&to_date=2025-11-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86450
+2025-12-28 00:12:36,565 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:37,198 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:38,661 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-06T00%3A00%3A00.000Z&to_date=2025-11-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85606
+2025-12-28 00:12:38,715 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:38,744 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:40,504 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-06T00%3A00%3A00.000Z&to_date=2025-11-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84928
+2025-12-28 00:12:40,574 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:40,604 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:42,552 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-07T00%3A00%3A00.000Z&to_date=2025-11-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86506
+2025-12-28 00:12:42,613 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:42,657 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:44,350 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-07T00%3A00%3A00.000Z&to_date=2025-11-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85698
+2025-12-28 00:12:44,403 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:44,434 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:46,067 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-07T00%3A00%3A00.000Z&to_date=2025-11-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85013
+2025-12-28 00:12:46,123 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:46,157 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:47,438 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-08T00%3A00%3A00.000Z&to_date=2025-11-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:47,444 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:47,453 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:48,983 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-08T00%3A00%3A00.000Z&to_date=2025-11-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:48,988 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:48,995 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:50,516 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-08T00%3A00%3A00.000Z&to_date=2025-11-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:50,533 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:50,563 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:52,287 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-09T00%3A00%3A00.000Z&to_date=2025-11-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:52,299 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:52,315 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:54,124 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-09T00%3A00%3A00.000Z&to_date=2025-11-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:54,132 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:54,159 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:55,472 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-09T00%3A00%3A00.000Z&to_date=2025-11-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:12:55,483 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:55,515 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:57,091 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-10T00%3A00%3A00.000Z&to_date=2025-11-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86407
+2025-12-28 00:12:57,163 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:57,214 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:12:58,522 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-10T00%3A00%3A00.000Z&to_date=2025-11-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85525
+2025-12-28 00:12:58,708 - DEBUG - Get Historical data V2 response
+2025-12-28 00:12:58,742 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:00,073 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-10T00%3A00%3A00.000Z&to_date=2025-11-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84870
+2025-12-28 00:13:00,172 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:00,208 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:01,674 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-11T00%3A00%3A00.000Z&to_date=2025-11-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86500
+2025-12-28 00:13:01,791 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:01,904 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:03,258 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-11T00%3A00%3A00.000Z&to_date=2025-11-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85705
+2025-12-28 00:13:03,335 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:03,479 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:05,107 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-11T00%3A00%3A00.000Z&to_date=2025-11-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85013
+2025-12-28 00:13:05,164 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:05,191 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:06,439 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-12T00%3A00%3A00.000Z&to_date=2025-11-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86442
+2025-12-28 00:13:06,491 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:06,513 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:07,420 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-12T00%3A00%3A00.000Z&to_date=2025-11-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85697
+2025-12-28 00:13:07,491 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:07,508 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:08,416 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-12T00%3A00%3A00.000Z&to_date=2025-11-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84992
+2025-12-28 00:13:08,491 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:08,512 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:09,433 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-13T00%3A00%3A00.000Z&to_date=2025-11-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86449
+2025-12-28 00:13:09,488 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:09,508 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:10,733 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-13T00%3A00%3A00.000Z&to_date=2025-11-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85728
+2025-12-28 00:13:10,802 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:10,818 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:11,793 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-13T00%3A00%3A00.000Z&to_date=2025-11-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85005
+2025-12-28 00:13:11,852 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:11,874 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:12,763 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-14T00%3A00%3A00.000Z&to_date=2025-11-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86500
+2025-12-28 00:13:12,822 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:12,841 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:13,653 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-14T00%3A00%3A00.000Z&to_date=2025-11-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85739
+2025-12-28 00:13:13,722 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:13,743 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:14,813 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-14T00%3A00%3A00.000Z&to_date=2025-11-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85005
+2025-12-28 00:13:14,872 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:14,891 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:15,922 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-15T00%3A00%3A00.000Z&to_date=2025-11-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:15,922 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:15,933 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:17,013 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-15T00%3A00%3A00.000Z&to_date=2025-11-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:17,013 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:17,022 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:18,232 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-15T00%3A00%3A00.000Z&to_date=2025-11-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:18,234 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:18,240 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:19,009 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-16T00%3A00%3A00.000Z&to_date=2025-11-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:19,011 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:19,013 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:19,783 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-16T00%3A00%3A00.000Z&to_date=2025-11-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:19,788 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:19,791 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:20,761 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-16T00%3A00%3A00.000Z&to_date=2025-11-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:20,764 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:20,768 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:21,530 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-17T00%3A00%3A00.000Z&to_date=2025-11-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86405
+2025-12-28 00:13:21,591 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:21,613 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:22,429 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-17T00%3A00%3A00.000Z&to_date=2025-11-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85747
+2025-12-28 00:13:22,485 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:22,508 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:23,913 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-17T00%3A00%3A00.000Z&to_date=2025-11-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84963
+2025-12-28 00:13:24,003 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:24,016 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:25,360 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-18T00%3A00%3A00.000Z&to_date=2025-11-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86454
+2025-12-28 00:13:25,413 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:25,430 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:26,543 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-18T00%3A00%3A00.000Z&to_date=2025-11-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85765
+2025-12-28 00:13:26,602 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:26,650 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:27,663 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-18T00%3A00%3A00.000Z&to_date=2025-11-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84957
+2025-12-28 00:13:27,718 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:27,740 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:28,629 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-19T00%3A00%3A00.000Z&to_date=2025-11-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86473
+2025-12-28 00:13:28,702 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:28,727 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:29,730 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-19T00%3A00%3A00.000Z&to_date=2025-11-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85855
+2025-12-28 00:13:29,808 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:29,823 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:30,782 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-19T00%3A00%3A00.000Z&to_date=2025-11-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85007
+2025-12-28 00:13:30,858 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:30,872 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:31,786 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-20T00%3A00%3A00.000Z&to_date=2025-11-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86524
+2025-12-28 00:13:31,863 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:31,880 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:32,774 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-20T00%3A00%3A00.000Z&to_date=2025-11-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86027
+2025-12-28 00:13:32,830 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:32,849 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:33,983 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-20T00%3A00%3A00.000Z&to_date=2025-11-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85180
+2025-12-28 00:13:34,033 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:34,050 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:35,185 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-21T00%3A00%3A00.000Z&to_date=2025-11-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86591
+2025-12-28 00:13:35,263 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:35,283 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:36,738 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-21T00%3A00%3A00.000Z&to_date=2025-11-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86065
+2025-12-28 00:13:36,798 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:36,813 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:38,241 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-21T00%3A00%3A00.000Z&to_date=2025-11-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85241
+2025-12-28 00:13:38,303 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:38,339 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:39,653 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-22T00%3A00%3A00.000Z&to_date=2025-11-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:39,659 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:39,663 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:41,041 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-22T00%3A00%3A00.000Z&to_date=2025-11-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:41,050 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:41,054 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:42,331 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-22T00%3A00%3A00.000Z&to_date=2025-11-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:42,335 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:42,341 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:43,644 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-23T00%3A00%3A00.000Z&to_date=2025-11-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:43,644 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:43,653 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:44,914 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-23T00%3A00%3A00.000Z&to_date=2025-11-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:44,914 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:44,930 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:46,128 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-23T00%3A00%3A00.000Z&to_date=2025-11-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:46,132 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:46,138 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:47,407 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-24T00%3A00%3A00.000Z&to_date=2025-11-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86555
+2025-12-28 00:13:47,485 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:47,502 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:48,963 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-24T00%3A00%3A00.000Z&to_date=2025-11-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86231
+2025-12-28 00:13:49,011 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:49,022 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:50,289 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-24T00%3A00%3A00.000Z&to_date=2025-11-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85167
+2025-12-28 00:13:50,348 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:50,365 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:51,434 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-25T00%3A00%3A00.000Z&to_date=2025-11-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-11-25T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86130
+2025-12-28 00:13:51,491 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:51,509 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:52,741 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-25T00%3A00%3A00.000Z&to_date=2025-11-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86517
+2025-12-28 00:13:52,795 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:52,813 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:53,939 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-25T00%3A00%3A00.000Z&to_date=2025-11-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85217
+2025-12-28 00:13:53,991 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:54,008 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:55,106 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-26T00%3A00%3A00.000Z&to_date=2025-11-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86505
+2025-12-28 00:13:55,152 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:55,164 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:56,456 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-26T00%3A00%3A00.000Z&to_date=2025-11-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85249
+2025-12-28 00:13:56,498 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:56,535 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:57,509 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-26T00%3A00%3A00.000Z&to_date=2025-11-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:13:57,641 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:57,654 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:58,695 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-27T00%3A00%3A00.000Z&to_date=2025-11-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86456
+2025-12-28 00:13:58,793 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:58,908 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:13:59,913 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-27T00%3A00%3A00.000Z&to_date=2025-11-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85201
+2025-12-28 00:13:59,963 - DEBUG - Get Historical data V2 response
+2025-12-28 00:13:59,989 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:01,563 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-27T00%3A00%3A00.000Z&to_date=2025-11-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84771
+2025-12-28 00:14:01,623 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:01,653 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:02,613 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-28T00%3A00%3A00.000Z&to_date=2025-11-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86370
+2025-12-28 00:14:02,675 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:02,693 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:03,841 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-28T00%3A00%3A00.000Z&to_date=2025-11-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85025
+2025-12-28 00:14:03,873 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:03,906 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:05,283 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-28T00%3A00%3A00.000Z&to_date=2025-11-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84784
+2025-12-28 00:14:05,343 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:05,364 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:06,312 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-29T00%3A00%3A00.000Z&to_date=2025-11-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:06,313 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:06,313 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:07,066 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-29T00%3A00%3A00.000Z&to_date=2025-11-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:07,069 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:07,074 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:08,022 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-29T00%3A00%3A00.000Z&to_date=2025-11-29T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:08,022 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:08,030 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:08,994 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-30T00%3A00%3A00.000Z&to_date=2025-11-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:08,998 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:09,003 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:09,967 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-30T00%3A00%3A00.000Z&to_date=2025-11-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:09,967 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:09,972 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:10,923 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-11-30T00%3A00%3A00.000Z&to_date=2025-11-30T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:10,927 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:10,934 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:11,698 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-01T00%3A00%3A00.000Z&to_date=2025-12-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86446
+2025-12-28 00:14:11,750 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:11,763 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:12,548 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-01T00%3A00%3A00.000Z&to_date=2025-12-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85135
+2025-12-28 00:14:12,603 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:12,613 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:13,583 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-01T00%3A00%3A00.000Z&to_date=2025-12-01T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84887
+2025-12-28 00:14:13,639 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:13,659 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:14,463 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-02T00%3A00%3A00.000Z&to_date=2025-12-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86455
+2025-12-28 00:14:14,533 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:14,553 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:15,313 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-02T00%3A00%3A00.000Z&to_date=2025-12-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85166
+2025-12-28 00:14:15,372 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:15,393 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:16,138 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-02T00%3A00%3A00.000Z&to_date=2025-12-02T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84979
+2025-12-28 00:14:16,183 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:16,203 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:16,989 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-03T00%3A00%3A00.000Z&to_date=2025-12-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86460
+2025-12-28 00:14:17,066 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:17,086 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:18,049 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-03T00%3A00%3A00.000Z&to_date=2025-12-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85545
+2025-12-28 00:14:18,119 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:18,139 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:18,908 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-03T00%3A00%3A00.000Z&to_date=2025-12-03T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84890
+2025-12-28 00:14:18,953 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:18,973 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:19,751 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-04T00%3A00%3A00.000Z&to_date=2025-12-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86444
+2025-12-28 00:14:19,802 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:19,822 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:20,622 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-04T00%3A00%3A00.000Z&to_date=2025-12-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85525
+2025-12-28 00:14:20,699 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:20,718 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:21,699 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-04T00%3A00%3A00.000Z&to_date=2025-12-04T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84852
+2025-12-28 00:14:21,753 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:21,772 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:22,574 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-05T00%3A00%3A00.000Z&to_date=2025-12-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 86486
+2025-12-28 00:14:22,624 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:22,650 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:23,472 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-05T00%3A00%3A00.000Z&to_date=2025-12-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85576
+2025-12-28 00:14:23,541 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:23,563 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:24,414 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-05T00%3A00%3A00.000Z&to_date=2025-12-05T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84942
+2025-12-28 00:14:24,465 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:24,488 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:26,403 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-06T00%3A00%3A00.000Z&to_date=2025-12-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:26,405 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:26,410 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:27,392 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-06T00%3A00%3A00.000Z&to_date=2025-12-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:27,395 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:27,399 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:28,191 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-06T00%3A00%3A00.000Z&to_date=2025-12-06T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:28,195 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:28,203 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:29,173 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-07T00%3A00%3A00.000Z&to_date=2025-12-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:29,173 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:29,179 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:30,152 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-07T00%3A00%3A00.000Z&to_date=2025-12-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:30,153 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:30,158 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:31,141 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-07T00%3A00%3A00.000Z&to_date=2025-12-07T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:31,141 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:31,152 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:32,297 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-08T00%3A00%3A00.000Z&to_date=2025-12-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88289
+2025-12-28 00:14:32,356 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:32,373 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:34,252 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-08T00%3A00%3A00.000Z&to_date=2025-12-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85644
+2025-12-28 00:14:34,328 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:34,358 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:35,494 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-08T00%3A00%3A00.000Z&to_date=2025-12-08T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85036
+2025-12-28 00:14:35,541 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:35,564 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:36,342 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-09T00%3A00%3A00.000Z&to_date=2025-12-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88275
+2025-12-28 00:14:36,400 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:36,416 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:37,514 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-09T00%3A00%3A00.000Z&to_date=2025-12-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85638
+2025-12-28 00:14:37,591 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:37,612 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:38,380 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-09T00%3A00%3A00.000Z&to_date=2025-12-09T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85051
+2025-12-28 00:14:38,433 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:38,453 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:39,218 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-10T00%3A00%3A00.000Z&to_date=2025-12-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88254
+2025-12-28 00:14:39,318 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:39,338 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:40,311 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-10T00%3A00%3A00.000Z&to_date=2025-12-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85640
+2025-12-28 00:14:40,383 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:40,403 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:41,173 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-10T00%3A00%3A00.000Z&to_date=2025-12-10T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84975
+2025-12-28 00:14:41,233 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:41,253 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:42,233 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-11T00%3A00%3A00.000Z&to_date=2025-12-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88259
+2025-12-28 00:14:42,313 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:42,333 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:43,526 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-11T00%3A00%3A00.000Z&to_date=2025-12-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85614
+2025-12-28 00:14:43,600 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:43,619 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:44,949 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-11T00%3A00%3A00.000Z&to_date=2025-12-11T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84973
+2025-12-28 00:14:45,008 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:45,030 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:46,014 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-12T00%3A00%3A00.000Z&to_date=2025-12-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88214
+2025-12-28 00:14:46,072 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:46,092 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:47,161 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-12T00%3A00%3A00.000Z&to_date=2025-12-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85580
+2025-12-28 00:14:47,213 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:47,252 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:48,274 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-12T00%3A00%3A00.000Z&to_date=2025-12-12T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84918
+2025-12-28 00:14:48,324 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:48,348 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:49,322 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-13T00%3A00%3A00.000Z&to_date=2025-12-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:49,322 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:49,334 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:50,183 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-13T00%3A00%3A00.000Z&to_date=2025-12-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:50,188 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:50,193 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:51,399 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-13T00%3A00%3A00.000Z&to_date=2025-12-13T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:51,399 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:51,403 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:52,584 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-14T00%3A00%3A00.000Z&to_date=2025-12-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:52,589 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:52,594 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:53,549 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-14T00%3A00%3A00.000Z&to_date=2025-12-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:53,553 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:53,558 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:54,483 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-14T00%3A00%3A00.000Z&to_date=2025-12-14T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:14:54,486 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:54,491 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:55,513 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-15T00%3A00%3A00.000Z&to_date=2025-12-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88192
+2025-12-28 00:14:55,574 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:55,593 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:56,701 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-15T00%3A00%3A00.000Z&to_date=2025-12-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85582
+2025-12-28 00:14:56,768 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:56,789 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:57,635 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-15T00%3A00%3A00.000Z&to_date=2025-12-15T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84887
+2025-12-28 00:14:57,699 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:57,723 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:58,582 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-16T00%3A00%3A00.000Z&to_date=2025-12-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88207
+2025-12-28 00:14:58,647 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:58,667 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:14:59,455 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-16T00%3A00%3A00.000Z&to_date=2025-12-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85615
+2025-12-28 00:14:59,514 - DEBUG - Get Historical data V2 response
+2025-12-28 00:14:59,533 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:00,330 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-16T00%3A00%3A00.000Z&to_date=2025-12-16T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84983
+2025-12-28 00:15:00,383 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:00,403 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:01,423 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-17T00%3A00%3A00.000Z&to_date=2025-12-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88172
+2025-12-28 00:15:01,470 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:01,508 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:02,432 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-17T00%3A00%3A00.000Z&to_date=2025-12-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85608
+2025-12-28 00:15:02,482 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:02,506 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:03,371 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-17T00%3A00%3A00.000Z&to_date=2025-12-17T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84974
+2025-12-28 00:15:03,425 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:03,445 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:04,433 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-18T00%3A00%3A00.000Z&to_date=2025-12-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88236
+2025-12-28 00:15:04,491 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:04,510 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:05,530 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-18T00%3A00%3A00.000Z&to_date=2025-12-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85636
+2025-12-28 00:15:05,584 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:05,604 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:06,640 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-18T00%3A00%3A00.000Z&to_date=2025-12-18T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85034
+2025-12-28 00:15:06,698 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:06,714 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:08,183 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-19T00%3A00%3A00.000Z&to_date=2025-12-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88194
+2025-12-28 00:15:08,263 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:08,289 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:09,591 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-19T00%3A00%3A00.000Z&to_date=2025-12-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85617
+2025-12-28 00:15:09,645 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:09,663 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:10,930 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-19T00%3A00%3A00.000Z&to_date=2025-12-19T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84926
+2025-12-28 00:15:10,989 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:11,003 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:12,262 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-20T00%3A00%3A00.000Z&to_date=2025-12-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:12,265 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:12,270 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:13,273 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-20T00%3A00%3A00.000Z&to_date=2025-12-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:13,273 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:13,283 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:14,773 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-20T00%3A00%3A00.000Z&to_date=2025-12-20T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:14,781 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:14,787 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:15,681 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-21T00%3A00%3A00.000Z&to_date=2025-12-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:15,739 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:15,839 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:16,980 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-21T00%3A00%3A00.000Z&to_date=2025-12-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:16,983 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:16,983 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:18,088 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-21T00%3A00%3A00.000Z&to_date=2025-12-21T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:18,093 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:18,093 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:19,030 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-22T00%3A00%3A00.000Z&to_date=2025-12-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88164
+2025-12-28 00:15:19,080 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:19,091 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:20,180 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-22T00%3A00%3A00.000Z&to_date=2025-12-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85772
+2025-12-28 00:15:20,223 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:20,246 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:21,286 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-22T00%3A00%3A00.000Z&to_date=2025-12-22T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84974
+2025-12-28 00:15:21,341 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:21,358 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:22,122 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-23T00%3A00%3A00.000Z&to_date=2025-12-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88141
+2025-12-28 00:15:22,201 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:22,222 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:22,999 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-23T00%3A00%3A00.000Z&to_date=2025-12-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 87562
+2025-12-28 00:15:23,072 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:23,092 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:24,073 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-23T00%3A00%3A00.000Z&to_date=2025-12-23T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84978
+2025-12-28 00:15:24,150 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:24,163 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:24,958 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-24T00%3A00%3A00.000Z&to_date=2025-12-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88166
+2025-12-28 00:15:25,033 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:25,053 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:25,830 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-24T00%3A00%3A00.000Z&to_date=2025-12-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 87642
+2025-12-28 00:15:25,903 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:25,924 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:26,942 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-24T00%3A00%3A00.000Z&to_date=2025-12-24T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 84960
+2025-12-28 00:15:27,014 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:27,039 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:15:27,809 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-25T00%3A00%3A00.000Z&to_date=2025-12-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:15:27,815 - DEBUG - Get Historical data V2 response
+2025-12-28 00:15:27,820 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:29,588 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-25T00%3A00%3A00.000Z&to_date=2025-12-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:29,592 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:29,596 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:30,589 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-25T00%3A00%3A00.000Z&to_date=2025-12-25T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:30,592 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:30,592 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:31,839 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-26T00%3A00%3A00.000Z&to_date=2025-12-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 88258
+2025-12-28 00:16:31,914 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:31,959 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:33,114 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-26T00%3A00%3A00.000Z&to_date=2025-12-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 87793
+2025-12-28 00:16:33,192 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:33,222 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:34,173 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-26T00%3A00%3A00.000Z&to_date=2025-12-26T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 85105
+2025-12-28 00:16:34,253 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:34,273 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:35,262 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-27T00%3A00%3A00.000Z&to_date=2025-12-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:35,265 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:35,265 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:36,233 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-27T00%3A00%3A00.000Z&to_date=2025-12-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:36,240 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:36,242 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:37,050 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-27T00%3A00%3A00.000Z&to_date=2025-12-27T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:37,050 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:37,053 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:37,853 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-28T00%3A00%3A00.000Z&to_date=2025-12-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2025-12-30T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:37,853 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:37,863 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:38,612 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-28T00%3A00%3A00.000Z&to_date=2025-12-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-01-27T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:38,617 - DEBUG - Get Historical data V2 response
+2025-12-28 00:16:38,621 - DEBUG - Starting new HTTPS connection (1): breezeapi.icicidirect.com:443
+2025-12-28 00:16:39,580 - DEBUG - https://breezeapi.icicidirect.com:443 "GET /api/v2/historicalcharts?interval=1minute&from_date=2025-12-28T00%3A00%3A00.000Z&to_date=2025-12-28T23%3A59%3A59.000Z&stock_code=NIFTY&exch_code=NFO&product_type=futures&expiry_date=2026-02-24T06%3A00%3A00.000Z&strike_price=0&right=others HTTP/1.1" 200 41
+2025-12-28 00:16:39,584 - DEBUG - Get Historical data V2 response

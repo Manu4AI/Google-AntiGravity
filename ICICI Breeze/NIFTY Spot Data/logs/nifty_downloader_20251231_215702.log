@@ -1,0 +1,28 @@
+2025-12-31 21:57:02,659 - INFO - Script started.
+2025-12-31 21:57:02,662 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-31 21:57:03,805 - INFO - ====== WebDriver manager ======
+2025-12-31 21:57:06,520 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-31 21:57:07,739 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-31 21:57:08,889 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-31 21:57:11,354 - INFO - WebDriver version 143.0.7499.169 selected
+2025-12-31 21:57:11,366 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-31 21:57:11,367 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-31 21:57:12,617 - INFO - Driver downloading response is 200
+2025-12-31 21:57:13,414 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-31 21:57:14,859 - INFO - Driver has been saved in cache [C:\Users\Shivendra\.wdm\drivers\chromedriver\win64\143.0.7499.169]
+2025-12-31 21:57:28,001 - INFO - Session Generated Successfully.
+2025-12-31 21:57:28,001 - INFO - --- TEST CONNECTION START ---
+2025-12-31 21:57:29,304 - DEBUG - Get Historical data V2 response
+2025-12-31 21:57:29,314 - INFO - Test Call Response Type: <class 'dict'>
+2025-12-31 21:57:29,315 - INFO - Test Call Success. Records: 381
+2025-12-31 21:57:29,316 - INFO - --- TEST CONNECTION END ---
+2025-12-31 21:57:29,335 - INFO - Checking latest file: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-31 21:57:29,385 - INFO - Found existing year-wise data up to 2025-12-29 15:14:00.
+2025-12-31 21:57:29,386 - INFO - Starting download for NIFTY from 2025-12-30 to 2025-12-31
+2025-12-31 21:57:29,387 - INFO - Downloading NIFTY for 2025-12-30...
+2025-12-31 21:57:30,778 - DEBUG - Get Historical data V2 response
+2025-12-31 21:57:30,799 - INFO - Data appended to G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-31 21:57:31,301 - INFO - Downloading NIFTY for 2025-12-31...
+2025-12-31 21:57:32,711 - DEBUG - Get Historical data V2 response
+2025-12-31 21:57:32,731 - INFO - Data appended to G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-31 21:57:33,232 - INFO - Download complete.

@@ -1,0 +1,526 @@
+2025-12-29 15:16:26,399 - INFO -  Paper Trading Simulator (Capital Based: 10k/Trade)
+2025-12-29 15:16:26,407 - INFO -  [Init] Attempting Auto-Login...
+2025-12-29 15:16:27,740 - INFO - ====== WebDriver manager ======
+2025-12-29 15:16:31,215 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-29 15:16:32,267 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-29 15:16:33,325 - INFO - Driver [C:\Users\Shivendra\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-29 15:16:53,284 - INFO -  [Init] Breeze Session Connected Successfully!
+2025-12-29 15:16:53,285 - INFO -  [Main] Startup... Monitoring Signals & Trades.
+2025-12-29 15:16:53,286 - INFO - 
+--- 15:16:53 ---
+2025-12-29 15:16:53,287 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:16:53,436 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:16:53,437 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:16:54,896 - DEBUG - <Response [200]>
+2025-12-29 15:16:54,960 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:54,965 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:56,315 - DEBUG - <Response [200]>
+2025-12-29 15:16:56,327 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:56,334 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:57,595 - DEBUG - <Response [200]>
+2025-12-29 15:16:57,604 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:57,610 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:59,180 - DEBUG - <Response [200]>
+2025-12-29 15:16:59,342 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:16:59,423 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:00,610 - DEBUG - <Response [200]>
+2025-12-29 15:17:00,623 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:00,630 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:01,921 - DEBUG - <Response [200]>
+2025-12-29 15:17:01,934 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:01,939 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:03,650 - DEBUG - <Response [200]>
+2025-12-29 15:17:03,660 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:03,663 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:04,906 - DEBUG - <Response [200]>
+2025-12-29 15:17:04,918 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:04,921 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:06,702 - DEBUG - <Response [200]>
+2025-12-29 15:17:06,772 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:06,852 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:08,308 - DEBUG - <Response [200]>
+2025-12-29 15:17:08,321 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:08,365 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:10,084 - DEBUG - <Response [200]>
+2025-12-29 15:17:10,101 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:10,104 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:11,615 - DEBUG - <Response [200]>
+2025-12-29 15:17:11,649 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:11,651 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:12,846 - DEBUG - <Response [200]>
+2025-12-29 15:17:12,854 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:12,859 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:14,892 - DEBUG - <Response [200]>
+2025-12-29 15:17:14,900 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:14,903 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:16,362 - DEBUG - <Response [200]>
+2025-12-29 15:17:16,373 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:16,377 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:17:16,379 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:18:16,382 - INFO - 
+--- 15:18:16 ---
+2025-12-29 15:18:16,384 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:18:16,485 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:18:16,486 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:18:18,398 - DEBUG - <Response [200]>
+2025-12-29 15:18:18,408 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:18,410 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:20,202 - DEBUG - <Response [200]>
+2025-12-29 15:18:20,208 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:20,213 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:22,278 - DEBUG - <Response [200]>
+2025-12-29 15:18:22,296 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:22,305 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:23,877 - DEBUG - <Response [200]>
+2025-12-29 15:18:23,883 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:23,892 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:25,611 - DEBUG - <Response [200]>
+2025-12-29 15:18:25,617 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:25,618 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:28,007 - DEBUG - <Response [200]>
+2025-12-29 15:18:28,014 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:28,016 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:29,783 - DEBUG - <Response [200]>
+2025-12-29 15:18:29,798 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:29,805 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:31,831 - DEBUG - <Response [200]>
+2025-12-29 15:18:31,838 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:31,840 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:33,953 - DEBUG - <Response [200]>
+2025-12-29 15:18:33,958 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:33,960 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:35,729 - DEBUG - <Response [200]>
+2025-12-29 15:18:35,737 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:35,744 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:37,385 - DEBUG - <Response [200]>
+2025-12-29 15:18:37,391 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:37,393 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:39,124 - DEBUG - <Response [200]>
+2025-12-29 15:18:39,133 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:39,135 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:40,853 - DEBUG - <Response [200]>
+2025-12-29 15:18:40,866 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:40,872 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:42,848 - DEBUG - <Response [200]>
+2025-12-29 15:18:42,899 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:42,919 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:44,612 - DEBUG - <Response [200]>
+2025-12-29 15:18:44,632 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:44,640 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:18:44,644 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:19:44,649 - INFO - 
+--- 15:19:44 ---
+2025-12-29 15:19:44,654 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:19:44,802 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:19:44,805 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:19:46,879 - DEBUG - <Response [200]>
+2025-12-29 15:19:46,893 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:46,902 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:48,591 - DEBUG - <Response [200]>
+2025-12-29 15:19:48,603 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:48,605 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:50,432 - DEBUG - <Response [200]>
+2025-12-29 15:19:50,444 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:50,447 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:52,111 - DEBUG - <Response [200]>
+2025-12-29 15:19:52,121 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:52,129 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:53,886 - DEBUG - <Response [200]>
+2025-12-29 15:19:53,893 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:53,895 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:55,323 - DEBUG - <Response [200]>
+2025-12-29 15:19:55,333 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:55,336 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:57,109 - DEBUG - <Response [200]>
+2025-12-29 15:19:57,119 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:57,124 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:58,938 - DEBUG - <Response [200]>
+2025-12-29 15:19:59,010 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:19:59,013 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:00,707 - DEBUG - <Response [200]>
+2025-12-29 15:20:00,720 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:00,728 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:02,872 - DEBUG - <Response [200]>
+2025-12-29 15:20:02,880 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:02,883 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:04,705 - DEBUG - <Response [200]>
+2025-12-29 15:20:04,722 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:04,726 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:06,376 - DEBUG - <Response [200]>
+2025-12-29 15:20:06,385 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:06,390 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:07,688 - DEBUG - <Response [200]>
+2025-12-29 15:20:07,696 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:07,698 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:09,369 - DEBUG - <Response [200]>
+2025-12-29 15:20:09,382 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:09,386 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:10,860 - DEBUG - <Response [200]>
+2025-12-29 15:20:10,864 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:10,866 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:20:10,870 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:21:10,872 - INFO - 
+--- 15:21:10 ---
+2025-12-29 15:21:10,872 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:21:10,945 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:21:10,945 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:21:12,945 - DEBUG - <Response [200]>
+2025-12-29 15:21:12,956 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:12,959 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:14,754 - DEBUG - <Response [200]>
+2025-12-29 15:21:14,759 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:14,761 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:16,342 - DEBUG - <Response [200]>
+2025-12-29 15:21:16,356 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:16,360 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:18,001 - DEBUG - <Response [200]>
+2025-12-29 15:21:18,016 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:18,021 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:19,653 - DEBUG - <Response [200]>
+2025-12-29 15:21:19,666 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:19,673 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:21,551 - DEBUG - <Response [200]>
+2025-12-29 15:21:21,562 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:21,566 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:23,395 - DEBUG - <Response [200]>
+2025-12-29 15:21:23,401 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:23,403 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:25,201 - DEBUG - <Response [200]>
+2025-12-29 15:21:25,217 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:25,226 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:27,017 - DEBUG - <Response [200]>
+2025-12-29 15:21:27,025 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:27,031 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:28,526 - DEBUG - <Response [200]>
+2025-12-29 15:21:28,533 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:28,538 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:30,305 - DEBUG - <Response [200]>
+2025-12-29 15:21:30,323 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:30,327 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:32,315 - DEBUG - <Response [200]>
+2025-12-29 15:21:32,321 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:32,328 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:33,893 - DEBUG - <Response [200]>
+2025-12-29 15:21:33,899 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:33,902 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:35,258 - DEBUG - <Response [200]>
+2025-12-29 15:21:35,275 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:35,284 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:36,906 - DEBUG - <Response [200]>
+2025-12-29 15:21:36,919 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:36,922 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:21:36,932 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:22:36,942 - INFO - 
+--- 15:22:36 ---
+2025-12-29 15:22:36,951 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:22:37,078 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:22:37,082 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:22:39,057 - DEBUG - <Response [200]>
+2025-12-29 15:22:39,073 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:39,078 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:40,715 - DEBUG - <Response [200]>
+2025-12-29 15:22:40,777 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:40,789 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:42,545 - DEBUG - <Response [200]>
+2025-12-29 15:22:42,553 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:42,557 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:44,521 - DEBUG - <Response [200]>
+2025-12-29 15:22:44,528 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:44,531 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:46,516 - DEBUG - <Response [200]>
+2025-12-29 15:22:46,532 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:46,554 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:48,302 - DEBUG - <Response [200]>
+2025-12-29 15:22:48,318 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:48,322 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:50,058 - DEBUG - <Response [200]>
+2025-12-29 15:22:50,078 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:50,080 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:51,965 - DEBUG - <Response [200]>
+2025-12-29 15:22:51,981 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:51,985 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:53,659 - DEBUG - <Response [200]>
+2025-12-29 15:22:53,668 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:53,675 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:55,259 - DEBUG - <Response [200]>
+2025-12-29 15:22:55,266 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:55,274 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:57,077 - DEBUG - <Response [200]>
+2025-12-29 15:22:57,095 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:57,098 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:59,037 - DEBUG - <Response [200]>
+2025-12-29 15:22:59,120 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:22:59,162 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:00,781 - DEBUG - <Response [200]>
+2025-12-29 15:23:00,788 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:00,790 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:02,272 - DEBUG - <Response [200]>
+2025-12-29 15:23:02,287 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:02,291 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:03,910 - DEBUG - <Response [200]>
+2025-12-29 15:23:03,922 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:03,928 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:23:03,937 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:24:03,949 - INFO - 
+--- 15:24:03 ---
+2025-12-29 15:24:03,951 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:24:04,098 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:24:04,111 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:24:05,973 - DEBUG - <Response [200]>
+2025-12-29 15:24:05,979 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:05,980 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:07,661 - DEBUG - <Response [200]>
+2025-12-29 15:24:07,673 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:07,678 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:09,243 - DEBUG - <Response [200]>
+2025-12-29 15:24:09,255 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:09,259 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:10,840 - DEBUG - <Response [200]>
+2025-12-29 15:24:10,852 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:10,856 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:12,388 - DEBUG - <Response [200]>
+2025-12-29 15:24:12,393 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:12,395 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:14,195 - DEBUG - <Response [200]>
+2025-12-29 15:24:14,208 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:14,211 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:15,766 - DEBUG - <Response [200]>
+2025-12-29 15:24:15,774 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:15,782 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:17,372 - DEBUG - <Response [200]>
+2025-12-29 15:24:17,384 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:17,402 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:18,934 - DEBUG - <Response [200]>
+2025-12-29 15:24:18,946 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:18,950 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:20,663 - DEBUG - <Response [200]>
+2025-12-29 15:24:20,672 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:20,681 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:22,223 - DEBUG - <Response [200]>
+2025-12-29 15:24:22,233 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:22,236 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:23,941 - DEBUG - <Response [200]>
+2025-12-29 15:24:23,998 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:24,010 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:25,608 - DEBUG - <Response [200]>
+2025-12-29 15:24:25,623 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:25,627 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:27,686 - DEBUG - <Response [200]>
+2025-12-29 15:24:27,707 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:27,711 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:29,601 - DEBUG - <Response [200]>
+2025-12-29 15:24:29,609 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:29,610 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:24:29,612 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:25:29,620 - INFO - 
+--- 15:25:29 ---
+2025-12-29 15:25:29,640 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:25:29,765 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:25:29,766 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:25:31,484 - DEBUG - <Response [200]>
+2025-12-29 15:25:31,498 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:31,501 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:33,459 - DEBUG - <Response [200]>
+2025-12-29 15:25:33,471 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:33,481 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:35,595 - DEBUG - <Response [200]>
+2025-12-29 15:25:35,610 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:35,614 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:37,444 - DEBUG - <Response [200]>
+2025-12-29 15:25:37,458 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:37,461 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:39,165 - DEBUG - <Response [200]>
+2025-12-29 15:25:39,175 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:39,182 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:41,332 - DEBUG - <Response [200]>
+2025-12-29 15:25:41,342 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:41,345 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:43,006 - DEBUG - <Response [200]>
+2025-12-29 15:25:43,016 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:43,021 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:44,555 - DEBUG - <Response [200]>
+2025-12-29 15:25:44,565 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:44,572 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:46,624 - DEBUG - <Response [200]>
+2025-12-29 15:25:46,637 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:46,642 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:48,462 - DEBUG - <Response [200]>
+2025-12-29 15:25:48,477 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:48,482 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:51,126 - DEBUG - <Response [200]>
+2025-12-29 15:25:51,142 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:51,145 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:52,660 - DEBUG - <Response [200]>
+2025-12-29 15:25:52,674 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:52,678 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:54,323 - DEBUG - <Response [200]>
+2025-12-29 15:25:54,336 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:54,340 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:56,132 - DEBUG - <Response [200]>
+2025-12-29 15:25:56,142 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:56,145 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:57,707 - DEBUG - <Response [200]>
+2025-12-29 15:25:57,722 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:57,725 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:25:57,728 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:26:57,731 - INFO - 
+--- 15:26:57 ---
+2025-12-29 15:26:57,736 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:26:57,951 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:26:57,953 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:26:59,706 - DEBUG - <Response [200]>
+2025-12-29 15:26:59,723 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:26:59,735 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:01,413 - DEBUG - <Response [200]>
+2025-12-29 15:27:01,438 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:01,450 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:03,225 - DEBUG - <Response [200]>
+2025-12-29 15:27:03,238 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:03,244 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:05,651 - DEBUG - <Response [200]>
+2025-12-29 15:27:05,660 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:05,665 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:07,562 - DEBUG - <Response [200]>
+2025-12-29 15:27:07,576 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:07,580 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:09,144 - DEBUG - <Response [200]>
+2025-12-29 15:27:09,157 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:09,160 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:10,771 - DEBUG - <Response [200]>
+2025-12-29 15:27:10,789 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:10,792 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:12,338 - DEBUG - <Response [200]>
+2025-12-29 15:27:12,351 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:12,354 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:13,796 - DEBUG - <Response [200]>
+2025-12-29 15:27:13,809 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:13,813 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:15,379 - DEBUG - <Response [200]>
+2025-12-29 15:27:15,389 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:15,391 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:16,849 - DEBUG - <Response [200]>
+2025-12-29 15:27:16,859 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:16,864 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:18,371 - DEBUG - <Response [200]>
+2025-12-29 15:27:18,382 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:18,386 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:19,889 - DEBUG - <Response [200]>
+2025-12-29 15:27:19,900 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:19,903 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:21,506 - DEBUG - <Response [200]>
+2025-12-29 15:27:21,513 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:21,519 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:23,147 - DEBUG - <Response [200]>
+2025-12-29 15:27:23,158 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:23,162 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:27:23,166 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:28:23,170 - INFO - 
+--- 15:28:23 ---
+2025-12-29 15:28:23,177 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:28:23,352 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:28:23,356 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:28:25,274 - DEBUG - <Response [200]>
+2025-12-29 15:28:25,284 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:25,294 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:26,716 - DEBUG - <Response [200]>
+2025-12-29 15:28:26,730 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:26,734 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:28,208 - DEBUG - <Response [200]>
+2025-12-29 15:28:28,216 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:28,219 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:30,088 - DEBUG - <Response [200]>
+2025-12-29 15:28:30,105 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:30,112 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:32,028 - DEBUG - <Response [200]>
+2025-12-29 15:28:32,038 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:32,043 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:34,193 - DEBUG - <Response [200]>
+2025-12-29 15:28:34,202 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:34,207 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:35,782 - DEBUG - <Response [200]>
+2025-12-29 15:28:35,795 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:35,799 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:37,558 - DEBUG - <Response [200]>
+2025-12-29 15:28:37,571 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:37,575 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:39,409 - DEBUG - <Response [200]>
+2025-12-29 15:28:39,420 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:39,423 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:41,221 - DEBUG - <Response [200]>
+2025-12-29 15:28:41,233 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:41,237 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:42,923 - DEBUG - <Response [200]>
+2025-12-29 15:28:42,938 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:42,941 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:44,452 - DEBUG - <Response [200]>
+2025-12-29 15:28:44,466 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:44,470 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:46,157 - DEBUG - <Response [200]>
+2025-12-29 15:28:46,167 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:46,171 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:47,963 - DEBUG - <Response [200]>
+2025-12-29 15:28:47,973 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:47,978 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:50,130 - DEBUG - <Response [200]>
+2025-12-29 15:28:50,143 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:50,147 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:28:50,150 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:29:50,154 - INFO - 
+--- 15:29:50 ---
+2025-12-29 15:29:50,158 - INFO -  [Signals] Checking for new signals...
+2025-12-29 15:29:50,400 - INFO -  [Signals] No new unique signals.
+2025-12-29 15:29:50,402 - INFO -  [Monitor] Checking Open Positions...
+2025-12-29 15:29:52,349 - DEBUG - <Response [200]>
+2025-12-29 15:29:52,361 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:52,367 - WARNING -    [Price] No valid data for ADANIENT. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:53,856 - DEBUG - <Response [200]>
+2025-12-29 15:29:53,867 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:53,871 - WARNING -    [Price] No valid data for AXISBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:55,351 - DEBUG - <Response [200]>
+2025-12-29 15:29:55,366 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:55,370 - WARNING -    [Price] No valid data for BRITANNIA. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:57,619 - DEBUG - <Response [200]>
+2025-12-29 15:29:57,631 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:57,634 - WARNING -    [Price] No valid data for HCLTECH. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:59,362 - DEBUG - <Response [200]>
+2025-12-29 15:29:59,378 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:29:59,382 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:00,931 - DEBUG - <Response [200]>
+2025-12-29 15:30:00,937 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:00,940 - WARNING -    [Price] No valid data for HINDUNILVR. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:02,498 - DEBUG - <Response [200]>
+2025-12-29 15:30:02,511 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:02,516 - WARNING -    [Price] No valid data for IOC. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:04,049 - DEBUG - <Response [200]>
+2025-12-29 15:30:04,058 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:04,061 - WARNING -    [Price] No valid data for KOTAKBANK. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:05,838 - DEBUG - <Response [200]>
+2025-12-29 15:30:05,848 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:05,852 - WARNING -    [Price] No valid data for MARICO. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:07,358 - DEBUG - <Response [200]>
+2025-12-29 15:30:07,368 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:07,371 - WARNING -    [Price] No valid data for NESTLEIND. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:08,793 - DEBUG - <Response [200]>
+2025-12-29 15:30:08,805 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:08,808 - WARNING -    [Price] No valid data for RELIANCE. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:10,694 - DEBUG - <Response [200]>
+2025-12-29 15:30:10,705 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:10,709 - WARNING -    [Price] No valid data for SIEMENS. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:12,336 - DEBUG - <Response [200]>
+2025-12-29 15:30:12,344 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:12,351 - WARNING -    [Price] No valid data for TECHM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:13,852 - DEBUG - <Response [200]>
+2025-12-29 15:30:13,862 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:13,871 - WARNING -    [Price] No valid data for LTIM. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:15,622 - DEBUG - <Response [200]>
+2025-12-29 15:30:15,636 - DEBUG - Get Quotes response : {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:15,639 - WARNING -    [Price] No valid data for ADANIENSOL. Response: {'Success': None, 'Status': 500, 'Error': 'Check stock code:Stock may not be available for trading on website or on the selected exchange'}
+2025-12-29 15:30:15,646 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-29 15:31:15,650 - INFO -  [Market Closed] 15:31:15 - Sleeping for 5 mins...
+2025-12-29 15:36:15,659 - INFO -  [Market Closed] 15:36:15 - Sleeping for 5 mins...
+2025-12-29 15:41:15,669 - INFO -  [Market Closed] 15:41:15 - Sleeping for 5 mins...
+2025-12-29 15:46:15,674 - INFO -  [Market Closed] 15:46:15 - Sleeping for 5 mins...
+2025-12-29 15:51:15,678 - INFO -  [Market Closed] 15:51:15 - Sleeping for 5 mins...
+2025-12-29 16:57:51,393 - INFO -  [Market Closed] 16:57:51 - Sleeping for 5 mins...
+2025-12-29 17:00:17,082 - INFO - 
+ [Main] Stopped by User.

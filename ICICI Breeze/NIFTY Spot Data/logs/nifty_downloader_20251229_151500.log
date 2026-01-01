@@ -1,0 +1,27 @@
+2025-12-29 15:15:00,278 - INFO - Script started.
+2025-12-29 15:15:00,281 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-29 15:15:01,587 - INFO - ====== WebDriver manager ======
+2025-12-29 15:15:04,015 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-29 15:15:05,154 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-29 15:15:06,257 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-29 15:15:08,649 - INFO - WebDriver version 143.0.7499.169 selected
+2025-12-29 15:15:08,657 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-29 15:15:08,657 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-29 15:15:09,707 - INFO - Driver downloading response is 200
+2025-12-29 15:15:10,462 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-29 15:15:11,872 - INFO - Driver has been saved in cache [C:\Users\Shivendra\.wdm\drivers\chromedriver\win64\143.0.7499.169]
+2025-12-29 15:15:33,351 - INFO - Session Generated Successfully.
+2025-12-29 15:15:33,351 - INFO - --- TEST CONNECTION START ---
+2025-12-29 15:15:34,507 - DEBUG - Get Historical data V2 response
+2025-12-29 15:15:34,529 - INFO - Test Call Response Type: <class 'dict'>
+2025-12-29 15:15:34,529 - INFO - Test Call Success. Records: 381
+2025-12-29 15:15:34,529 - INFO - --- TEST CONNECTION END ---
+2025-12-29 15:15:34,543 - INFO - Checking latest file: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-29 15:15:34,589 - INFO - Found existing year-wise data up to 2025-12-26 15:29:00.
+2025-12-29 15:15:34,589 - INFO - Starting download for NIFTY from 2025-12-27 to 2025-12-29
+2025-12-29 15:15:34,593 - INFO -  [Skipped] 2025-12-27 is a Weekend.
+2025-12-29 15:15:34,595 - INFO -  [Skipped] 2025-12-28 is a Weekend.
+2025-12-29 15:15:34,599 - INFO - Downloading NIFTY for 2025-12-29...
+2025-12-29 15:15:35,601 - DEBUG - Get Historical data V2 response
+2025-12-29 15:15:35,614 - INFO - Data appended to G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-29 15:15:36,117 - INFO - Download complete.

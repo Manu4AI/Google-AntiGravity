@@ -1,0 +1,60 @@
+name: Daily RSI & Paper Trade
+
+on:
+  schedule:
+    # Run at 10:45 UTC (4:15 PM IST) - Ensuring Valid Post-Market Data
+    - cron: '45 10 * * 1-5'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  run-trading-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Create Secrets Files
+        run: |
+          # Create directory structure just in case, though checkout handles it
+          mkdir -p "Script RSI Calculation"
+          mkdir -p "Telegram Integration"
+          
+          # Inject Secrets
+          echo '${{ secrets.GCP_CREDENTIALS }}' > "Script RSI Calculation/service_account.json"
+          echo '${{ secrets.TELEGRAM_CREDENTIALS }}' > "Telegram Integration/telegram_credentials.json"
+        shell: bash
+
+      - name: Run Main Orchestrator
+        run: |
+          python main_orchestrator.py
+        env:
+          PYTHONPATH: .
+          # Ensure UTF-8 for emoji support (Telegram/Logs)
+          PYTHONIOENCODING: utf-8
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          
+          # Add all modified files (Trade Book, Signals, Reports, Bhavcopy Data)
+          git add "Paper Trading Simulator/*.csv" "Paper Trading Simulator/*.xlsx"
+          git add "Script RSI Calculation/*.csv"
+          git add "NSE Bhavcopy/NSE_Bhavcopy_Adjusted_Data/*.csv"
+          
+          # Commit if there are changes
+          git commit -m "Auto-update: Paper Trade Book & Signals [skip ci]" || echo "No changes to commit"
+          git push

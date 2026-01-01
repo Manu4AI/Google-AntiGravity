@@ -1,0 +1,24 @@
+2025-12-28 01:33:23,431 - INFO - Script started.
+2025-12-28 01:33:23,431 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-28 01:33:24,223 - INFO - ====== WebDriver manager ======
+2025-12-28 01:33:25,732 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 01:33:26,482 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 01:33:27,217 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 01:33:28,848 - INFO - WebDriver version 143.0.7499.169 selected
+2025-12-28 01:33:28,858 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-28 01:33:28,858 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-28 01:33:29,581 - INFO - Driver downloading response is 200
+2025-12-28 01:33:30,339 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 01:33:31,239 - INFO - Driver has been saved in cache [C:\Users\Shivendra\.wdm\drivers\chromedriver\win64\143.0.7499.169]
+2025-12-28 01:33:41,032 - WARNING -  [Warning] API Maintenance error ignored. FORCING Session Injection.
+2025-12-28 01:33:41,032 - INFO - Session Generated Successfully.
+2025-12-28 01:33:41,032 - INFO - --- TEST CONNECTION START ---
+2025-12-28 01:33:41,032 - INFO - Test Call Response Type: <class 'NoneType'>
+2025-12-28 01:33:41,039 - ERROR - Test Call FAILED. Response: None
+2025-12-28 01:33:41,039 - INFO - --- TEST CONNECTION END ---
+2025-12-28 01:33:41,053 - INFO - Checking latest file: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-28 01:33:41,083 - INFO - Found existing year-wise data up to 2025-12-26 15:29:00.
+2025-12-28 01:33:41,089 - INFO - Starting download for NIFTY from 2025-12-27 to 2025-12-28
+2025-12-28 01:33:41,089 - INFO -  [Skipped] 2025-12-27 is a Weekend.
+2025-12-28 01:33:41,093 - INFO -  [Skipped] 2025-12-28 is a Weekend.
+2025-12-28 01:33:41,093 - INFO - Download complete.

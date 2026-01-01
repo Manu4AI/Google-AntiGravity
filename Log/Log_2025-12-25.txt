@@ -1,0 +1,79 @@
+Starting RSI Workflow Orchestrator at 2025-12-25 08:53:07.995217
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 19.03 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Data Downloaded.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 26.21 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 313.94 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 2.78 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 44.27 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 63.97 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 7 completed in 4.67 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+[-] New Bhavcopy Downloaded: NO (Might be a holiday or already exists)
+[+] Stocks Updated: 102 / 105
+==============================
+

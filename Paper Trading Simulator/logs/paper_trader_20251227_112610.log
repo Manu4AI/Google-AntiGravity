@@ -1,0 +1,110 @@
+2025-12-27 11:26:10,334 - INFO -  Paper Trading Simulator (Capital Based: 10k/Trade)
+2025-12-27 11:26:10,339 - INFO -  [Init] Attempting Auto-Login...
+2025-12-27 11:26:11,860 - WARNING -  [Init] API Maintenance Error: Unexpected error: Unable to retrieve customer details at the moment. Please try again later.
+2025-12-27 11:26:11,861 - WARNING -  [Init] Proceeding assuming session is valid...
+2025-12-27 11:26:11,863 - INFO -  [Main] Startup... Monitoring Signals & Trades.
+2025-12-27 11:26:11,865 - INFO - 
+--- 11:26:11 ---
+2025-12-27 11:26:11,866 - INFO -  [Signals] Checking for new signals...
+2025-12-27 11:26:11,905 - INFO -  [Signals] No new unique signals.
+2025-12-27 11:26:11,907 - INFO -  [Monitor] Checking Open Positions...
+2025-12-27 11:26:11,919 - WARNING -    [Price] No valid data for ADANIENT. Response: None
+2025-12-27 11:26:11,920 - WARNING -    [Price] No valid data for AXISBANK. Response: None
+2025-12-27 11:26:11,920 - WARNING -    [Price] No valid data for BRITANNIA. Response: None
+2025-12-27 11:26:11,921 - WARNING -    [Price] No valid data for HCLTECH. Response: None
+2025-12-27 11:26:11,922 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: None
+2025-12-27 11:26:11,923 - WARNING -    [Price] No valid data for HINDUNILVR. Response: None
+2025-12-27 11:26:11,923 - WARNING -    [Price] No valid data for IOC. Response: None
+2025-12-27 11:26:11,923 - WARNING -    [Price] No valid data for KOTAKBANK. Response: None
+2025-12-27 11:26:11,924 - WARNING -    [Price] No valid data for MARICO. Response: None
+2025-12-27 11:26:11,924 - WARNING -    [Price] No valid data for NESTLEIND. Response: None
+2025-12-27 11:26:11,925 - WARNING -    [Price] No valid data for RELIANCE. Response: None
+2025-12-27 11:26:11,925 - WARNING -    [Price] No valid data for SIEMENS. Response: None
+2025-12-27 11:26:11,926 - WARNING -    [Price] No valid data for TECHM. Response: None
+2025-12-27 11:26:11,926 - WARNING -    [Price] No valid data for LTIM. Response: None
+2025-12-27 11:26:11,927 - WARNING -    [Price] No valid data for ADANIENSOL. Response: None
+2025-12-27 11:26:11,929 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-27 11:27:11,937 - INFO - 
+--- 11:27:11 ---
+2025-12-27 11:27:11,937 - INFO -  [Signals] Checking for new signals...
+2025-12-27 11:27:11,968 - INFO -  [Signals] No new unique signals.
+2025-12-27 11:27:11,968 - INFO -  [Monitor] Checking Open Positions...
+2025-12-27 11:27:11,978 - WARNING -    [Price] No valid data for ADANIENT. Response: None
+2025-12-27 11:27:11,980 - WARNING -    [Price] No valid data for AXISBANK. Response: None
+2025-12-27 11:27:11,981 - WARNING -    [Price] No valid data for BRITANNIA. Response: None
+2025-12-27 11:27:11,982 - WARNING -    [Price] No valid data for HCLTECH. Response: None
+2025-12-27 11:27:11,984 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: None
+2025-12-27 11:27:11,986 - WARNING -    [Price] No valid data for HINDUNILVR. Response: None
+2025-12-27 11:27:11,988 - WARNING -    [Price] No valid data for IOC. Response: None
+2025-12-27 11:27:11,989 - WARNING -    [Price] No valid data for KOTAKBANK. Response: None
+2025-12-27 11:27:11,990 - WARNING -    [Price] No valid data for MARICO. Response: None
+2025-12-27 11:27:11,991 - WARNING -    [Price] No valid data for NESTLEIND. Response: None
+2025-12-27 11:27:11,992 - WARNING -    [Price] No valid data for RELIANCE. Response: None
+2025-12-27 11:27:11,992 - WARNING -    [Price] No valid data for SIEMENS. Response: None
+2025-12-27 11:27:11,993 - WARNING -    [Price] No valid data for TECHM. Response: None
+2025-12-27 11:27:11,994 - WARNING -    [Price] No valid data for LTIM. Response: None
+2025-12-27 11:27:11,995 - WARNING -    [Price] No valid data for ADANIENSOL. Response: None
+2025-12-27 11:27:11,996 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-27 11:28:12,004 - INFO - 
+--- 11:28:12 ---
+2025-12-27 11:28:12,006 - INFO -  [Signals] Checking for new signals...
+2025-12-27 11:28:12,038 - INFO -  [Signals] No new unique signals.
+2025-12-27 11:28:12,038 - INFO -  [Monitor] Checking Open Positions...
+2025-12-27 11:28:12,054 - WARNING -    [Price] No valid data for ADANIENT. Response: None
+2025-12-27 11:28:12,058 - WARNING -    [Price] No valid data for AXISBANK. Response: None
+2025-12-27 11:28:12,058 - WARNING -    [Price] No valid data for BRITANNIA. Response: None
+2025-12-27 11:28:12,059 - WARNING -    [Price] No valid data for HCLTECH. Response: None
+2025-12-27 11:28:12,063 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: None
+2025-12-27 11:28:12,064 - WARNING -    [Price] No valid data for HINDUNILVR. Response: None
+2025-12-27 11:28:12,065 - WARNING -    [Price] No valid data for IOC. Response: None
+2025-12-27 11:28:12,065 - WARNING -    [Price] No valid data for KOTAKBANK. Response: None
+2025-12-27 11:28:12,069 - WARNING -    [Price] No valid data for MARICO. Response: None
+2025-12-27 11:28:12,070 - WARNING -    [Price] No valid data for NESTLEIND. Response: None
+2025-12-27 11:28:12,073 - WARNING -    [Price] No valid data for RELIANCE. Response: None
+2025-12-27 11:28:12,074 - WARNING -    [Price] No valid data for SIEMENS. Response: None
+2025-12-27 11:28:12,075 - WARNING -    [Price] No valid data for TECHM. Response: None
+2025-12-27 11:28:12,076 - WARNING -    [Price] No valid data for LTIM. Response: None
+2025-12-27 11:28:12,077 - WARNING -    [Price] No valid data for ADANIENSOL. Response: None
+2025-12-27 11:28:12,078 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-27 11:29:12,085 - INFO - 
+--- 11:29:12 ---
+2025-12-27 11:29:12,086 - INFO -  [Signals] Checking for new signals...
+2025-12-27 11:29:12,122 - INFO -  [Signals] No new unique signals.
+2025-12-27 11:29:12,124 - INFO -  [Monitor] Checking Open Positions...
+2025-12-27 11:29:12,137 - WARNING -    [Price] No valid data for ADANIENT. Response: None
+2025-12-27 11:29:12,138 - WARNING -    [Price] No valid data for AXISBANK. Response: None
+2025-12-27 11:29:12,140 - WARNING -    [Price] No valid data for BRITANNIA. Response: None
+2025-12-27 11:29:12,144 - WARNING -    [Price] No valid data for HCLTECH. Response: None
+2025-12-27 11:29:12,145 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: None
+2025-12-27 11:29:12,146 - WARNING -    [Price] No valid data for HINDUNILVR. Response: None
+2025-12-27 11:29:12,147 - WARNING -    [Price] No valid data for IOC. Response: None
+2025-12-27 11:29:12,148 - WARNING -    [Price] No valid data for KOTAKBANK. Response: None
+2025-12-27 11:29:12,149 - WARNING -    [Price] No valid data for MARICO. Response: None
+2025-12-27 11:29:12,150 - WARNING -    [Price] No valid data for NESTLEIND. Response: None
+2025-12-27 11:29:12,152 - WARNING -    [Price] No valid data for RELIANCE. Response: None
+2025-12-27 11:29:12,154 - WARNING -    [Price] No valid data for SIEMENS. Response: None
+2025-12-27 11:29:12,158 - WARNING -    [Price] No valid data for TECHM. Response: None
+2025-12-27 11:29:12,160 - WARNING -    [Price] No valid data for LTIM. Response: None
+2025-12-27 11:29:12,161 - WARNING -    [Price] No valid data for ADANIENSOL. Response: None
+2025-12-27 11:29:12,162 - INFO -  [Sleep] Waiting 60 seconds...
+2025-12-27 11:30:12,170 - INFO - 
+--- 11:30:12 ---
+2025-12-27 11:30:12,170 - INFO -  [Signals] Checking for new signals...
+2025-12-27 11:30:12,203 - INFO -  [Signals] No new unique signals.
+2025-12-27 11:30:12,207 - INFO -  [Monitor] Checking Open Positions...
+2025-12-27 11:30:12,221 - WARNING -    [Price] No valid data for ADANIENT. Response: None
+2025-12-27 11:30:12,222 - WARNING -    [Price] No valid data for AXISBANK. Response: None
+2025-12-27 11:30:12,223 - WARNING -    [Price] No valid data for BRITANNIA. Response: None
+2025-12-27 11:30:12,228 - WARNING -    [Price] No valid data for HCLTECH. Response: None
+2025-12-27 11:30:12,228 - WARNING -    [Price] No valid data for HEROMOTOCO. Response: None
+2025-12-27 11:30:12,230 - WARNING -    [Price] No valid data for HINDUNILVR. Response: None
+2025-12-27 11:30:12,231 - WARNING -    [Price] No valid data for IOC. Response: None
+2025-12-27 11:30:12,232 - WARNING -    [Price] No valid data for KOTAKBANK. Response: None
+2025-12-27 11:30:12,233 - WARNING -    [Price] No valid data for MARICO. Response: None
+2025-12-27 11:30:12,236 - WARNING -    [Price] No valid data for NESTLEIND. Response: None
+2025-12-27 11:30:12,240 - WARNING -    [Price] No valid data for RELIANCE. Response: None
+2025-12-27 11:30:12,241 - WARNING -    [Price] No valid data for SIEMENS. Response: None
+2025-12-27 11:30:12,242 - WARNING -    [Price] No valid data for TECHM. Response: None
+2025-12-27 11:30:12,243 - WARNING -    [Price] No valid data for LTIM. Response: None
+2025-12-27 11:30:12,244 - WARNING -    [Price] No valid data for ADANIENSOL. Response: None
+2025-12-27 11:30:12,245 - INFO -  [Sleep] Waiting 60 seconds...

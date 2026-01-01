@@ -1,0 +1,329 @@
+<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>
+	Idirect Web API Registration
+</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link type="text/css" rel="Stylesheet" href="Styles/bootstrap.css"><link type="text/css" rel="Stylesheet" href="Styles/style.css">    
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jscomm.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <style>
+         .navbar {
+            background: linear-gradient(0deg, #BE2A2A 5.9%, #EF7F1A 94.28%);
+            position: sticky;
+            top: 0;
+            z-index: 99;
+            padding: 0;
+        }
+
+    </style>
+    
+    </head>
+<body>    
+    <header>	                  
+         <nav class="navbar box-shadow-navbar ">
+        <div class="container-fluid">
+                <div class="w-100">
+                    <div class="d-flex gap-3 align-items-center justify-content-between">
+                        <div>
+                            <div class="d-flex">
+                                <a href="https://secure.icicidirect.com">
+                                    <img src="https://api.icicidirect.com/apiuser/images/ICICI-logo-white.svg" alt="ICICI Direct Breeze" class="img-fluid navbar-logo d-md-block d-none" style="height: 52px;">
+                                </a><a href="https://secure.icicidirect.com">
+                                    <img src="https://api.icicidirect.com/apiuser/images/ICICI-logo-mob.svg" alt="ICICI Direct Breeze" class="img-fluid navbar-logo d-block d-md-none" style="height: 34px; width: 75px">
+                                </a>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+             </nav>
+        <div id="dvHome" class="container border">
+           <div class="text-right">
+                
+            </div>
+        </div>
+    </header> 
+    <form method="post" action="tradelogin" id="form1">
+<div class="aspNetHidden">
+
+</div>
+
+   
+        
+    <div id="pnlLogmain">
+	
+
+<script type="text/javascript" src="scripts/loginpassencrypt.js"></script>
+<script type="text/javascript" src="scripts/RSA.js"></script>
+<script type="text/javascript" src="scripts/Barrett.js"></script>
+<script type="text/javascript" src="scripts/BigInt.js"></script>
+<script type="text/javascript">
+    let timerId ='';
+    let timeLeft =30;
+    $(document).keypress(function (event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            if($('#dvgetotp').is(':visible') )
+            {}
+            else
+            {
+                submitform();
+            }
+            
+        }
+    });
+    $(document).ready(function () {
+        $('#btnhome').hide();
+    });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            rsaE = $('#hidenc').val().split('~')[0];
+            rsaM = $('#hidenc').val().split('~')[1];
+        });
+        function submitform() {
+            if (!CheckFormValidation($('#pnlLogmain'))) { return false; }
+            
+                if(!$('#chkssTnc').is(':checked')){
+                    alert('Please select Terms and Conditons checkbox.');
+                    return false;
+                }
+          
+            $('#hidp').val(cmdEncrypt($.trim($('#txtPass').val())));
+            ////$('#hiddob').val(cmdEncrypt($.trim($('#txtdob').val())));
+            $('#txtPass').val('************');
+            $('#txtdob').val('************');
+            /////PostForm("https://api.icicidirect.com/apiuser/tradelogin/validateuser", $('#form1'), $('#pnlLogmain'));
+            PostForm("https://api.icicidirect.com/apiuser/tradelogin/getotp", $('#form1'), $('#dvgetotp'));
+        }
+
+        function submitotp() {
+            let _obj = $('#pnlOTP').find('input[tg-nm=otp]');
+            let _opt = '';
+                for(var i=0; i<_obj.length;i++)
+                {
+                    _opt += $(_obj[i]).val();
+                }
+                if(_opt == "")
+                {
+                    Show_Err(null, 'Please enter OTP' ,true,$('#otperr'));
+                    $(_f).find('input[tg-nm=otp]:first').focus();
+                    return false;
+                }
+                else
+                {
+                    if(_opt.length != 6 )
+                    {
+                        Show_Err(null, 'Please enter OTP' ,true,$('#otperr'));
+                        $(_f).find('input[tg-nm=otp]:last').focus();
+                        return false;
+                    }
+                }
+           $('#hiotp').val(_opt) ;
+            PostForm("https://api.icicidirect.com/apiuser/tradelogin/validateuser", $('#form1'), $('#pnlLogmain'));
+            
+        }
+      
+      function regenotp()
+      {
+         PostForm("https://api.icicidirect.com/apiuser/tradelogin/regenotp", $('#form1'), $('#dvgetotp'));
+      }
+
+      function goforotp()
+      {
+          $('#hiforotp').val('Y');
+          PostForm("https://api.icicidirect.com/apiuser/tradelogin/goforotp", $('#form1'), $('#dvgetotp'));
+      }
+
+      function seteye()
+        {
+            let _o = $(event.target).parent('.password-group'); 
+            if($(_o).find('input').attr("type") == "text")
+            {
+                $(_o).find('input').attr("type" ,"password");
+                $(_o).find('i').addClass("bi-eye-slash");
+                $(_o).find('i').removeClass("bi-eye");
+            }
+            else
+            {
+                $(_o).find('input').attr("type" ,"text");
+                $(_o).find('i').removeClass("bi-eye-slash");
+                $(_o).find('i').addClass("bi-eye");
+            }
+        }
+
+    </script>
+<div class="container border">
+    <div class="row mt-3">
+        <div id="dvloginmain" class="col-lg-8  col-xl-6  col-md-12 col-sm-12" style="display: none;">
+            <div class="jumbotron p-3 mb-0">
+                <h5>Login<!--/h5--> 
+            </h5></div>
+            <div class="border p-3">
+                <div class="mt-4 p-2">
+                     <div class="form-group_log">
+                        <input type="text" id="txtuid" autocomplete="off" maxlength="50" fieldname="User/Login Id" validationchk="EmptyCheck validateUserId" invalidmsg="User Id contains invalid characters. Please re-enter the User Id">
+                        <label for="input" class="control-label">User Id</label>
+                        <i class="bar"></i> 
+                     </div>
+                     <div class="m-1">&nbsp;</div>
+                     <div class="form-group_log ">
+                      <div class="input-field  password-group">
+                        <input type="password" id="txtPass" autocomplete="off" maxlength="16" fieldname="Password" validationchk="EmptyCheck " style="display:inline-block;width:95%">
+                         <i class="bi bi-eye-slash" onclick="seteye()" id="togglePassword" style="position:absolute;top:5px;float:right;"></i>                       
+                        <label for="input" class="control-label">Password / PIN</label>
+                        <i class="bar"></i> 
+                        </div>
+                        <input type="hidden" id="hidp" value="9b737ec2daa0fa8cfce346d4c6ad40e176a6cd7da91f7d446ecd2c365c29032f9dbbada1b8590ab10db1cddf29c93742136255f8500cc6ad09a84a99f7ea3619ce7e87d3e88e8ed5baddba5deb2fdd4599a381618987c9c0e099a7699db97cf585cffb19346a022793fe47cb93c43c6d44f4259191607f5a2e6813921fb44d66">
+                     </div>
+                     
+                     <div id="pnlSenSibullTnC" class="form-group">
+		
+                        <div class="checkbox">
+                            <input type="checkbox" id="chkssTnc" value="Y">
+                            <label for="chkssTnc">I agree to the <a href="javascript://" onclick="window.open('https://www.icicidirect.com/mailimages/TNCAPIservices.htm','API TnC','toolbar=no,scrollbars=yes,resizable=yes,top=500,left=500,width=600,height=600')" style="text-decoration:underline">terms and conditions </a></label>
+                        </div> 
+                     
+	</div>
+                     <div class="form-group pb-2 text-center">
+                            <input type="button" id="btnSubmit" value="Login" onclick="submitform()" class="btn btn-theme ">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidenc" id="hidenc" value="010001~D15FAB8E926B9532B47719849D5BCE83028ED4472883A4C76720A5AA623A94B637F74EF9A4A3E4A334132F9B105D1FD1A0110C6EBF42E8349B90BE01718654ACD3AF32440E868DC0732756BCA4931872A4477B6FB82A665F3B3171B5A374FD2159C6BB0B9980115321BA9E1C7D2D9AA9E9EDBB48B7199D118554C5689AFF999D">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidplk" id="hidplk" value="pOEH4VeMkU2V09oin8uPTi9B9ZYT30oB3v/F+aUbZn6M0BPNp+PjNA==">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidredurl" id="hidredurl" value="XTCpi9+IqlSOJZtAGUW61hHI11LApTEY">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidslk" id="hidslk" value="MNLpwR0u7HY6lANUMGOl6gc9AdMjt1rodGxluXXPO33M8GzZFrBoBsVo4gmwmd/RtmJ4A+n1c9jg8XHn2Lt4ijNRY126SkrEfBLoyfHmbEzhULbzVW9O/06WkAGRNYTWdYBz6PQm8Mu23atw8QdYC6nNSSCDoJUFJRNZ3YcdlWKb1wuah3aN7NAI9XndW8Vbtd6fn32hpHyMKKCddWq0czcja8Yy//DbI6GxE9SQiMhjMOVmM4sv5G/r+IyLO5AWxtDgu6eK/ezZdKcLnbFLwQIYErdXKUmHFJ5Hud0CPb+bev9AxpVF94aicibHc2qtdaOdd557pAMn+PBW2J9EIiPkPjD3cNrG6avlOQNWkPvxx/G1Nhd3oEZj68eg9oR1nXH+Q9KsIZ1SGfJbk6fWEEPkuujHfi02e4FaF2xWNipWMDyTu5etau+8/TW3LMkH79xb3QHOn/q1wdh/1v5oOmGZjHciU70z8Emsn1N9tp4lBtWAWib7ahn3vDj411ZNyVo6anj0p0ivzJ+EsNdgcoyqa1xqq4/jk+IjaCfW/MCh30MoBRuj03VKpWIVJCagylinWSgZzIGQGQvhNW2KMXS2Rza0GYyesIDPJzHpCgJhXAktwHcXJMQs929nOiz0a6woYWL7xdoV2ii/dMIsD4n+hLCT87gcOEE+9hiQg7JHdRd3qGOs51cmIVTomhw+8EY/UGxLwx0d1J/RAh4NmX9tcN94hQ7jAYLCmKiYHAUHuufpvC5Sc237PVxahWEY99Bqy+Py4owNDFJT4sffHh2WDsFajtctPa35mgRj6KYTiDmH+yKoRoqqIauffESubx6ImWit7PazLiXflvK/oD1JwgynuzENo/QWEdSo3SD6jUfjYJz7baH371V4H310ohKuIsHe9qcyxKCVLIgJTb2BX5QKqY1X9Q7x4VzF1XKc5P3Gsmq1Tjm5esJqXjgQZR7ab+LjQ5k0VaBYtjZNmJiRdW8yCJJU/7t4qmvLapKElgBRaR4Nxk1W49/TnyItTGex3e3Y5dpXHv9ioAHauu6aTxXh78oFX/otlf+DzVTWKT5B1vuW+RFn41zGzJhv98bWaP6XpdrpK2hetTOj7SVEYtp9Q2AfhXO4AI/3dJZ9H1aojnQuvTc5Kq1VQ/7edmEYKW8NrEuWJ1uiAKi11PWLkasVScSu4p+ljtyQXeiHSj6VMDfRbN0Kaam1K6tS8p0zRac5GdA=">
+                             <input type="hidden" name="ctl00$ContentPlaceHolder1$hidPATH" id="hidPATH">
+                             <input type="hidden" name="ctl00$ContentPlaceHolder1$hidPARAM" id="hidPARAM">
+                              <input type="hidden" name="ctl00$ContentPlaceHolder1$hidpaths" id="hidpaths">
+                             <input type="hidden" name="ctl00$ContentPlaceHolder1$hidparams" id="hidparams">
+                             <input type="hidden" id="hiddob" value="">
+                      </div>
+
+                </div>                
+            </div>
+            <div class="pb-3"></div>
+        </div> 
+        <div id="dvgetotp" class="col-lg-8  col-xl-6  col-md-12 col-sm-12" style=""><div id="pnlOTP">
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style type="text/css">
+  .btn-theme {
+    background: #e27a3b;
+    border: 1px solid #e27a3b;
+    color: #ffffff;
+}
+</style>
+
+     <div class="jumbotron p-3 mb-0">
+         <span style="cursor:pointer" onclick="$('#dvloginmain').show();$('#dvgetotp').hide();$('#txtPass').val('');" class="float-start txt-gray"><i class="bi bi-arrow-left"></i></span>
+           <h5 style="margin-left:50px;">Verify TOTP</h5> 
+    </div>
+    <div class="border p-3">
+        
+        <div>Use your Google authenticator app to generate a 6 digit code</div>
+                
+        <div class="mt-4 p-2">
+            <div class="form-group_log">                
+                 <div class="d-flex  align-items-center">
+                    <div><img src="https://api.icicidirect.com/apiuser/BaseMasterPage/images/DP.svg" alt=""></div>
+                    <div class="title-h2 m-l-15" style="font-size:14px;">SHIVENDRA   HUF </div>
+                </div>  
+            </div>
+            <div class="m-1">&nbsp;</div>
+            <div class="form-group_log">
+                <div class="input-field" style="text-align:center;font-size:16px;">
+                    <div style="width:15%;display:inline-block"><input style="border-bottom:1px solid;" type="text" decimal="true" inputmode="decimal" autocomplete="off" tg-nm="otp" tg-ord="first" class="form-control-2 h-auto lh-base text-center" maxlength="1" placeholder=""></div>
+                    <div style="width:15%;display:inline-block"><input style="border-bottom:1px solid;" type="text" decimal="true" inputmode="decimal" autocomplete="off" tg-nm="otp" class="form-control-2 h-auto lh-base text-center" maxlength="1" placeholder=""></div>
+                    <div style="width:15%;display:inline-block"><input style="border-bottom:1px solid;" type="text" decimal="true" inputmode="decimal" autocomplete="off" tg-nm="otp" class="form-control-2 h-auto lh-base text-center" maxlength="1" placeholder=""></div>
+                    <div style="width:15%;display:inline-block"><input style="border-bottom:1px solid;" type="text" decimal="true" inputmode="decimal" autocomplete="off" tg-nm="otp" class="form-control-2 h-auto lh-base text-center" maxlength="1" placeholder=""></div>
+                    <div style="width:15%;display:inline-block"><input style="border-bottom:1px solid;" type="text" decimal="true" inputmode="decimal" autocomplete="off" tg-nm="otp" class="form-control-2 h-auto lh-base text-center" maxlength="1" placeholder=""></div>
+                    <div style="width:15%;display:inline-block"><input style="border-bottom:1px solid;" type="text" decimal="true" inputmode="decimal" autocomplete="off" tg-nm="otp" tg-ord="last" class="form-control-2 h-auto lh-base text-center" maxlength="1" placeholder=""></div>
+                </div>
+                <input type="hidden" id="hiotp">                                
+            </div>                            
+            <div class="form-group pb-2 text-center">
+                <input type="button" id="Button1" value="Submit" onclick="submitotp()" class="btn btn-theme ">   
+                <input type="hidden" id="hitk" value="86776727">
+                <input type="hidden" id="udid" value="">
+                <input type="hidden" id="hidsd" value="RTBx7uFRerzNnFpTcY85jIzQE82n4+M0">
+                <input type="hidden" id="hiistotp" value="Y">
+                <input type="hidden" id="hiforotp" value="N">
+            </div>
+            <div id="dvreotp">
+                
+                    Having issues? <a href="javascript://" onclick="goforotp();">Verify with OTP</a>
+                
+            </div>
+        </div>                
+    </div>
+    <script type="text/javascript">
+        timeLeft = 30;
+        $(document).ready(function () {
+            $('#dvloginmain').hide();
+            $('#dvgetotp').show();
+             $('#pnlOTP').find('input[tg-ord=first]').focus();
+             OtpKeyUpcheck($('#dvgetotp'));
+             
+             if (window.localStorage.getItem("UUID") != null && window.localStorage.getItem("UUID") != undefined && window.localStorage.getItem("UUID") != "")
+             {
+                $('#udid').val(window.localStorage.getItem("UUID"));
+             }
+
+        });
+
+        function OtpKeyUpcheck(_n) 
+        {
+            $(_n).find('input[tg-nm=otp]').bind('keyup',(event)=>{                 
+                let _c = $(event.target);       
+                if(event.keyCode == 8 ) {
+                   $(_c).parent().prev().find('input').focus();                    
+                }
+                else
+                {
+                   if( $.trim($(_c).val()) == "" ){ $(_c).val(''); return false; }
+                   if( $(_c).attr('tg-ord') == "last"){
+               
+                   }   
+                   else
+                   {
+                       $(_c).parent().next().find('input').focus();
+                   }                                         
+                }                     
+           });
+      }
+
+      function countdown() {        
+        if (timeLeft == 0) {
+          clearTimeout(timerId);
+          ////$(_nw).empty();
+          $('#dvreotp').html($('<a href="javascript://" onclick="regenotp()" >Resend OTP</a>'));
+      
+        } else {
+          $('#dvreotp').html('Resend OTP in 0:' + timeLeft + ' Secs');
+          timeLeft--;
+        }
+      }
+
+    </script>
+
+</div></div>           
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+    
+  
+<div class="aspNetHidden">
+
+
+
+</div></form>
+
+
+</body></html>

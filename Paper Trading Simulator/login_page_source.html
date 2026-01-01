@@ -1,0 +1,225 @@
+<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>
+	Idirect Web API Registration
+</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link type="text/css" rel="Stylesheet" href="Styles/bootstrap.css"><link type="text/css" rel="Stylesheet" href="Styles/style.css">    
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jscomm.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <style>
+         .navbar {
+            background: linear-gradient(0deg, #BE2A2A 5.9%, #EF7F1A 94.28%);
+            position: sticky;
+            top: 0;
+            z-index: 99;
+            padding: 0;
+        }
+
+    </style>
+    
+    </head>
+<body>    
+    <header>	                  
+         <nav class="navbar box-shadow-navbar ">
+        <div class="container-fluid">
+                <div class="w-100">
+                    <div class="d-flex gap-3 align-items-center justify-content-between">
+                        <div>
+                            <div class="d-flex">
+                                <a href="https://secure.icicidirect.com">
+                                    <img src="https://api.icicidirect.com/apiuser/images/ICICI-logo-white.svg" alt="ICICI Direct Breeze" class="img-fluid navbar-logo d-md-block d-none" style="height: 52px;">
+                                </a><a href="https://secure.icicidirect.com">
+                                    <img src="https://api.icicidirect.com/apiuser/images/ICICI-logo-mob.svg" alt="ICICI Direct Breeze" class="img-fluid navbar-logo d-block d-md-none" style="height: 34px; width: 75px">
+                                </a>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+             </nav>
+        <div id="dvHome" class="container border">
+           <div class="text-right">
+                
+            </div>
+        </div>
+    </header> 
+    <form method="post" action="tradelogin" id="form1">
+<div class="aspNetHidden">
+
+</div>
+
+   
+        
+    <div id="pnlLogmain">
+	
+
+<script type="text/javascript" src="scripts/loginpassencrypt.js"></script>
+<script type="text/javascript" src="scripts/RSA.js"></script>
+<script type="text/javascript" src="scripts/Barrett.js"></script>
+<script type="text/javascript" src="scripts/BigInt.js"></script>
+<script type="text/javascript">
+    let timerId ='';
+    let timeLeft =30;
+    $(document).keypress(function (event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            if($('#dvgetotp').is(':visible') )
+            {}
+            else
+            {
+                submitform();
+            }
+            
+        }
+    });
+    $(document).ready(function () {
+        $('#btnhome').hide();
+    });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            rsaE = $('#hidenc').val().split('~')[0];
+            rsaM = $('#hidenc').val().split('~')[1];
+        });
+        function submitform() {
+            if (!CheckFormValidation($('#pnlLogmain'))) { return false; }
+            
+                if(!$('#chkssTnc').is(':checked')){
+                    alert('Please select Terms and Conditons checkbox.');
+                    return false;
+                }
+          
+            $('#hidp').val(cmdEncrypt($.trim($('#txtPass').val())));
+            ////$('#hiddob').val(cmdEncrypt($.trim($('#txtdob').val())));
+            $('#txtPass').val('************');
+            $('#txtdob').val('************');
+            /////PostForm("https://api.icicidirect.com/apiuser/tradelogin/validateuser", $('#form1'), $('#pnlLogmain'));
+            PostForm("https://api.icicidirect.com/apiuser/tradelogin/getotp", $('#form1'), $('#dvgetotp'));
+        }
+
+        function submitotp() {
+            let _obj = $('#pnlOTP').find('input[tg-nm=otp]');
+            let _opt = '';
+                for(var i=0; i<_obj.length;i++)
+                {
+                    _opt += $(_obj[i]).val();
+                }
+                if(_opt == "")
+                {
+                    Show_Err(null, 'Please enter OTP' ,true,$('#otperr'));
+                    $(_f).find('input[tg-nm=otp]:first').focus();
+                    return false;
+                }
+                else
+                {
+                    if(_opt.length != 6 )
+                    {
+                        Show_Err(null, 'Please enter OTP' ,true,$('#otperr'));
+                        $(_f).find('input[tg-nm=otp]:last').focus();
+                        return false;
+                    }
+                }
+           $('#hiotp').val(_opt) ;
+            PostForm("https://api.icicidirect.com/apiuser/tradelogin/validateuser", $('#form1'), $('#pnlLogmain'));
+            
+        }
+      
+      function regenotp()
+      {
+         PostForm("https://api.icicidirect.com/apiuser/tradelogin/regenotp", $('#form1'), $('#dvgetotp'));
+      }
+
+      function goforotp()
+      {
+          $('#hiforotp').val('Y');
+          PostForm("https://api.icicidirect.com/apiuser/tradelogin/goforotp", $('#form1'), $('#dvgetotp'));
+      }
+
+      function seteye()
+        {
+            let _o = $(event.target).parent('.password-group'); 
+            if($(_o).find('input').attr("type") == "text")
+            {
+                $(_o).find('input').attr("type" ,"password");
+                $(_o).find('i').addClass("bi-eye-slash");
+                $(_o).find('i').removeClass("bi-eye");
+            }
+            else
+            {
+                $(_o).find('input').attr("type" ,"text");
+                $(_o).find('i').removeClass("bi-eye-slash");
+                $(_o).find('i').addClass("bi-eye");
+            }
+        }
+
+    </script>
+<div class="container border">
+    <div class="row mt-3">
+        <div id="dvloginmain" class="col-lg-8  col-xl-6  col-md-12 col-sm-12">
+            <div class="jumbotron p-3 mb-0">
+                <h5>Login<!--/h5--> 
+            </h5></div>
+            <div class="border p-3">
+                <div class="mt-4 p-2">
+                     <div class="form-group_log">
+                        <input type="text" id="txtuid" autocomplete="off" maxlength="50" fieldname="User/Login Id" validationchk="EmptyCheck validateUserId" invalidmsg="User Id contains invalid characters. Please re-enter the User Id">
+                        <label for="input" class="control-label">User Id</label>
+                        <i class="bar"></i> 
+                     </div>
+                     <div class="m-1">&nbsp;</div>
+                     <div class="form-group_log ">
+                      <div class="input-field  password-group">
+                        <input type="password" id="txtPass" autocomplete="off" maxlength="16" fieldname="Password" validationchk="EmptyCheck " style="display:inline-block;width:95%">
+                         <i class="bi bi-eye-slash" onclick="seteye()" id="togglePassword" style="position:absolute;top:5px;float:right;"></i>                       
+                        <label for="input" class="control-label">Password / PIN</label>
+                        <i class="bar"></i> 
+                        </div>
+                        <input type="hidden" id="hidp">
+                     </div>
+                     
+                     <div id="pnlSenSibullTnC" class="form-group">
+		
+                        <div class="checkbox">
+                            <input type="checkbox" id="chkssTnc" value="Y">
+                            <label for="chkssTnc">I agree to the <a href="javascript://" onclick="window.open('https://www.icicidirect.com/mailimages/TNCAPIservices.htm','API TnC','toolbar=no,scrollbars=yes,resizable=yes,top=500,left=500,width=600,height=600')" style="text-decoration:underline">terms and conditions </a></label>
+                        </div> 
+                     
+	</div>
+                     <div class="form-group pb-2 text-center">
+                            <input type="button" id="btnSubmit" value="Login" onclick="submitform()" class="btn btn-theme ">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidenc" id="hidenc" value="010001~B9C9BA9D9D43AAB54801D5A5BDC6B5A1F60D529224AD8FF67643718920BE6E1CF95A7A317C2228D5046ABBDB7C64456009A30EC61D8622592D0DFBACDC1781CAB6CFC963ADB6B3B0A50AA2E7F9ED3D5C0CB414DEE155139FEE3C3773AFF580025A2E9DB462AFB8B7D0D9D09803CB6BBEDE68E6000BBFE5C12D7C4EBFDB739F8D">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidplk" id="hidplk" value="pOEH4VeMkU2V09oin8uPTi9B9ZYT30oB3v/F+aUbZn6M0BPNp+PjNA==">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidredurl" id="hidredurl" value="XTCpi9+IqlSOJZtAGUW61hHI11LApTEY">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidslk" id="hidslk" value="MNLpwR0u7HY6lANUMGOl6i0hON2bMM1367FaJS8GZ3SCadYK4GMpvdngzeMTETWFgTscko7e0ZPftAIPnEngqh4S+vi+jAFiJAaH1vIr/9WoAGU5QALhk+tKOTOb92ooXrour1YUyABG4GUu6p51KLg6/XAoa8HCpQy8PRVCz257K30ReaaX6K+m2SbO7FSjt5xQm5nPc6pkNO8LMZyhfLZ7yjpHRrAzGJguw0CU2egaMStYFJezDLKDT65L0oimxtDgu6eK/ezZdKcLnbFLwQIYErdXKUmHFJ5Hud0CPb+bev9AxpVF916FWzGIOVVCinjcRiRF/59Hyd9l9xuk0oGK+QVzlJsrgmVT3UanoPSEPm4VXsbUwe/cJNgVU6bJ14uMz166jx30Achuw7rxqdxIVC1VlIDzNtOQb8zA/MCH5CTwiaceFCYWa6vVcPt3BZUWJJCFJMVDDON0FkNeMEeqYfKMg2Q59Akn74FRdOaEC3Hd8xffeOyyBY+/MCjtWW20LvNmy1vCdh0G/G+tBolPg4Ug4PauoQP1PQy/E3NSFeLcZBjiHj1MoSimoIEGR0O3tcbQ3BKKrebZlczMeUSe5DxpPBvAba29mhPFUCNZ3wQ6u2tt/Jz2IrcnM7kXJpe1Lw6vyJz9QoPswQP7omrOVkQFUXPMpEbs+hrLlDZHdRd3qGOs5+/rJs0LWIFuwPYj4AdxOgZTqi0M0AXwk5WfDWohbVYqINFEFYSU8SWZ1njmarPpSqYHhpUuDJ3FHSzMmg8oPFG/8l0ao8YkDtvjK+cFz+kjCC40sAIoEsITiDmH+yKoRvLg/bDFckERLVjZeynKoO2F3XpFyk6nBYxfKsUvC9USFxELD+oOA7kRy4QAoNM/5niYqdDjfgks35PYY1wx4jVnipCcBkhmO34AUulPMIAdIhDHAy81o/d8FHriHflhDzm5esJqXjgQlD6ZNOxcYkDRLCmqdErlCJN5Ql3ABPrg4FhXXxEE75t2M+UfSDljIHcqhIF/RDXKTmKHUII9/11ee414KY5prtEjBqYd3P8qpQ6QH3xcPCaOHdkkJ9+30ZdL6HKCDMO2r5AJV0rD+fDbF6p+mnfmgFzcXDVHkkRTlIqUZ/QjPuJX4CEKWIKpjLzABhVaTj2fMTyukEE8fW/VyGhU90n+lYw7fbirQnwzmZlAfMf2hPOHSj6VMDfRbN0Kaam1K6tS8p0zRac5GdA=">
+                             <input type="hidden" name="ctl00$ContentPlaceHolder1$hidPATH" id="hidPATH">
+                             <input type="hidden" name="ctl00$ContentPlaceHolder1$hidPARAM" id="hidPARAM">
+                              <input type="hidden" name="ctl00$ContentPlaceHolder1$hidpaths" id="hidpaths">
+                             <input type="hidden" name="ctl00$ContentPlaceHolder1$hidparams" id="hidparams">
+                             <input type="hidden" id="hiddob" value="">
+                      </div>
+
+                </div>                
+            </div>
+            <div class="pb-3"></div>
+        </div> 
+        <div id="dvgetotp" class="col-lg-8  col-xl-6  col-md-12 col-sm-12" style="display:none;"></div>           
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+    
+  
+<div class="aspNetHidden">
+
+
+
+</div></form>
+
+
+</body></html>

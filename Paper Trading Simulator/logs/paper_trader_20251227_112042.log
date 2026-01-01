@@ -1,0 +1,8 @@
+2025-12-27 11:20:42,743 - INFO -  Paper Trading Simulator (Capital Based: 10k/Trade)
+2025-12-27 11:20:42,748 - INFO -  [Init] Attempting Auto-Login...
+2025-12-27 11:20:43,628 - INFO - ====== WebDriver manager ======
+2025-12-27 11:20:45,116 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-27 11:20:45,871 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-27 11:20:46,570 - INFO - Driver [C:\Users\Shivendra\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-27 11:20:56,596 - ERROR -  [Init] Error connecting to Breeze: Unexpected error: Unable to retrieve customer details at the moment. Please try again later.
+2025-12-27 11:20:56,598 - ERROR - Failed to initialize. Exiting.

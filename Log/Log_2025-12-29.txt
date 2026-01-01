@@ -1,0 +1,1626 @@
+Starting RSI Workflow Orchestrator at 2025-12-29 17:10:12.714594
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 38.32 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Data Downloaded.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 38.27 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 501.94 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 3.09 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 36.07 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 58.70 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 7 completed in 4.06 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+[+] New Bhavcopy Downloaded: YES (2025-12-29)
+[+] Stocks Updated: 0 / 105
+==============================
+
+!!! DRY RUN MODE ACTIVE: Telegram notifications will be skipped !!!
+Starting RSI Workflow Orchestrator at 2025-12-29 18:34:56.058996
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 23.57 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[FAILED] Step 3 failed with error code 1.
+
+
+Starting RSI Workflow Orchestrator at 2025-12-29 18:46:12.903158
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 16.20 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[FAILED] Step 3 failed with error code 1.
+
+
+Starting RSI Workflow Orchestrator at 2025-12-29 18:48:26.561974
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.80 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+Starting RSI Workflow Orchestrator at 2025-12-29 18:50:32.151139
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.25 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+Starting RSI Workflow Orchestrator at 2025-12-29 18:55:42.316036
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.33 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+Starting RSI Workflow Orchestrator at 2025-12-29 19:00:17.837154
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.97 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+Starting RSI Workflow Orchestrator at 2025-12-29 19:06:23.031696
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 7.67 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 537.51 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 4.85 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 60.97 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 114.43 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 7 completed in 6.00 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+[+] New Bhavcopy Downloaded: YES (2025-12-29)
+[+] Stocks Updated: 0 / 105
+==============================
+
+
+[SUCCESS] Step 3 completed in 496.28 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 5.04 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 65.90 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 88.69 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 7 completed in 5.25 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+[+] New Bhavcopy Downloaded: YES (2025-12-29)
+[+] Stocks Updated: 0 / 105
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:21:02.794472
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.75 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 28.61 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+[+] New Bhavcopy Downloaded: YES (2025-12-29)
+[+] Stocks Updated: 0 / 105
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:24:53.000421
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.25 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 25.41 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+[+] New Bhavcopy Downloaded: YES (2025-12-29)
+[+] Stocks Updated: 0 / 105
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:28:46.379684
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.93 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 30.92 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:30:22.077373
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.65 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 23.50 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:38:15.491788
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.74 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 31.20 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:39:28.366576
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.94 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 28.47 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:46:24.779904
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.82 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 31.16 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 5.39 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 62.59 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 107.73 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 7 completed in 6.27 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [SUCCESS] New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [SUCCESS] 
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 19:57:55.681242
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+[ERROR] Error checking for missing symbols: name 'pd' is not defined
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 11.20 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process and no new symbols found.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+Starting RSI Workflow Orchestrator at 2025-12-29 19:58:20.524586
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.37 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 3 completed in 26.24 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+
+[SUCCESS] Step 2 completed in 412.65 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 28.53 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+Starting RSI Workflow Orchestrator at 2025-12-29 20:06:57.124565
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 9.61 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 27.01 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 6 completed in 128.83 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 3 completed in 27.48 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 7 completed in 6.07 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [SUCCESS] 
+==============================
+
+
+[SUCCESS] Step 4 completed in 7.19 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 81.42 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 130.69 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[SUCCESS] Step 7 completed in 6.17 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [SUCCESS] 
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 20:44:55.208043
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 4.45 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 14.01 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 13.25 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 3.10 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 36.90 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 57.39 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[FAILED] Step 7 failed with error code 1.
+
+
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [FAILED] 
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:02:34.206724
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 4.63 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 14.28 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 14.22 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 3.21 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 33.39 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 58.29 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[FAILED] Step 7 failed with error code 1.
+
+
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [FAILED] 
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:05:14.782586
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 4.87 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process and no new symbols found.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 14.03 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:08:31.354557
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 5.40 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 148.34 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 17.71 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 3.55 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 33.96 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 66.59 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[FAILED] Step 7 failed with error code 1.
+
+
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [SUCCESS] New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [FAILED] 
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:17:19.349166
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 7.51 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 393.91 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 28.39 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 5.78 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 8.06 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 126.57 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[FAILED] Step 7 failed with error code 1.
+
+
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [FAILED] 
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:28:06.488630
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.72 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process and no new symbols found.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 19.54 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:30:25.820077
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 10.97 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+>>> SKIPPING: No new Bhavcopy data to process and no new symbols found.
+============================================================
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 24.73 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Corporate Actions.
+============================================================
+STEP 4/7: Generating Adjustments
+>>> SKIPPING: No new Corporate Actions.
+============================================================
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+>>> SKIPPING: No new Corporate Actions to apply.
+============================================================
+
+============================================================
+STEP 6/7: Calculating RSI
+>>> SKIPPING: No new Data or Corporate Actions.
+============================================================
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+>>> SKIPPING: No new report to send.
+============================================================
+
+============================================================
+WORKFLOW COMPLETED
+============================================================
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SKIPPED] No new Bhavcopy
+3. Corporate Actions      : [DONE] No New CA Found
+4. Generate Adjustments   : [SKIPPED] No new CA
+5. Apply Adjustments      : [SKIPPED] No new CA
+6. RSI & Signals          : [SKIPPED] Data up to date
+7. Telegram Bot           : [SKIPPED] No signals to send
+==============================
+
+Starting RSI Workflow Orchestrator at 2025-12-29 21:31:51.856389
+Root Directory: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity
+>>> INFO: New symbols detected in Master List. Forcing data update.
+============================================================
+STEP 1/7: Downloading Daily Bhavcopy
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\1_NSE_bhavcopy_downloader.py
+Arguments: --mode check_today
+============================================================
+
+[SUCCESS] Step 1 completed in 8.31 seconds.
+[RETURN CODE] 20
+
+
+>>> RESULT: No New Data. subsequent price updates will be skipped.
+============================================================
+STEP 2/7: Updating Script-wise Data
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\2_Script_Wise_Updater.py
+============================================================
+
+[SUCCESS] Step 2 completed in 265.92 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 3/7: Checking Corporate Actions
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.1_NSE_corporate_actions.py
+============================================================
+
+[SUCCESS] Step 3 completed in 33.42 seconds.
+[RETURN CODE] 10
+
+
+>>> RESULT: New Corporate Actions Found.
+============================================================
+STEP 4/7: Generating Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\3.4_generate_adjustments.py
+============================================================
+
+[SUCCESS] Step 4 completed in 6.58 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 5/7: Applying Price Adjustments
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\NSE Bhavcopy\4_Update_Adjustment_Prices.py
+============================================================
+
+[SUCCESS] Step 5 completed in 69.19 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 6/7: Calculating RSI & Generating Signals
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Script RSI Calculation\Script_RSI_Calculator_Adjusted.py
+============================================================
+
+[SUCCESS] Step 6 completed in 102.81 seconds.
+[RETURN CODE] 0
+
+
+============================================================
+STEP 7/7: Sending Telegram Notification
+Script: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\Telegram Integration\Telegram_Bot_Sender.py
+============================================================
+
+[FAILED] Step 7 failed with error code 1.
+
+
+
+==============================
+      EXECUTION SUMMARY      
+==============================
+1. Bhavcopy Downloader    : [DONE] No New Data (Checked)
+2. Script-Wise Updater    : [SUCCESS] Updated stocks
+3. Corporate Actions      : [SUCCESS] New CA Found
+4. Generate Adjustments   : [SUCCESS] 
+5. Apply Adjustments      : [SUCCESS] 
+6. RSI & Signals          : [SUCCESS] 
+7. Telegram Bot           : [FAILED] 
+==============================
+

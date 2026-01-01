@@ -1,0 +1,3 @@
+2025-12-28 01:30:56,900 - INFO - Script started.
+2025-12-28 01:30:56,908 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-28 01:30:58,437 - ERROR - Failed to initialize API: Unexpected error: Session key is expired.

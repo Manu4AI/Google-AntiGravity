@@ -1,0 +1,10 @@
+pandas
+google-cloud-storage
+gspread
+oauth2client
+python-telegram-bot>=20.0
+schedule
+nselib
+openpyxl
+requests
+pandas_market_calendars

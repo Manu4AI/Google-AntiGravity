@@ -1,0 +1,7 @@
+2025-12-29 21:42:12,381 - INFO -  Paper Trading Simulator (Capital Based: 10k/Trade)
+2025-12-29 21:42:12,390 - INFO -  [Init] Attempting Auto-Login...
+2025-12-29 21:42:18,266 - DEBUG - <Response [200]>
+2025-12-29 21:42:18,451 - DEBUG - Get Quotes response : {'Success': [{'exchange_code': 'NSE', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 25942.1, 'ltt': '29-Dec-2025 16:00:00', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 26063.35, 'high': 26106.8, 'low': 25920.3, 'previous_close': 26042.3, 'ltp_percent_change': 0.38475864266981, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}, {'exchange_code': 'NA', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 0.0, 'ltt': 'NA', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 0.0, 'high': 0.0, 'low': 0.0, 'previous_close': 0.0, 'ltp_percent_change': 0.0, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}], 'Status': 200, 'Error': None}
+2025-12-29 21:42:22,167 - INFO -  [Init] Breeze Session Connected Successfully!
+2025-12-29 21:42:22,169 - INFO -  [Main] Startup... Monitoring Signals & Trades.
+2025-12-29 21:42:22,171 - INFO -  [Market Closed] 21:42:22 - Sleeping for 5 mins...

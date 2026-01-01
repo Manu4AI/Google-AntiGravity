@@ -1,0 +1,16 @@
+2025-12-28 01:51:41,423 - INFO - Script started.
+2025-12-28 01:51:41,423 - INFO - Initializing Breeze Connect via Auto-Login...
+2025-12-28 01:51:45,042 - DEBUG - <Response [200]>
+2025-12-28 01:51:45,052 - DEBUG - Get Quotes response : {'Success': [{'exchange_code': 'NSE', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 26042.3, 'ltt': '26-Dec-2025 16:00:00', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 26121.25, 'high': 26144.2, 'low': 26008.6, 'previous_close': 26142.1, 'ltp_percent_change': 0.381759690307971, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}, {'exchange_code': 'NA', 'product_type': '', 'stock_code': 'NIFTY', 'expiry_date': None, 'right': None, 'strike_price': 0.0, 'ltp': 0.0, 'ltt': 'NA', 'best_bid_price': 0.0, 'best_bid_quantity': '0', 'best_offer_price': 0.0, 'best_offer_quantity': '0', 'open': 0.0, 'high': 0.0, 'low': 0.0, 'previous_close': 0.0, 'ltp_percent_change': 0.0, 'upper_circuit': 0.0, 'lower_circuit': 0.0, 'total_quantity_traded': '0', 'spot_price': None}], 'Status': 200, 'Error': None}
+2025-12-28 01:51:47,355 - INFO - Session Generated Successfully.
+2025-12-28 01:51:47,356 - INFO - --- TEST CONNECTION START ---
+2025-12-28 01:51:48,573 - DEBUG - Get Historical data V2 response
+2025-12-28 01:51:48,573 - INFO - Test Call Response Type: <class 'dict'>
+2025-12-28 01:51:48,573 - INFO - Test Call Success. Records: 381
+2025-12-28 01:51:48,582 - INFO - --- TEST CONNECTION END ---
+2025-12-28 01:51:48,593 - INFO - Checking latest file: G:\Other computers\My Mac\Shivendra -Mac Sync\Google AntiGravity\ICICI Breeze\NIFTY Spot Data\NIFTY Spot Master Data\2025\NIFTY_Spot_1min_2025_12.csv
+2025-12-28 01:51:48,623 - INFO - Found existing year-wise data up to 2025-12-26 15:29:00.
+2025-12-28 01:51:48,623 - INFO - Starting download for NIFTY from 2025-12-27 to 2025-12-28
+2025-12-28 01:51:48,623 - INFO -  [Skipped] 2025-12-27 is a Weekend.
+2025-12-28 01:51:48,623 - INFO -  [Skipped] 2025-12-28 is a Weekend.
+2025-12-28 01:51:48,623 - INFO - Download complete.
