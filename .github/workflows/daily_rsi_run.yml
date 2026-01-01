@@ -56,6 +56,9 @@ jobs:
           git add "Paper Trading Simulator/*.csv" "Paper Trading Simulator/*.xlsx"
           git add "Script RSI Calculation/*.csv"
           git add "NSE Bhavcopy/NSE_Bhavcopy_Adjusted_Data/*.csv"
+          git add "NSE Bhavcopy/NSE_Bhavcopy_Master_Data/"
+          git add "NSE Bhavcopy/NSE_Bhavcopy_Scriptwsie_Data/"
+          git add "NSE Bhavcopy/NSE_Corporate_Actions_Data/"
           
           # Commit if there are changes
           git commit -m "Auto-update: Paper Trade Book & Signals [skip ci]" || echo "No changes to commit"
