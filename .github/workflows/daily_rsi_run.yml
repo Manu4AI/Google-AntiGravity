@@ -2,8 +2,8 @@ name: Daily RSI & Paper Trade
 
 on:
   schedule:
-    # Run at 12:00 UTC (5:30 PM IST) - Except Weekends
-    - cron: '0 12 * * 1-5'
+    # Run at 11:40 UTC (5:10 PM IST) to account for ~20m GitHub delay - Except Weekends
+    - cron: '40 11 * * 1-5'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
