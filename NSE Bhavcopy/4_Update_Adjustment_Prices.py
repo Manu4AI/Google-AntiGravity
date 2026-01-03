@@ -117,6 +117,11 @@ def update_adjustment_prices():
 
                     if pd.isnull(ex_date): continue
 
+                    # NEW: Skip adjustments that are in the future relative to our current data
+                    if df['date'].max() < ex_date:
+                        # Skip application until we actually reach the Ex-Date in the data
+                        continue
+
                     # Filter rows before ex_date
                     mask = df['date'] < ex_date
                     
