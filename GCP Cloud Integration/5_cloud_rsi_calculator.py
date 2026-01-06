@@ -19,7 +19,7 @@ class CloudRSICalculator:
         
         # Google Sheets Config
         self.service_account_file = "service_account.json" # Expected in same dir
-        self.sheet_name = "Script RSI Tracker"
+        self.sheet_name = "[Git] Script RSI Tracker"
         self.enable_sheets = True
 
     def load_master_symbols(self):

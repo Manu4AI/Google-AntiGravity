@@ -20,7 +20,7 @@ SERVICE_ACCOUNT_FILE = os.path.join(SCRIPT_DIR, "..", "Script RSI Calculation", 
 REPORT_FILE = os.path.join(SCRIPT_DIR, "..", "Script RSI Calculation", "Script_RSI_Strategy_Signals.csv")
 
 def get_sheet_url():
-    """Authenticates with GSheets and fetches the dynamic URL of 'Script RSI Tracker'."""
+    """Authenticates with GSheets and fetches the dynamic URL of '[Git] Script RSI Tracker'."""
     try:
         if not os.path.exists(SERVICE_ACCOUNT_FILE):
             print(f"[WARN] Service account not found at {SERVICE_ACCOUNT_FILE}, cannot fetch Sheet URL.")
@@ -31,7 +31,7 @@ def get_sheet_url():
         client = gspread.authorize(creds)
         
         # Open by Name
-        sh = client.open("Script RSI Tracker")
+        sh = client.open("[Git] Script RSI Tracker")
         return sh.url
     except Exception as e:
         print(f"[WARN] Could not fetch Sheet URL: {e}")

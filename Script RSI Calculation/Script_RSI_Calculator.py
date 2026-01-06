@@ -47,7 +47,7 @@ CONFIG = {
     'data_dir': DATA_DIR_PATH,
     'output_csv': os.path.join(BASE_DIR, "Script RSI Report.csv"),
     'service_account_file': os.path.join(BASE_DIR, "service_account.json"),
-    'google_sheet_name': "Script RSI Tracker",
+    'google_sheet_name': "[Git] Script RSI Tracker",
     'enable_google_sheets': True,
     'adjustments_file': os.path.join(BASE_DIR, "script_adjustments.csv")
 }

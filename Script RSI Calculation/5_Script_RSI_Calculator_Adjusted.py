@@ -15,7 +15,7 @@ PAPER_BOOK_PATH = os.path.join(PARENT_DIR, "Paper Trading Simulator", "paper_tra
 # Google Sheets Config
 CONFIG = {
     'service_account_file': os.path.join(BASE_DIR, "service_account.json"),
-    'google_sheet_name': "Script RSI Tracker",
+    'google_sheet_name': "[Git] Script RSI Tracker",
     'enable_google_sheets': True
 }
 

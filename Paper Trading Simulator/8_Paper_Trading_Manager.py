@@ -30,7 +30,7 @@ DATA_DIR = os.path.join(PROJECT_ROOT, "NSE Bhavcopy", "NSE_Bhavcopy_Adjusted_Dat
 MASTER_LIST_PATH = os.path.join(PROJECT_ROOT, "NSE Bhavcopy", "0_Script_Master_List.csv")
 SIGNALS_PATH = os.path.join(PROJECT_ROOT, "Script RSI Calculation", "Script_RSI_Strategy_Signals.csv")
 SERVICE_ACCOUNT_FILE = os.path.join(PROJECT_ROOT, "Script RSI Calculation", "service_account.json")
-GOOGLE_SHEET_NAME = "Script RSI Tracker"
+GOOGLE_SHEET_NAME = "[Git] Script RSI Tracker"
 
 def calculate_rsi(series, window=14):
     delta = series.diff()

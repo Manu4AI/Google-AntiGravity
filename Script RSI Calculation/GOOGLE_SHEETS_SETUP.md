@@ -13,7 +13,7 @@ pip install gspread google-auth
 ### 2. Create Google Sheet
 1. Go to: https://sheets.google.com
 2. Create a new spreadsheet
-3. Name it: **`Script RSI Tracker`** (exact name matters!)
+3. Name it: **`[Git] Script RSI Tracker`** (exact name matters!)
 
 ### 3. Share Sheet with Service Account
 1. Open your `service_account.json` file
