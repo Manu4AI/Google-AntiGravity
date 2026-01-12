@@ -26,3 +26,7 @@
 2026-01-12 17:24:38,798 - INFO - --- Running Daily Job for 2026-01-12 ---
 2026-01-12 17:24:38,808 - INFO - Last downloaded data found for: 2026-01-12
 2026-01-12 17:24:38,808 - INFO - Data is already up to date.
+2026-01-12 17:35:49,673 - INFO - --> Mode: Catch-Up / Check Today (For Task Scheduler)
+2026-01-12 17:35:49,673 - INFO - --- Running Daily Job for 2026-01-12 ---
+2026-01-12 17:35:49,684 - INFO - Last downloaded data found for: 2026-01-12
+2026-01-12 17:35:49,684 - INFO - Data is already up to date.
