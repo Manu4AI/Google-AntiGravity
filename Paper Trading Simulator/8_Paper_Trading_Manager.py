@@ -42,7 +42,7 @@ MASTER_LIST_PATH = os.path.join(PROJECT_ROOT, "NSE Bhavcopy", "0_Script_Master_L
 SIGNALS_PATH = os.path.join(PROJECT_ROOT, "Script RSI Calculation", "Script_RSI_Strategy_Signals.csv")
 SERVICE_ACCOUNT_FILE = os.path.join(PROJECT_ROOT, "Script RSI Calculation", "service_account.json")
 TELEGRAM_CREDS_FILE = os.path.join(PROJECT_ROOT, "Telegram Integration", "telegram_credentials.json")
-GOOGLE_SHEET_NAME = "Script RSI Tracker"
+GOOGLE_SHEET_NAME = "[Git] Script RSI Tracker"
 
 def send_telegram_alert(message):
     """Sends a Telegram alert using credentials from the integration folder."""
