@@ -292,6 +292,8 @@ def process_updates():
     
     print(f"Processing {len(open_indices)} open positions...")
     
+    accumulated_alerts = []
+
     for idx in open_indices:
         row = book_df.loc[idx]
         symbol = row['Symbol']
@@ -337,7 +339,7 @@ def process_updates():
             print(f"[{symbol}] Target 8% Reached. SL moved to Breakeven.")
             # Alert for Stage 1
             msg = f"🚀 *PROFIT ALERT: Stage 1 Reached*\n\n📈 Symbol: {symbol}\n🎯 Level: 8% Target\n🛡️ Action: SL Moved to Breakeven\n💰 Current Price: {close}"
-            send_telegram_alert(msg)
+            accumulated_alerts.append(msg)
             
         # Target 2: 10%
         if new_stage < 2 and high >= target_10:
@@ -354,7 +356,7 @@ def process_updates():
             
             booked_pnl = (target_10 - buy_price) * qty_to_sell
             msg = f"💰 *PROFIT ALERT: Target 10% Hit*\n\n🚀 Symbol: {symbol}\n📦 Sold Qty: {qty_to_sell}\n💵 Price: {target_10:.2f}\n💰 PnL Booked: ₹{booked_pnl:.2f}\n🛡️ New SL: +5%"
-            send_telegram_alert(msg)
+            accumulated_alerts.append(msg)
 
         # Target 3: 15%
         if new_stage < 3 and high >= target_15:
@@ -380,7 +382,7 @@ def process_updates():
 
                 booked_pnl = (target_15 - buy_price) * qty_to_sell
                 msg = f"💰 *PROFIT ALERT: Target 15% Hit*\n\n🚀 Symbol: {symbol}\n📦 Sold Qty: {qty_to_sell}\n💵 Price: {target_15:.2f}\n💰 PnL Booked: ₹{booked_pnl:.2f}\n🛡️ New SL: +10%"
-                send_telegram_alert(msg)
+                accumulated_alerts.append(msg)
 
         # Trailing SL Trigger (Stage 3+)
         if new_stage >= 3:
@@ -417,7 +419,7 @@ def process_updates():
             pnl = (exit_price_exec - buy_price) * qty_to_sell
             
             msg = f"🚨 *EXIT ALERT: STOP LOSS HIT*\n\n📉 Symbol: {symbol}\n💰 Exit Price: {exit_price_exec}\n📉 PnL Realized: ₹{pnl:.2f}\n📝 Reason: {exit_reason}"
-            send_telegram_alert(msg)
+            accumulated_alerts.append(msg)
 
         # 2. Process Trade
         if exit_triggered:
@@ -464,6 +466,7 @@ def process_updates():
             orig_inv = float(row['Investment_Amount'])
             if orig_inv > 0:
                 book_df.at[idx, 'PnL_Percentage'] = round((book_df.at[idx, 'Total_PnL'] / orig_inv) * 100, 2)
+
         else:
             # Closed Trade PnL
             book_df.at[idx, 'Unrealized_PnL'] = 0
@@ -471,6 +474,12 @@ def process_updates():
             orig_inv = float(row['Investment_Amount'])
             if orig_inv > 0:
                 book_df.at[idx, 'PnL_Percentage'] = round((book_df.at[idx, 'Total_PnL'] / orig_inv) * 100, 2)
+
+    # --- Send Accumulated Alerts (After Loop) ---
+    if accumulated_alerts:
+        print(f"Sending {len(accumulated_alerts)} consolidated alerts...")
+        final_msg = "🚀 *TRADING ALERTS REPORT* 🚀\n" + ("="*25) + "\n\n" + "\n\n".join(accumulated_alerts)
+        send_telegram_alert(final_msg)
 
     # 2. Scan For New Trades (From Signals CSV)
     # -----------------------
