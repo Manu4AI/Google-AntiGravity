@@ -1,7 +1,18 @@
 import os
+import sys
+# Set console encoding to UTF-8 to support ALL Emojis and special characters
+if sys.platform.startswith('win'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
 import paper_config
 import pandas as pd
 import numpy as np
+import json
+import asyncio
+from telegram import Bot
 
 from datetime import datetime, date
 import xlsxwriter
@@ -30,7 +41,46 @@ DATA_DIR = os.path.join(PROJECT_ROOT, "NSE Bhavcopy", "NSE_Bhavcopy_Adjusted_Dat
 MASTER_LIST_PATH = os.path.join(PROJECT_ROOT, "NSE Bhavcopy", "0_Script_Master_List.csv")
 SIGNALS_PATH = os.path.join(PROJECT_ROOT, "Script RSI Calculation", "Script_RSI_Strategy_Signals.csv")
 SERVICE_ACCOUNT_FILE = os.path.join(PROJECT_ROOT, "Script RSI Calculation", "service_account.json")
-GOOGLE_SHEET_NAME = "[Git] Script RSI Tracker"
+TELEGRAM_CREDS_FILE = os.path.join(PROJECT_ROOT, "Telegram Integration", "telegram_credentials.json")
+GOOGLE_SHEET_NAME = "Script RSI Tracker"
+
+def send_telegram_alert(message):
+    """Sends a Telegram alert using credentials from the integration folder."""
+    if not os.path.exists(TELEGRAM_CREDS_FILE):
+        print(f"[WARN] Telegram credentials not found at {TELEGRAM_CREDS_FILE}")
+        return
+
+    try:
+        with open(TELEGRAM_CREDS_FILE, "r") as f:
+            creds = json.load(f)
+            bot_token = creds.get("bot_token")
+            # Support list or single string for chat_id
+            chat_id_data = creds.get("chat_id")
+            if isinstance(chat_id_data, list):
+                chat_ids = chat_id_data
+            elif chat_id_data:
+                chat_ids = [str(chat_id_data)]
+            else:
+                chat_ids = []
+
+        if not bot_token or not chat_ids:
+            print("[WARN] Telegram credentials incomplete.")
+            return
+
+        async def _send():
+            bot = Bot(token=bot_token)
+            for chat_id in chat_ids:
+                try:
+                    await bot.send_message(chat_id=chat_id, text=message, parse_mode="Markdown")
+                except Exception as e:
+                    print(f"[ERROR] Failed to send Telegram to {chat_id}: {e}")
+
+        # python-telegram-bot's Bot is async. We run it in a short loop.
+        asyncio.run(_send())
+        print("[INFO] Telegram Alert Sent.")
+
+    except Exception as e:
+        print(f"[ERROR] Failed to trigger Telegram Alert: {e}")
 
 def calculate_rsi(series, window=14):
     delta = series.diff()
@@ -208,6 +258,12 @@ def update_google_sheet(df):
             "textFormat": {"bold": True, "foregroundColor": {"red": 1, "green": 1, "blue": 1}}
         })
         
+        # Freeze Top Row
+        try:
+            worksheet.freeze(rows=1)
+        except Exception as e:
+            print(f"[WARN] Could not freeze top row: {e}")
+        
         print(f"[SUCCESS] Updated Google Sheet tab: {title}")
         
     except Exception as e:
@@ -279,6 +335,9 @@ def process_updates():
             sl_price = max(sl_price, buy_price) # Move SL to Cost
             new_stage = 1
             print(f"[{symbol}] Target 8% Reached. SL moved to Breakeven.")
+            # Alert for Stage 1
+            msg = f"🚀 *PROFIT ALERT: Stage 1 Reached*\n\n📈 Symbol: {symbol}\n🎯 Level: 8% Target\n🛡️ Action: SL Moved to Breakeven\n💰 Current Price: {close}"
+            send_telegram_alert(msg)
             
         # Target 2: 10%
         if new_stage < 2 and high >= target_10:
@@ -292,6 +351,10 @@ def process_updates():
             sl_price = max(sl_price, buy_price * 1.05) # Move SL to 5%
             new_stage = 2
             print(f"[{symbol}] Target 10% Hit. Partial Profit. SL -> 5%.")
+            
+            booked_pnl = (target_10 - buy_price) * qty_to_sell
+            msg = f"💰 *PROFIT ALERT: Target 10% Hit*\n\n🚀 Symbol: {symbol}\n📦 Sold Qty: {qty_to_sell}\n💵 Price: {target_10:.2f}\n💰 PnL Booked: ₹{booked_pnl:.2f}\n🛡️ New SL: +5%"
+            send_telegram_alert(msg)
 
         # Target 3: 15%
         if new_stage < 3 and high >= target_15:
@@ -314,6 +377,10 @@ def process_updates():
                 sl_price = max(sl_price, buy_price * 1.10) # SL to 10%
                 new_stage = 3
                 print(f"[{symbol}] Target 15% Hit. Partial Profit. SL -> 10%.")
+
+                booked_pnl = (target_15 - buy_price) * qty_to_sell
+                msg = f"💰 *PROFIT ALERT: Target 15% Hit*\n\n🚀 Symbol: {symbol}\n📦 Sold Qty: {qty_to_sell}\n💵 Price: {target_15:.2f}\n💰 PnL Booked: ₹{booked_pnl:.2f}\n🛡️ New SL: +10%"
+                send_telegram_alert(msg)
 
         # Trailing SL Trigger (Stage 3+)
         if new_stage >= 3:
@@ -345,6 +412,12 @@ def process_updates():
             qty_to_sell = current_qty # Sell ALL remaining
             sl_hit = True
             print(f"[{symbol}] STOP LOSS HIT at {exit_price_exec}")
+
+            # Calculate PnL
+            pnl = (exit_price_exec - buy_price) * qty_to_sell
+            
+            msg = f"🚨 *EXIT ALERT: STOP LOSS HIT*\n\n📉 Symbol: {symbol}\n💰 Exit Price: {exit_price_exec}\n📉 PnL Realized: ₹{pnl:.2f}\n📝 Reason: {exit_reason}"
+            send_telegram_alert(msg)
 
         # 2. Process Trade
         if exit_triggered:

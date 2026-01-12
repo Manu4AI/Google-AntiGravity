@@ -4,6 +4,7 @@ import datetime
 import logging
 import pandas as pd
 import pathlib
+import json
 
 # Configure Logging
 logging.basicConfig(
@@ -18,21 +19,40 @@ logging.basicConfig(
 class ScriptWiseUpdater:
     def __init__(self, master_list_path='0_Script_Master_List.csv', 
                  source_dir='NSE_Bhavcopy_Master_Data', 
-                 target_dir='NSE_Bhavcopy_Scriptwsie_Data'):
+                 target_dir='NSE_Bhavcopy_Scriptwsie_Data',
+                 mapping_path='symbol_change_map.json'):
         self.master_list_path = master_list_path
         self.source_dir = source_dir
         self.target_dir = target_dir
+        self.mapping_path = mapping_path
+        self.mapping = self.load_mapping()
         
         # Ensure target directory exists
         if not os.path.exists(self.target_dir):
             os.makedirs(self.target_dir)
             logging.info(f"Created target directory: {self.target_dir}")
-            
+
+    def load_mapping(self):
+        """Loads symbol change mapping from JSON."""
+        if os.path.exists(self.mapping_path):
+            try:
+                with open(self.mapping_path, 'r') as f:
+                    mapping = json.load(f)
+                    logging.info(f"Loaded {len(mapping)} symbol mappings.")
+                    return mapping
+            except Exception as e:
+                logging.error(f"Failed to load mapping: {e}")
+        return {}
+
+    def get_current_symbol(self, symbol):
+        """Returns the mapped symbol if it exists, else the original."""
+        return self.mapping.get(symbol, symbol)
+
     def load_master_list(self):
         """Loads the list of symbols to track."""
         try:
-            df = pd.read_csv(self.master_list_path)
-            symbols = df['Symbol'].unique().tolist()
+            df = pd.read_csv(self.master_list_path, comment='#')
+            symbols = [str(s).strip() for s in df['Symbol'].unique().tolist()]
             logging.info(f"Loaded {len(symbols)} symbols from master list.")
             return set(symbols) # Use set for faster lookup
         except Exception as e:
@@ -79,8 +99,13 @@ class ScriptWiseUpdater:
         Returns a dict: {symbol: last_date}
         """
         last_dates = {}
+        
+        # We need to check both original and mapped symbols
+        # Actually, for the master list, we always want to know when the "current" file was last updated.
         for symbol in symbols:
+            # current_sym = self.get_current_symbol(symbol) # DISABLE MAPPING
             file_path = os.path.join(self.target_dir, f"{symbol}.csv")
+            
             if os.path.exists(file_path):
                 # Default if file exists but unreadable
                 found_date = False
@@ -103,20 +128,11 @@ class ScriptWiseUpdater:
                      logging.warning(f"Error reading last date for {symbol}: {e}")
                 
                 if not found_date:
-                    # If file exists but we couldn't parse date, assume it's corrupt/empty
-                    # OR we can try to read the whole file? 
-                    # If we return 2000, we risk duplication. 
-                    # Safer to clear the file if it's corrupt? No, unsafe.
-                    # Best fallback: Assume TODAY to prevent duplicates, or 2000 to Force Retry?
-                    # FORCE RETRY causes duplicates.
-                    # Assume 2000 ONLY if file is tiny (header only).
                     if os.path.getsize(file_path) < 100:
                          last_dates[symbol] = datetime.date(2000, 1, 1)
                     else:
-                         # Big file but fail to read date? Danger. 
-                         # Log critical warning and SKIP updating this file this run to avoid mess.
-                         logging.error(f"CRITICAL: Could not read date from {symbol}.csv despite data present. Skipping update for safety.")
-                         last_dates[symbol] = datetime.date(2099, 12, 31) # Future date prevents appending
+                         logging.error(f"CRITICAL: Could not read date from {file_path} despite data present. Skipping update for safety.")
+                         last_dates[symbol] = datetime.date(2099, 12, 31) 
             
             # If not found (new file), default to min date
             if symbol not in last_dates:
@@ -133,7 +149,6 @@ class ScriptWiseUpdater:
             for f in filenames:
                 if f.startswith('bhavcopy_') and f.endswith('.csv'):
                     try:
-                        # bhavcopy_20210101.csv
                         date_str = f.split('_')[1].split('.')[0]
                         date_obj = datetime.datetime.strptime(date_str, "%Y%m%d").date()
                         full_path = os.path.join(root, f)
@@ -141,12 +156,76 @@ class ScriptWiseUpdater:
                     except Exception:
                         continue
         
-        # Sort by date
         daily_files.sort(key=lambda x: x[0])
         return daily_files
 
+    def perform_symbol_migration(self):
+        """
+        Automatically migrates historical data for symbols that have changed names.
+        """
+        if not self.mapping:
+            return
+
+        logging.info("Checking for symbol migrations...")
+        
+        # Directories to check for migration
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        target_dirs = [
+            self.target_dir, # NSE_Bhavcopy_Scriptwsie_Data
+            os.path.join(script_dir, "NSE_Bhavcopy_Adjusted_Data"),
+            os.path.join(script_dir, "NSE_Corporate_Actions_Data")
+        ]
+
+        for old_sym, new_sym in self.mapping.items():
+            for directory in target_dirs:
+                if not os.path.exists(directory):
+                    continue
+
+                old_file = os.path.join(directory, f"{old_sym}.csv")
+                new_file = os.path.join(directory, f"{new_sym}.csv")
+
+                if os.path.exists(old_file):
+                    logging.info(f"Migrating data for {old_sym} -> {new_sym} in {os.path.basename(directory)}")
+                    try:
+                        # Load old data
+                        df_old = pd.read_csv(old_file)
+                        
+                        # Check for existing new file
+                        if os.path.exists(new_file):
+                            df_new = pd.read_csv(new_file)
+                            df_combined = pd.concat([df_old, df_new], ignore_index=True)
+                        else:
+                            df_combined = df_old
+
+                        # Deduplicate and Sort
+                        # Determine date column name (usually 'date' but might be different in CA data)
+                        date_col = 'date'
+                        if 'ex_date' in df_combined.columns:
+                            date_col = 'ex_date'
+                        elif 'ExDate' in df_combined.columns:
+                            date_col = 'ExDate'
+                        
+                        if date_col in df_combined.columns:
+                            df_combined[date_col] = pd.to_datetime(df_combined[date_col])
+                            df_combined = df_combined.drop_duplicates(subset=[date_col], keep='last')
+                            df_combined = df_combined.sort_values(by=date_col)
+                        
+                        # Save to new file
+                        df_combined.to_csv(new_file, index=False)
+                        logging.info(f"  Successfully merged into {new_sym}.csv")
+                        
+                        # Keep the old file for safety (as previously requested by user)
+                        logging.info(f"  [KEEPING] {old_sym}.csv for safety.")
+
+                    except Exception as e:
+                        logging.error(f"  Failed migration for {old_sym}: {e}")
+
     def process_updates(self):
         """Main execution logic."""
+        # 0. Perform automated symbol migration first
+        # 0. Perform automated symbol migration first - MOVED TO END
+        # self.perform_symbol_migration()
+
         symbols = self.load_master_list()
         if not symbols:
             logging.error("No symbols to process. Exiting.")
@@ -159,15 +238,11 @@ class ScriptWiseUpdater:
         daily_files = self.get_daily_files()
         logging.info(f"Found {len(daily_files)} daily files.")
         
-        # Optimization: Find global min last_date to skip early files
-        # If all scripts are updated till 2024-01-01, we can skip files before that.
-        
-        # Prevent NaT errors
         valid_dates = []
         default_start = datetime.date(2000, 1, 1)
         
         for sym, d in last_dates.items():
-            if pd.isna(d): # NaT check
+            if pd.isna(d): 
                 last_dates[sym] = default_start
                 valid_dates.append(default_start)
             else:
@@ -175,15 +250,12 @@ class ScriptWiseUpdater:
                 
         global_min_date = min(valid_dates) if valid_dates else default_start
         
-        # Filter files to process
         files_to_process = [f for f in daily_files if f[0] > global_min_date]
         if not files_to_process:
             logging.info("All scripts are up to date.")
             return
 
-        logging.info(f"Processing {len(files_to_process)} files for updates...")
-        
-        # Define output columns
+        # Out columns for target files
         out_cols = [
             "date", 
             "open_price", "high_price", "low_price", "close_price", 
@@ -191,17 +263,17 @@ class ScriptWiseUpdater:
             "ttl_trd_qnty", "turnover_lacs", "no_of_trades", "deliv_qty", "deliv_per"
         ]
 
-        # Process logic
+        # Prepare Buffer for batch writing
+        symbol_data_buffer = {sym: [] for sym in symbols}
+        
+        logging.info(f"Processing {len(files_to_process)} files into memory...")
+        
         processed_count = 0
         for date_obj, filepath in files_to_process:
             try:
-                # Load Daily CSV
                 df = pd.read_csv(filepath)
-                
-                # Standardize Columns
                 df.columns = [c.strip().upper() for c in df.columns]
                 
-                # Identify Date Column & Symbol Column
                 date_col = None
                 if 'DATE1' in df.columns: date_col = 'DATE1' 
                 elif 'TIMESTAMP' in df.columns: date_col = 'TIMESTAMP'
@@ -210,17 +282,13 @@ class ScriptWiseUpdater:
                     logging.warning(f"Skipping {filepath}: Missing required columns.")
                     continue
 
-                # Filter for target symbols immediately
                 df = df[df['SYMBOL'].isin(symbols)]
-                
                 if df.empty:
                     continue
 
-                # Filter EQ Series
                 if 'SERIES' in df.columns:
                     df = df[df['SERIES'] == 'EQ']
 
-                # Rename Map
                 rename_map = {
                     'SYMBOL': 'symbol',
                     'SERIES': 'series',
@@ -240,58 +308,59 @@ class ScriptWiseUpdater:
                 }
                 df = df.rename(columns=rename_map)
                 
-                # Process each symbol in this day's file
-                # But we only want to write if date_obj > last_dates[symbol]
-                
-                # Iterate rows to check date condition per symbol
-                updates_buffer = {} # symbol -> row_string/dataframe_row
-                
+                # Check for delivery column variant
+                if 'DELIV_QTY' not in df.columns and 'DELIV_QTY' in rename_map.values():
+                     # Sometimes delivery is a separate file, but here we expect it in bhavcopy
+                     pass
+
                 for idx, row in df.iterrows():
                     sym = row['symbol']
-                    if date_obj > last_dates[sym]:
-                        # Prepare row data
-                        row_data = {}
-                        for c in out_cols:
-                            row_data[c] = row.get(c, "") # Fill missing with empty string
-                        
-                        # Convert to csv line
-                        # We can append directly to file here or buffer. 
-                        # Direct append is safer for crash recovery, though slower. 
-                        # Given 200 stocks, it's 200 IO ops per day file. Acceptable.
-                        
-                        target_file = os.path.join(self.target_dir, f"{sym}.csv")
-                        
-                        # Check exist to write header
-                        # Note: We checked start date, but file might not verify header existence if it was empty/new
-                        # But logic: if last_date is min, file might not exist or be empty.
-                        
-                        file_exists = os.path.exists(target_file)
-                        
-                        mode = 'a' if file_exists else 'w'
-                        header = not file_exists
-                        
-                        pd.DataFrame([row_data], columns=out_cols).to_csv(target_file, mode=mode, header=header, index=False)
-                        
-                        # Update memory state
+                    if date_obj > last_dates.get(sym, datetime.date(2000, 1, 1)):
+                        row_data = {c: row.get(c, "") for c in out_cols}
+                        symbol_data_buffer[sym].append(row_data)
                         last_dates[sym] = date_obj
                 
                 processed_count += 1
                 if processed_count % 10 == 0:
-                    logging.info(f"Processed {processed_count}/{len(files_to_process)} days...")
+                    logging.info(f"Buffered {processed_count}/{len(files_to_process)} days...")
 
             except Exception as e:
-                logging.error(f"Error processing {filepath}: {e}")
+                logging.error(f"Error buffering {filepath}: {e}")
 
-        logging.info("Update complete.")
+        # Final Step: Batch Write to files
+        logging.info("Writing buffered data to disk (Batch Mode)...")
+        write_count = 0
+        for sym, rows in symbol_data_buffer.items():
+            if not rows:
+                continue
+                
+            # current_sym = self.get_current_symbol(sym) # DISABLE MAPPING
+            target_file = os.path.join(self.target_dir, f"{sym}.csv")
+            file_exists = os.path.exists(target_file)
+            
+            try:
+                mode = 'a' if file_exists else 'w'
+                header = not file_exists
+                
+                # Convert list of dicts to DataFrame for fast writing
+                pd.DataFrame(rows, columns=out_cols).to_csv(target_file, mode=mode, header=header, index=False)
+                write_count += 1
+                if write_count % 50 == 0:
+                     logging.info(f"Updated {write_count} symbol files...")
+            except Exception as e:
+                logging.error(f"Failed to write data for {sym}: {e}")
+
+        logging.info(f"Update complete. {write_count} symbols updated.")
+        
+        # Perform Merge (Migration) AFTER generation
+        self.perform_symbol_migration()
 
 if __name__ == "__main__":
-    # Determine paths relative to script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Paths
     master_list = os.path.join(script_dir, "0_Script_Master_List.csv")
     source_dir = os.path.join(script_dir, "NSE_Bhavcopy_Master_Data")
     target_dir = os.path.join(script_dir, "NSE_Bhavcopy_Scriptwsie_Data")
+    mapping_path = os.path.join(script_dir, "symbol_change_map.json")
     
-    updater = ScriptWiseUpdater(master_list, source_dir, target_dir)
+    updater = ScriptWiseUpdater(master_list, source_dir, target_dir, mapping_path)
     updater.process_updates()
