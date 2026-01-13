@@ -30,3 +30,9 @@
 2026-01-12 17:35:49,673 - INFO - --- Running Daily Job for 2026-01-12 ---
 2026-01-12 17:35:49,684 - INFO - Last downloaded data found for: 2026-01-12
 2026-01-12 17:35:49,684 - INFO - Data is already up to date.
+2026-01-13 11:47:13,853 - INFO - --> Mode: Catch-Up / Check Today (For Task Scheduler)
+2026-01-13 11:47:13,853 - INFO - --- Running Daily Job for 2026-01-13 ---
+2026-01-13 11:47:13,863 - INFO - Last downloaded data found for: 2026-01-12
+2026-01-13 11:47:13,863 - INFO - Catching up from 2026-01-13 to 2026-01-13...
+2026-01-13 11:47:13,863 - INFO - Attempting download for 13-01-2026...
+2026-01-13 11:47:15,127 - INFO - Successfully downloaded: bhavcopy_20260113.csv -> 2026/
