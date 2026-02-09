@@ -1,0 +1,26 @@
+name: Sensibull Hourly Alerts
+
+on:
+  schedule:
+    # Runs at 9:20 AM IST (3:50 UTC) and every hour until 3:20 PM IST (9:50 UTC)
+    - cron: '50 3-9 * * 1-5'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  scrape-and-alert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install selenium webdriver-manager pandas python-telegram-bot
+
+      - name: Run Sensibull Workflow
+        run: python "Sensibull Scraper/Sensibull_Main.py"
