@@ -40,20 +40,28 @@ def format_table(df):
     if df.empty:
         return "No stocks found with IVP >= 70."
 
-    # Select columns to display
-    display_cols = ['Stock', 'Fut Price', 'IVP', 'Result']
-    
-    # Create simple string representation
-    header = "  ".join([f"{col:<12}" for col in display_cols])
+    # Define columns and their specific display widths for better alignment
+    # Stock (14), Fut Price (22), IVP (6), Result (10)
+    header = f"{'Stock':<14} {'Fut Price':<22} {'IVP':<8} {'Result':<10}"
     separator = "-" * len(header)
     
     rows = []
     for _, row in df.iterrows():
-        # Clean up Result (shorten if needed)
-        result_val = str(row['Result'])
-        if result_val == 'nan': result_val = "-"
+        stock = str(row['Stock'])
+        price = str(row['Fut Price'])
         
-        line = f"{str(row['Stock']):<12}  {str(row['Fut Price']):<12}  {str(row['IVP']):<12}  {result_val:<12}"
+        # Ensure IVP is cleaned up (usually a number)
+        try:
+            ivp = str(int(float(row['IVP'])))
+        except:
+            ivp = str(row['IVP'])
+            
+        result_val = str(row['Result'])
+        if result_val == 'nan' or not result_val.strip(): 
+            result_val = "-"
+        
+        # Build line with specific alignment
+        line = f"{stock:<14} {price:<22} {ivp:<8} {result_val:<10}"
         rows.append(line)
         
     return f"{header}\n{separator}\n" + "\n".join(rows)
