@@ -179,6 +179,14 @@ def update_all_google_sheets(df_main, strategy_matches, service_account_file, sh
              df_main_serializable['Last_Date'] = df_main_serializable['Last_Date'].astype(str)
              
         # Main Report -> "RSI Data" (Summary)
+        # Clean Data for gspread (NaNs/Infs cause JSON errors)
+        df_main_serializable = df_main_serializable.fillna("")
+        
+        # Replace Infinity with 0
+        import numpy as np
+        if df_main_serializable.select_dtypes(include=np.number).isin([np.inf, -np.inf]).any().any():
+             df_main_serializable = df_main_serializable.replace([np.inf, -np.inf], 0)
+
         update_worksheet(spreadsheet, "RSI Data", df_main_serializable, is_main_report=True, last_date=last_bhavcopy_date)
         
         # 2. Update Strategy Sheet (History -> Date)
@@ -192,6 +200,11 @@ def update_all_google_sheets(df_main, strategy_matches, service_account_file, sh
             
             # Sort by Strategy for better readability
             df_matches.sort_values(by=['Strategy', 'Symbol'], inplace=True)
+
+            # Clean Data for gspread
+            df_matches = df_matches.fillna("")
+            if df_matches.select_dtypes(include=np.number).isin([np.inf, -np.inf]).any().any():
+                 df_matches = df_matches.replace([np.inf, -np.inf], 0)
             
             # Pass sheet_index=2 to place it after "Paper Trade Book" (Index 1) which is after Main Report (Index 0)
             update_worksheet(spreadsheet, execution_date, df_matches, is_main_report=False, strategy_name="Consolidated", sheet_index=2)
