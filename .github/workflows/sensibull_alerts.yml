@@ -2,8 +2,9 @@ name: Sensibull Hourly Alerts
 
 on:
   schedule:
-    # Runs at 9:20 AM IST (3:50 UTC) and every hour until 3:20 PM IST (9:50 UTC)
-    - cron: '50 3-9 * * 1-5'
+    # Triggering twice an hour at odd minutes (17 and 47) to avoid GitHub congestion
+    # Runs between 3:47 UTC (9:17 AM IST) and 10:17 UTC (3:47 PM IST)
+    - cron: '17,47 3-9 * * 1-5'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
