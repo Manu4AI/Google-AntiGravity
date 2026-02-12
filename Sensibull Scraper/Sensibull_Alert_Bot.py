@@ -112,15 +112,15 @@ async def send_alert():
                 )
                 
                 # 2. Send CSV File
-                with open(DATA_FILE, 'rb') as f:
-                    await bot.send_document(
-                        chat_id=chat_id,
-                        document=f,
-                        filename="Sensibull_Data.csv",
-                        read_timeout=60,
-                        write_timeout=60,
-                        connect_timeout=60
-                    )
+                # with open(DATA_FILE, 'rb') as f:
+                #    await bot.send_document(
+                #        chat_id=chat_id,
+                #        document=f,
+                #        filename="Sensibull_Data.csv",
+                #        read_timeout=60,
+                #        write_timeout=60,
+                #        connect_timeout=60
+                #    )
                 
                 print(f"[SUCCESS] Alert sent to {chat_id}!")
             except TelegramError as e:
@@ -145,5 +145,6 @@ if __name__ == "__main__":
         sys.exit(0)
     else:
         sys.exit(1)
+
 
 
