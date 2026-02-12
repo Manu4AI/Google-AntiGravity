@@ -38,7 +38,7 @@ def load_credentials():
 def format_table(df):
     """Formats DataFrame into a aligned text table string."""
     if df.empty:
-        return "No stocks found with IVP >= 80."
+        return "No stocks found with IVP >= 90."
 
     # Define columns and their specific display widths for better alignment
     # Stock (14), Fut Price (22), IVP (6), Result (10)
@@ -82,17 +82,17 @@ async def send_alert():
         # Load Data
         df = pd.read_csv(DATA_FILE)
         
-        # Filter: IVP >= 80
+        # Filter: IVP >= 90
         # Ensure IVP is numeric, handle potential non-numeric data gracefully
         df['IVP'] = pd.to_numeric(df['IVP'], errors='coerce').fillna(0)
-        filtered_df = df[df['IVP'] >= 80].copy()
+        filtered_df = df[df['IVP'] >= 90].copy()
         
         # Sort by IVP Descending just in case
         filtered_df = filtered_df.sort_values(by='IVP', ascending=False)
         
         # Format Message
         table_text = format_table(filtered_df)
-        message = f"🚨 *Sensibull High IVP Alert (IVP >= 80)*\n\n```\n{table_text}\n```"
+        message = f"🚨 *Sensibull High IVP Alert (IVP >= 90)*\n\n```\n{table_text}\n```"
 
         bot = Bot(token=bot_token)
         all_sent = True
@@ -145,4 +145,5 @@ if __name__ == "__main__":
         sys.exit(0)
     else:
         sys.exit(1)
+
 
