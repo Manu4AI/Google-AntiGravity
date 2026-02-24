@@ -262,3 +262,9 @@
 2026-02-23 12:03:35,922 - WARNING - Date Mismatch! Requested: 2026-02-22, Received: 2026-02-20
 2026-02-23 12:03:37,422 - INFO - Attempting download for 23-02-2026...
 2026-02-23 12:03:38,097 - INFO - Successfully downloaded: bhavcopy_20260223.csv -> 2026/
+2026-02-24 12:04:51,932 - INFO - --> Mode: Catch-Up / Check Today (For Task Scheduler)
+2026-02-24 12:04:51,932 - INFO - --- Running Daily Job for 2026-02-24 ---
+2026-02-24 12:04:51,943 - INFO - Last downloaded data found for: 2026-02-23
+2026-02-24 12:04:51,943 - INFO - Catching up from 2026-02-24 to 2026-02-24...
+2026-02-24 12:04:51,943 - INFO - Attempting download for 24-02-2026...
+2026-02-24 12:04:52,373 - INFO - Successfully downloaded: bhavcopy_20260224.csv -> 2026/
