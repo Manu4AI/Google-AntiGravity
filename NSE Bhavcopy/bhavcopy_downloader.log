@@ -360,3 +360,9 @@
 2026-03-12 11:53:53,623 - INFO - Successfully downloaded: bhavcopy_20260311.csv -> 2026/
 2026-03-12 11:53:55,124 - INFO - Attempting download for 12-03-2026...
 2026-03-12 11:53:56,185 - INFO - Successfully downloaded: bhavcopy_20260312.csv -> 2026/
+2026-03-13 11:57:09,677 - INFO - --> Mode: Catch-Up / Check Today (For Task Scheduler)
+2026-03-13 11:57:09,677 - INFO - --- Running Daily Job for 2026-03-13 ---
+2026-03-13 11:57:09,688 - INFO - Last downloaded data found for: 2026-03-12
+2026-03-13 11:57:09,688 - INFO - Catching up from 2026-03-13 to 2026-03-13...
+2026-03-13 11:57:09,688 - INFO - Attempting download for 13-03-2026...
+2026-03-13 11:57:10,280 - INFO - Successfully downloaded: bhavcopy_20260313.csv -> 2026/
