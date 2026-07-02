@@ -946,3 +946,9 @@
 2026-07-01 13:53:03,307 - INFO - Successfully downloaded: bhavcopy_20260630.csv -> 2026/
 2026-07-01 13:53:04,808 - INFO - Attempting download for 01-07-2026...
 2026-07-01 13:53:05,401 - INFO - Successfully downloaded: bhavcopy_20260701.csv -> 2026/
+2026-07-02 13:20:09,608 - INFO - --> Mode: Catch-Up / Check Today (For Task Scheduler)
+2026-07-02 13:20:09,608 - INFO - --- Running Daily Job for 2026-07-02 ---
+2026-07-02 13:20:09,619 - INFO - Last downloaded data found for: 2026-07-01
+2026-07-02 13:20:09,619 - INFO - Catching up from 2026-07-02 to 2026-07-02...
+2026-07-02 13:20:09,619 - INFO - Attempting download for 02-07-2026...
+2026-07-02 13:20:10,064 - INFO - Successfully downloaded: bhavcopy_20260702.csv -> 2026/
